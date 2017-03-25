@@ -30,6 +30,20 @@
 <script src="js/libs/modernizr-2.6.2.min.js"></script>
 <!-- end JS-->
 
+<script language="javascript"> 
+function toggle(showHideDiv, switchTextDiv) {
+	var ele = document.getElementById(showHideDiv);
+	var text = document.getElementById(switchTextDiv);
+	if(ele.style.display == "block") {
+    		ele.style.display = "none";
+	
+  	}
+	else {
+		ele.style.display = "block";
+	
+	}
+} 
+</script>
 
 <!-- columns demo style. DELETE IT! -->
 <style type="text/css">
@@ -128,65 +142,91 @@ padding:20px 15px;
       <div class="row">	
         <ul>
           <li> <div id="paper"> Improving and extending with testing of distributions for shape-restricted properties. </div></li>
-	  <ul>
-		<li> with <a href="http://eldar.cswp.cs.technion.ac.il/">Eldar Fischer</a> and <a href="http://www.dcs.bbk.ac.uk/~oded/">
-                Oded Lachish</a>. </li>
-		<li> STACS 2017. </li>
-		<li><a href="https://arxiv.org/pdf/1609.06736.pdf">[arXiv]</a> <a href="http://drops.dagstuhl.de/opus/volltexte/2017/7002/pdf/LIPIcs-STACS-2017-31.pdf">[proceedings]</a></li>
-	  </ul><br>
+	  <!-- <ul>-->
+		<p> with <a href="http://eldar.cswp.cs.technion.ac.il/">Eldar Fischer</a> and <a href="http://www.dcs.bbk.ac.uk/~oded/">
+                Oded Lachish</a>, <!--</li>--><br/>
+		<em>STACS 2017</em>.<br/> <!--</li>-->
+		[<a href="https://arxiv.org/pdf/1609.06736.pdf">arXiv</a>] [<a href="http://drops.dagstuhl.de/opus/volltexte/2017/7002/pdf/LIPIcs-STACS-2017-31.pdf">Proceedings</a>] <!--</li>-->
+		[<a id="distribution-testing" href="javascript:toggle('distribution-testing-ab','distribution-testing')">Abstract</a>]
+		<div id="distribution-testing-ab" style="display:none">
+		 Distribution testing deals with what information can be deduced about an unknown distribution over {1,...,n}, where the algorithm is only allowed to obtain a relatively small number of independent samples from the distribution. In the extended conditional sampling model, the algorithm is also allowed to obtain samples from the restriction of the original distribution on subsets of {1,...,n}. In 2015, Canonne, Diakonikolas, Gouleakis and Rubinfeld unified several previous results, and showed that for any property of distributions satisfying a "decomposability" criterion, there exists an algorithm (in the basic model) that can distinguish with high probability distributions satisfying the property from distributions that are far from it in variation distance. We present here a more efficient yet simpler algorithm for the basic model, as well as very efficient algorithms for the conditional model, which until now was not investigated under the umbrella of decomposable properties. Additionally, we provide an algorithm for the conditional model that handles a much larger class of properties. Our core mechanism is a way of efficiently producing an interval-partition of {1,...,n} that satisfies a "fine-grain" quality. We show that with such a partition at hand we can directly move forward with testing individual intervals, instead of first searching for the "correct" partition of {1,...,n}. 
+		</div>
+	  <!--</ul>--></p>
 
           <li> <div id="paper"> Fast distributed algorithms for testing graph properties. </div></li>
-	  <ul>
-		<li> with <a href="http://ckeren.net.technion.ac.il/">Keren Censor-Hillel </a>, <a href="http://eldar.cswp.cs.technion.ac.il/">
-                Eldar Fischer</a> and Gregory Schwartzman.</li>
-		<li> DISC 2016. </li>
-		<li> <a href="https://arxiv.org/pdf/1602.03718.pdf">[arXiv]</a></li>
-	  </ul><br>
+		<p>with <a href="http://ckeren.net.technion.ac.il/">Keren Censor-Hillel </a>, <a href="http://eldar.cswp.cs.technion.ac.il/">
+                Eldar Fischer</a> and Gregory Schwartzman,<br/>
+		<em> DISC 2016. </em><br/>
+		[<a href="https://arxiv.org/pdf/1602.03718.pdf">arXiv</a>]
+	        [<a id="distt" href="javascript:toggle('distt-ab','distt')">Abstract</a>]
+		<div id="distt-ab" style="display:none">
+		 We provide a thorough study of distributed property testing – producing algorithms for the approximation problems of property testing in the CONGEST model. In particular, for the so-called dense graph testing model we emulate sequential tests for nearly all graph properties having 1-sided tests, while in the general and sparse models we obtain faster tests for triangle-freeness, cycle-freeness and bipartiteness, respectively. In addition, we show a logarithmic lower bound for testing bipartiteness and cycle-freeness, which holds even in the LOCAL model.
+In most cases, aided by parallelism, the distributed algorithms have a much shorter running time as compared to their counterparts from the sequential querying model of traditional property testing. The simplest property testing algorithms allow a relatively smooth transitioning to the distributed model. For the more complex tasks we develop new machinery that may be of independent interest.
+		</div>
+	  </p>
 
           <li> <div id="paper"> Trading query complexity for sample-based testing and multi-testing scalability. </div></li>
-	  <ul>
-		<li> with <a href="http://eldar.cswp.cs.technion.ac.il/">Eldar Fischer</a> and <a href="http://www.dcs.bbk.ac.uk/~oded/">
-                Oded Lachish</a>. </li>
-		<li> FOCS 2015. </li>
-		<li> <a href="https://arxiv.org/pdf/1504.00695.pdf">[arXiv]</a></li>
-	  </ul><br>
+	  	<p> with <a href="http://eldar.cswp.cs.technion.ac.il/">Eldar Fischer</a> and <a href="http://www.dcs.bbk.ac.uk/~oded/">
+                Oded Lachish</a>,<br/>
+		<em> FOCS 2015. </em><br/>
+		[<a href="https://arxiv.org/pdf/1504.00695.pdf">arXiv</a>]
+		[<a id="ct" href="javascript:toggle('ct-ab','ct')">Abstract</a>]
+		<div id="ct-ab" style="display:none">
+		  We show that every non-adaptive property testing algorithm making a constant number of queries, over a fixed alphabet, can be converted to a sample-based testing algorithm whose average number of queries is a fixed, smaller than 1, power of n. Since the query distribution of the sample-based algorithm is not dependent at all on the property, or the original algorithm, this has many implications in scenarios where there are many properties that need to be tested for concurrently. The proof involves analyzing the tester as a uniform hypergraph, and finding sunflower-like structures within it.
+		</div>
+		</p>
+	  
 
           <li> <div id="paper"> On the isomorphism problem for decision trees and decision lists. </div></li>
-	  <ul>
-		<li> with <a href="www.imsc.res.in/~arvind">V. Arvind</a>, 
+	  	<p>with <a href="www.imsc.res.in/~arvind">V. Arvind</a>, 
                 <a href="https://www.informatik.hu-berlin.de/de/forschung/gebiete/algorithmenII/mitarbeiter/koebler"> Johannes K&oumlbler</a>,
                 <a href="https://www.informatik.hu-berlin.de/de/forschung/gebiete/algorithmenII/mitarbeiter/kuhnert">Sebastian Kuhnert</a>
-                and <a href="https://www.imsc.res.in/~grattan/">Gaurav Rattan </a>. </li>
-		<li> Theoretical Computer Science 590:38-54, 2015. </li>
-		<li> Preliminary version in FCT 2013. </li>
-	  </ul><br>
+                and <a href="https://www.imsc.res.in/~grattan/">Gaurav Rattan </a>,<br/>
+		<em> Theoretical Computer Science 590:38-54, 2015. </em><br/>
+		Preliminary version in FCT 2013.<br/>
+		[<a id="dti" href="javascript:toggle('dti-ab','dti')">Abstract</a>]
+		<div id="dti-ab" style="display:none">
+		We study the complexity of testing isomorphism for boolean functions given as decision trees and decision lists. First, we show that the isomorphism problem for rank 1 decision trees is complete for logspace. For decision trees of rank greater than 2, the isomorphism testing problem is polynomial-time equivalent to graph isomorphism. Finally, we show that isomorphism testing of boolean functions given as decision lists admits a Schaefer-type trichotomy theorem: depending on the class of base functions, either it is in L, or polynomial-time equivalent to graph isomorphism or coNP-hard.
+</div>
+		</p>
 
           <li> <div id="paper"> Isomorphism testing of boolean functions computable by constant-depth circuits. </div></li>
-	  <ul>
-		<li> with <a href="www.imsc.res.in/~arvind">V. Arvind</a>. </li>
-		<li> Information and Computation 239:3-12, 2014. </li>
-		<li> Preliminary version in LATA 2012. </li>
-		<li> <a href="https://eccc.weizmann.ac.il/report/2011/137/download">[ECCC]</a></li>
-	  </ul><br>
+	 	<p> with <a href="www.imsc.res.in/~arvind">V. Arvind</a>, <br/>
+		<em> Information and Computation 239:3-12, 2014. </em><br/>
+		Preliminary version in LATA 2012. <br/>
+		[<a href="https://eccc.weizmann.ac.il/report/2011/137/download">ECCC</a>]
+		[<a id="aci" href="javascript:toggle('aci-ab','aci')">Abstract</a>]
+		<div id="aci-ab" style="display:none">
+		  Given two boolean functions as AC0 circuits, we study the problem of computing approximate isomorphisms between the functions. We give an algorithm that runs in exp(\sqrt{n}) time. The best known algorithm for testing the <em> exact</em>  isomorphism between two functions has running time 2^{O(n)}. The algorithm reduces this problem to testing isomorpshism of hypergraphs of bounded edge size, and uses the approximation of AC0 circuits by low-degree polynomials by Linial, Mansour and Nisan.
+		</div>
+	  </p>
 
           <li> <div id="paper"> Approximate graph isomorphism. </div></li>
-	  <ul>
-		<li> with <a href="www.imsc.res.in/~arvind">V. Arvind</a>, 
+		<p> with <a href="www.imsc.res.in/~arvind">V. Arvind</a>, 
                 <a href="https://www.informatik.hu-berlin.de/de/forschung/gebiete/algorithmenII/mitarbeiter/koebler"> Johannes K&oumlbler</a> and 
-                <a href="https://www.informatik.hu-berlin.de/de/forschung/gebiete/algorithmenII/mitarbeiter/kuhnert">Sebastian Kuhnert</a>. </li>
-		<li> MFCS 2012. </li>
-		<li> <a href="https://eccc.weizmann.ac.il/report/2012/078/download">[ECCC]</a></li>
-	  </ul><br>
+                <a href="https://www.informatik.hu-berlin.de/de/forschung/gebiete/algorithmenII/mitarbeiter/kuhnert">Sebastian Kuhnert</a>. </br>
+		<em> MFCS 2012. </em></br>
+		[<a href="https://eccc.weizmann.ac.il/report/2012/078/download">ECCC</a>]
+		[<a id="agi" href="javascript:toggle('agi-ab','agi')">Abstract</a>]
+		<div id="agi-ab" style="display:none">
+		We study optimization versions of Graph Isomorphism. Given two graphs G1,G2, we are interested in finding a bijection from V(G1) to V(G2) that maximizes the number of matches (edges mapped to edges or non-edges mapped to non-edges). We give an quasi-polynomial time approximation scheme for this problem. We also consider the corresponding minimization problem (of mismatches) and prove that it is NP-hard to c-approximate for any constant factor c. Further, we show that it is also NP-hard to approximate the maximum number of edges mapped to edges beyond a factor of 0.94.
+		We also explore these optimization problems for bounded color class graphs which is a well studied tractable special case of Graph Isomorphism. Surprisingly, the bounded color class case turns out to be harder than the uncolored case in the approximate setting.
+		</div>
+		</p>
 
           <li> <div id="paper"> Near-optimal expanding generator sets for solvable permutation groups. </div></li>
-	  <ul>
-		<li> with <a href="www.imsc.res.in/~arvind">V. Arvind</a>, 
+		<p> with <a href="www.imsc.res.in/~arvind">V. Arvind</a>,
                 <a href="http://www.cmi.ac.in/people/fac-profile.php?id=partham"> Partha Mukhopadhyay</a> and 
-                <a href="http://www.cmi.ac.in/~prajakta/"> Prajakta Nimbhorkar </a>. </li>
-		<li> MFCS 2012. </li>
-		<li> <a href="https://arxiv.org/pdf/1201.3181.pdf">[arXiv]</a></li>
-	  </ul>
+                <a href="http://www.cmi.ac.in/~prajakta/"> Prajakta Nimbhorkar </a>. </br>
+	        <em> MFCS 2012. </em></br>
+		[<a href="https://arxiv.org/pdf/1201.3181.pdf">arXiv</a>]
+		[<a id="solvexp" href="javascript:toggle('solvexp-ab','solvexp')">Abstract</a>]
+		<div id="solvexp-ab" style="display:none">
+		  Alon and Roichman showed that for any group G, a random subset of size O(\log|G|) is an expanding generating set with high probability. In this paper, we show that if G is a solvable subgroup of S_n that is given by a set of generating permutations, there is a deterministic algorithm to obtain an expanding generating set of size about n^2. As a byproduct of this construction, we also obtain new constructions of \epsilon-bias spaces for Z_d^n.
+		</div>
+		</p>
         </ul>
+	
 <!--
         <div class="grid_4">
         	<h1 class="first-header">Brazil!</h1>
