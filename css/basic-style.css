@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6{
 a,
 a:visited,
 a:active,
-a:hover{color:#0099ff;}
+a:hover{color:#660000;}
 a:hover{ text-decoration:none;}
 
 
@@ -133,7 +133,8 @@ img{ max-width:100%; height:auto;}
 	
 }
 .srt-menu li a {
-	background:#dadada;
+    	color:#660000;
+    	background:#dadada;
 	display:block;
 	margin:1px 0; 
 	padding:10px;
@@ -239,7 +240,7 @@ a.buttonlink:hover{
 	background:#8dbc01;
 }
 .greenelement{
-	background:#5ec79e;
+	background:#0099ff;
 	color:#fff;
 }
 .violetelement{
