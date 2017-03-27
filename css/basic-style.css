@@ -142,7 +142,7 @@ img{ max-width:100%; height:auto;}
 }
 .srt-menu li a:hover{
 	background:#0099ff;
-	color:#fff;
+	color:#660000;
 }
 .srt-menu li li a {
 	background:#e8e8e8;
@@ -171,7 +171,7 @@ img{ max-width:100%; height:auto;}
 #secondary-navigation ul li a:hover,
 #secondary-navigation ul li.current a{
 	background:#0099ff;
-	color:#fff;
+	color:#660000;
 }
 
 /*SPACE GRID ELEMENTS VERTICALLY, SINCE THEY ARE ONE UNDER ANOTHER SO FAR*/
@@ -427,8 +427,8 @@ ul.srt-menu li li li.sfHover ul {
 
 .srt-menu li:hover > a,
 .srt-menu li.current a{ 
-	color:#fff;
-	background:#0099ff;
+	color:#660000;
+	background:#f3f3f3;
 }
 .srt-menu li li:hover > a{
 	color:#fff;
