@@ -425,10 +425,14 @@ ul.srt-menu li li li.sfHover ul {
 	background:rgba(0,0,0,.6);
 }
 
-.srt-menu li:hover > a,
+.srt-menu li:hover > a{
+	color:#660000;
+	background:#f3f3f3;
+}
 .srt-menu li.current a{ 
 	color:#660000;
 	background:#f3f3f3;
+	border:1px solid #e2e2e2;
 }
 .srt-menu li li:hover > a{
 	color:#fff;
