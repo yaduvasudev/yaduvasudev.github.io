@@ -89,7 +89,11 @@ padding:20px 15px;
         <nav id="topnav" role="navigation">
           <div class="menu-toggle">Menu</div>  
           <ul class="srt-menu" id="menu-main-navigation">
-              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html">Home</a>
+              <ul>
+              <li><a href="aboutme.html">About Me</a></li>
+              </ul>
+              </li>
               <li class="current"><a href="publications.html">Publications</a></li>
               <li><a href="contact.html">Contact</a></li>
               <!-- <li><a href="#">menu item 3</a>
@@ -181,7 +185,7 @@ We then prove a combinatorial lemma which shows that the latter structure includ
 		[<a href="https://arxiv.org/pdf/1609.06736.pdf">arXiv</a>] [<a href="http://drops.dagstuhl.de/opus/volltexte/2017/7002/pdf/LIPIcs-STACS-2017-31.pdf">Proceedings</a>] <!--</li>-->
 		[<a id="distribution-testing" href="javascript:toggle('distribution-testing-ab','distribution-testing')">Abstract</a>]
 		<div id="distribution-testing-ab" style="display:none">
-		 Distribution testing deals with what information can be deduced about an unknown distribution over {1,...,n}, where the algorithm is only allowed to obtain a relatively small number of independent samples from the distribution. In the extended conditional sampling model, the algorithm is also allowed to obtain samples from the restriction of the original distribution on subsets of {1,...,n}. In 2015, Canonne, Diakonikolas, Gouleakis and Rubinfeld unified several previous results, and showed that for any property of distributions satisfying a "decomposability" criterion, there exists an algorithm (in the basic model) that can distinguish with high probability distributions satisfying the property from distributions that are far from it in variation distance. We present here a more efficient yet simpler algorithm for the basic model, as well as very efficient algorithms for the conditional model, which until now was not investigated under the umbrella of decomposable properties. Additionally, we provide an algorithm for the conditional model that handles a much larger class of properties. Our core mechanism is a way of efficiently producing an interval-partition of {1,...,n} that satisfies a "fine-grain" quality. We show that with such a partition at hand we can directly move forward with testing individual intervals, instead of first searching for the "correct" partition of {1,...,n}. 
+		 Distribution testing deals with what information can be deduced about an unknown distribution over \( \{1,...,n\} \), where the algorithm is only allowed to obtain a relatively small number of independent samples from the distribution. In the extended conditional sampling model, the algorithm is also allowed to obtain samples from the restriction of the original distribution on subsets of \( \{1,...,n\} \). In 2015, Canonne, Diakonikolas, Gouleakis and Rubinfeld unified several previous results, and showed that for any property of distributions satisfying a "decomposability" criterion, there exists an algorithm (in the basic model) that can distinguish with high probability distributions satisfying the property from distributions that are far from it in variation distance. We present here a more efficient yet simpler algorithm for the basic model, as well as very efficient algorithms for the conditional model, which until now was not investigated under the umbrella of decomposable properties. Additionally, we provide an algorithm for the conditional model that handles a much larger class of properties. Our core mechanism is a way of efficiently producing an interval-partition of {1,...,n} that satisfies a "fine-grain" quality. We show that with such a partition at hand we can directly move forward with testing individual intervals, instead of first searching for the "correct" partition of \( \{1,...,n\} \). 
 		</div>
 	  <!--</ul>--></p>
 
@@ -230,7 +234,7 @@ In most cases, aided by parallelism, the distributed algorithms have a much shor
 		[<a href="https://eccc.weizmann.ac.il/report/2011/137/download">ECCC</a>]
 		[<a id="aci" href="javascript:toggle('aci-ab','aci')">Abstract</a>]
 		<div id="aci-ab" style="display:none">
-		  Given two boolean functions as AC0 circuits, we study the problem of computing approximate isomorphisms between the functions. We give an algorithm that runs in exp(\sqrt{n}) time. The best known algorithm for testing the <em> exact</em>  isomorphism between two functions has running time 2^{O(n)}. The algorithm reduces this problem to testing isomorpshism of hypergraphs of bounded edge size, and uses the approximation of AC0 circuits by low-degree polynomials by Linial, Mansour and Nisan.
+		  Given two boolean functions as \( AC^0 \) circuits, we study the problem of computing approximate isomorphisms between the functions. We give an algorithm that runs in exp(\( \sqrt{n}\)) time. The best known algorithm for testing the <em> exact</em>  isomorphism between two functions has running time \(2^{O(n)}\). The algorithm reduces this problem to testing isomorpshism of hypergraphs of bounded edge size, and uses the approximation of AC0 circuits by low-degree polynomials by Linial, Mansour and Nisan.
 		</div>
 	  </p>
 
@@ -242,7 +246,7 @@ In most cases, aided by parallelism, the distributed algorithms have a much shor
 		[<a href="https://eccc.weizmann.ac.il/report/2012/078/download">ECCC</a>]
 		[<a id="agi" href="javascript:toggle('agi-ab','agi')">Abstract</a>]
 		<div id="agi-ab" style="display:none">
-		We study optimization versions of Graph Isomorphism. Given two graphs G1,G2, we are interested in finding a bijection from V(G1) to V(G2) that maximizes the number of matches (edges mapped to edges or non-edges mapped to non-edges). We give an quasi-polynomial time approximation scheme for this problem. We also consider the corresponding minimization problem (of mismatches) and prove that it is NP-hard to c-approximate for any constant factor c. Further, we show that it is also NP-hard to approximate the maximum number of edges mapped to edges beyond a factor of 0.94.
+		We study optimization versions of Graph Isomorphism. Given two graphs \(G_1,G_2\), we are interested in finding a bijection from \(V(G_1)\) to \(V(G_2)\) that maximizes the number of matches (edges mapped to edges or non-edges mapped to non-edges). We give an quasi-polynomial time approximation scheme for this problem. We also consider the corresponding minimization problem (of mismatches) and prove that it is NP-hard to c-approximate for any constant factor c. Further, we show that it is also NP-hard to approximate the maximum number of edges mapped to edges beyond a factor of 0.94.
 		We also explore these optimization problems for bounded color class graphs which is a well studied tractable special case of Graph Isomorphism. Surprisingly, the bounded color class case turns out to be harder than the uncolored case in the approximate setting.
 		</div>
 		</p>
@@ -255,7 +259,7 @@ In most cases, aided by parallelism, the distributed algorithms have a much shor
 		[<a href="https://arxiv.org/pdf/1201.3181.pdf">arXiv</a>]
 		[<a id="solvexp" href="javascript:toggle('solvexp-ab','solvexp')">Abstract</a>]
 		<div id="solvexp-ab" style="display:none">
-		  Alon and Roichman showed that for any group G, a random subset of size O(\log|G|) is an expanding generating set with high probability. In this paper, we show that if G is a solvable subgroup of S_n that is given by a set of generating permutations, there is a deterministic algorithm to obtain an expanding generating set of size about n^2. As a byproduct of this construction, we also obtain new constructions of \epsilon-bias spaces for Z_d^n.
+		  Alon and Roichman showed that for any group G, a random subset of size \(O(\log |G|) \) is an expanding generating set with high probability. In this paper, we show that if G is a solvable subgroup of \( S_n \) that is given by a set of generating permutations, there is a deterministic algorithm to obtain an expanding generating set of size about \( n^2 \). As a byproduct of this construction, we also obtain new constructions of \( \epsilon \)-bias spaces for \( \mathbb{Z}_d^n \).
 		</div>
 		</p>
         </ul>
