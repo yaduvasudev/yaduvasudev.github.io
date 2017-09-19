@@ -45,6 +45,11 @@ function toggle(showHideDiv, switchTextDiv) {
 } 
 </script>
 
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
 <!-- columns demo style. DELETE IT! -->
 <style type="text/css">
 <!--
@@ -144,7 +149,17 @@ padding:20px 15px;
 	  <li> <div id="paper"> On Testing Minor-Freeness in Bounded Degree Graphs with One-Sided Error. </div></li>
 	  <!-- <ul>-->
 		<p> with <a href="http://ls2-www.cs.tu-dortmund.de/grav/en/grav_files/people/fichtenberger">Hendrik Fichtenberger</a>, <a href="http://people.mpi-inf.mpg.de/~rlevi/"> Reut Levi</a>, and <a href="http://ls2-www.cs.tu-dortmund.de/grav/en/grav_files/people/woetzel">Maximilian W&oumltzel</a><br/>
-		<em>Manuscript</em>.<br/> <!--</li>-->
+		<em>Preprint</em>.<br/> <!--</li>-->
+		[<a href="https://arxiv.org/abs/1707.06126">arXiv</a>]
+		[<a id="minor" href="javascript:toggle('minor-ab','minor')">Abstract</a>]
+		<div id="minor-ab" style="display:none">
+		 We present a one-sided error property testing algorithm for \(H\)-minor freeness in bounded-degree graphs for any minor \(H\) that is a minor of the \( (k \times 2) \)-grid (for any \(k \in \mathbb{N}) \).
+This includes, for example, testing whether a graph is a cactus graph and testing minor-freeness for minors which are cycles with parallel chords.
+The query complexity of our algorithm in terms of the number of vertices in the graph, \(n\),  is \(\tilde{O}(n^{2/3} / \epsilon^5) \).
+We analyze the structure of the graph and show that either we can find a subgraph of sublinear size that includes the forbidden minor, \(H\),
+or we can find a pair of disjoint subsets of vertices whose edge-cut is large, and such that the induced subgraph of each subset is connected. 
+We then prove a combinatorial lemma which shows that the latter structure includes \(H\) as a minor. 
+		</div>
 	  <!--</ul>--></p>
 	  
 	  <li> <div id="paper"> Distributed Testing of Conductance. </div></li>
@@ -154,7 +169,7 @@ padding:20px 15px;
 		[<a href="https://arxiv.org/abs/1705.08174">arXiv</a>]
 		[<a id="conductance" href="javascript:toggle('conductance-ab','conductance')">Abstract</a>]
 		<div id="conductance-ab" style="display:none">
-		 We study the problem of testing conductance in the distributed computing model and give a two-sided tester that takes O(logn) rounds to decide if a graph has conductance at least &Phi; or is &epsilon;-far from having conductance at least c&Phi;&sup2; in the distributed CONGEST model. We also show that &Omega;(logn) rounds are necessary for testing conductance even in the LOCAL model. In the case of a connected graph, we show that we can perform the test even when the number of vertices in the graph is not known a priori. The key idea in our algorithm is a way to perform a polynomial number of random walks from a set of vertices, avoiding the congestion on the edges.  
+		 We study the problem of testing conductance in the distributed computing model and give a two-sided tester that takes \(O(\log n)\) rounds to decide if a graph has conductance at least \( \Phi \) or is \( \epsilon \)-far from having conductance at least \( c\Phi^2 \) in the distributed CONGEST model. We also show that \( \Omega(\log n) \) rounds are necessary for testing conductance even in the LOCAL model. In the case of a connected graph, we show that we can perform the test even when the number of vertices in the graph is not known a priori. The key idea in our algorithm is a way to perform a polynomial number of random walks from a set of vertices, avoiding the congestion on the edges.  
 		</div>
 	  <!--</ul>--></p>
 	  
