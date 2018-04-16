@@ -158,12 +158,12 @@ padding:20px 15px;
 		[<a href="https://arxiv.org/abs/1707.06126">arXiv</a>]
 		[<a id="minor" href="javascript:toggle('minor-ab','minor')">Abstract</a>]
 		<div id="minor-ab" style="display:none">
-		 We present a one-sided error property testing algorithm for \(H\)-minor freeness in bounded-degree graphs for any minor \(H\) that is a minor of the \( (k \times 2) \)-grid (for any \(k \in \mathbb{N}) \).
-This includes, for example, testing whether a graph is a cactus graph and testing minor-freeness for minors which are cycles with parallel chords.
-The query complexity of our algorithm in terms of the number of vertices in the graph, \(n\),  is \(\tilde{O}(n^{2/3} / \epsilon^5) \).
-We analyze the structure of the graph and show that either we can find a subgraph of sublinear size that includes the forbidden minor, \(H\),
-or we can find a pair of disjoint subsets of vertices whose edge-cut is large, and such that the induced subgraph of each subset is connected. 
-We then prove a combinatorial lemma which shows that the latter structure includes \(H\) as a minor. 
+		 We consider one-sided error property testing of \( \cal F \)-minor freeness in bounded-degree graphs for any finite family of graphs \( \cal F\) that contains a minor of \( K_{2,k} \), the \( k \)-circus graph, or the \( (k\times 2) \)-grid for any \( k\in\mathbb{N} \). 
+This includes, for instance, testing whether a graph is outerplanar or a cactus graph.
+The query complexity of our algorithm in terms of the number of vertices in the graph, \( n \),  is \( \tilde{O}(n^{2/3} / \epsilon^5) \).
+Czumaj et~al.\ showed that cycle-freeness and \( C_k \)-minor freeness can be tested with query complexity \( \tilde{O}(\sqrt{n}) \) by using random walks, and that testing \( H \)-minor freeness for any \( H \) that contains a cycles requires \( \Omega(\sqrt{n}) \) queries.
+In contrast to these results, we analyze the structure of the graph and show that either we can find a subgraph of sublinear size that includes the forbidden minor \( H \),
+or we can find a pair of disjoint subsets of vertices whose edge-cut is large, which induces an \( H \)-minor.
 		</div>
 	  <!--</ul>--></p>
 	  
