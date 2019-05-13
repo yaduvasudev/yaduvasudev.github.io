@@ -175,6 +175,8 @@ img{ max-width:100%; height:auto;}
 
 /*SPACE GRID ELEMENTS VERTICALLY, SINCE THEY ARE ONE UNDER ANOTHER SO FAR*/
 .grid_1,
+.grid_10pc /*10%*/
+.grid_90pc /*90%*/
 .grid_2,
 .grid_3,
 .grid_4,
@@ -451,6 +453,8 @@ ul.srt-menu li li li.sfHover ul {
 }
  
 .grid_1 { width: 8.33333333%; }
+.grid_10pc {width:10%; } /*Added*/
+.grid_90pc {width:90%; } /*Added*/
 .grid_2 { width: 16.66666667%; }
 .grid_3 { width: 25%; }
 .grid_4 { width: 33.33333333%; }
@@ -464,6 +468,8 @@ ul.srt-menu li li li.sfHover ul {
 .grid_12 { width: 100%; }
 
 .grid_1,
+.grid_10pc, /*Added*/
+.grid_90pc, /*Added*/
 .grid_2,
 .grid_3,
 .grid_4,
