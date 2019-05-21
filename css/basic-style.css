@@ -13,22 +13,25 @@ BASE (MOBILE) SIZE
 	Remember, keep it light: Speed is Important.
 */
 
-/* typography */
-body{
-	/*color:#666;*/
-	font-family:'Lato', Arial, Helvetica, sans-serif; 
-	font-size:1em;
-	line-height:1.4em; 
-	font-weight:regular;
-}
 
+/* typography */
 h1, h2, h3, h4, h5, h6{
-	font-weight:normal;
+	font-weight:600;
 	font-family:'Lato', Arial, Helvetica, sans-serif; 
 	line-height:1.5em;
 	margin:.45em 0;
 	padding:0;
+	/*color:black*/
 } 
+
+
+body{
+	/*color:#353434;/*#666;*/
+	font-family:'Lato', Arial, Helvetica, sans-serif; 
+	font-size:1em;
+	line-height:1.4em; 
+	font-weight:400;
+}
 
 /* links */
 a,
@@ -37,6 +40,11 @@ a:active,
 a:hover{color:#4169e1;/*#660000;*/;text-decoration:none}
 a:hover{ text-decoration:none;}
 
+h1 a,
+h1 a:visited,
+h1 a:active,
+h1 a:hover{color:#4169e1;/*#660000;*/;text-decoration:none}
+h1 a:hover{ text-decoration:none;}
 
 /* Box sizing. Awesome thing. Read about it here: http://www.w3schools.com/cssref/css3_pr_box-sizing.asp */
 *{	box-sizing:border-box;
@@ -65,7 +73,7 @@ header{
 }
 
 #name{
-	/*color:#660000;*/
+	color:black;
 	font-family:'Merriweather', sans-serif;
 	font-size:2.5em;
 	line-height:1em;
@@ -73,7 +81,7 @@ header{
 }
 
 #paper{
-	/*color:#1c1c7d;*/
+	color:black;
 	font-family:'Lato', Arial, Helvetica, sans-serif;
 	font-size:1.1em;
 	font-weight:bold;
@@ -210,10 +218,12 @@ footer ul{
 /*colors and backgrounds*/
 body{
 	background:#fff;
+	/*font-weight:400;*/
 }
-/*h1, h2, h3, h4, h5, h6{
-	color:#333; 
-}*/
+
+h2.secheader {
+	font-weight:600	
+}
 
 footer{ 
 	background:#fff;
@@ -226,6 +236,59 @@ footer h1, footer h2, footer h3, footer h4{
 footer ul{
 	margin:0 0 0 8%;
 }
+
+table, th, td {
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+}
+th {
+    text-align: left;
+}
+tr {
+    border: solid gray;
+    border-width: 2px 0;
+}
+tr:first-child {
+    border-top:none;
+}
+tr:nth-child(odd) {
+    background: #eef0ee;
+}
+th {
+    background: #ffffff;
+}
+
+/*Courtsey Jeff Erickson's style*/
+dt {
+	float: left;
+	width: 8.5em;
+	padding: 1ex 0.5em 0 0.5em;
+	text-align: right;
+	font-weight: bold;
+}
+dd {
+	margin: 0 0 0 8.5em;
+	padding: 1ex 0.5em;
+	border-left: 1px solid #888;
+        text-align: justify;
+}
+
+ul.announce-tight {
+	margin: 0 -3ex;
+}
+
+ul.no-bullet {
+	list-style:none;
+}
+
+ul.no-bullet-tight {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+/*Courtsey Jeff Erickson's style*/
 
 a.buttonlink{ 
 	background:#dadada; 
