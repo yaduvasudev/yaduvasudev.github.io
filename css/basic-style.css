@@ -261,6 +261,10 @@ th {
 }
 
 /*Courtsey Jeff Erickson's style*/
+dl.tight {
+	margin-left:-70px;
+}
+
 dt {
 	float: left;
 	width: 8.5em;
