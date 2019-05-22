@@ -241,6 +241,7 @@ table, th, td {
     border-collapse: collapse;
 }
 th, td {
+    border:none;
     padding: 10px;
 }
 th {
