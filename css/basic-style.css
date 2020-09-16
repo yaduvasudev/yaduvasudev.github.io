@@ -283,6 +283,11 @@ ul.announce-tight {
 	margin: 0 -3ex;
 }
 
+ul.announce-tight-no-bullet {
+	margin: 0 -3ex;
+	list-style: none;
+}
+
 ul.no-bullet {
 	list-style:none;
 }
