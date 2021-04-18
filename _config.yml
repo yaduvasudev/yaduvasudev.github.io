@@ -94,10 +94,10 @@ analytics:
 
 # Site Author
 author:
-  name             : 
+  name             :
   avatar           : "/assets/images/prague2.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : #
-  location         : IIT Madras 
+  location         : IIT Madras
   email            :
   links:
     - label: "yadu@cse.iitm.ac.in"
@@ -220,6 +220,12 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-titles-from-headings
+
+titles_from_headings:
+  enabled:     true
+  strip_title: true
+  collections: true 
 
 # mimic GitHub Pages with --safe
 whitelist:
