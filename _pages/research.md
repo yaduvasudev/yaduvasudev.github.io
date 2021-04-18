@@ -2,6 +2,7 @@
 layout: single
 classes: wide
 permalink: research/
+title: Publications
 ---
 
 - **Dynamic Complexity of Expansion**\\
