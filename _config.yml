@@ -219,13 +219,13 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jekyll-include-cache
   - jekyll-titles-from-headings
+  - jekyll-include-cache
 
 titles_from_headings:
   enabled:     true
   strip_title: true
-  collections: true 
+  collections: true
 
 # mimic GitHub Pages with --safe
 whitelist:
