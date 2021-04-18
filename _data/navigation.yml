@@ -1,0 +1,35 @@
+# main links
+main:
+  - title: "Research"
+    url: "research/"
+  - title: "Teaching"
+    url: "courses/"
+  - title: "Students"
+    url: "students/"
+  - title: "Contact"
+    url: "contact/"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
+
+courses:
+  - title: "Current"
+    children:
+      - title: "Modern Complexity Theory(2021)"
+        url: /courses/6840/21/
+  - title: "Past"
+    children:
+      - title: "Computability and Complexity(2020)"
+        url: /courses/6014/20/
+      - title: "Languages, Machines and Computation(2020)"
+        url: /courses/2200/20/
+      - title: "Advanced Data Structures and Algorithms(2019)"
+        url: /courses/5800/19/
+      - title: "Sublinear Algorithms(2019)"
+        url: /courses/6025/19/
+      - title: "Logic and Combinatorics for CS(2018)"
+        url: /courses/6030/18
+      - title: "Pseudorandomness"
+        url: /courses/6845/18/
