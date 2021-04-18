@@ -4,8 +4,8 @@ permalink: courses/
 sidebar:
   nav: "courses"
 classes: wide
+title: Courses
 ---
-## Courses
 
 - 2021
   - Feb - May: CS6840 [Modern Complexity Theory](6840/21/)
