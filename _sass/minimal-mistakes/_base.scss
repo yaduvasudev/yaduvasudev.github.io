@@ -138,6 +138,7 @@ a {
   }
 
   &:hover {
+    text-decoration: none;
     text-decoration-style:dotted;
     //color: $link-color-hover;
     //outline: 0;
