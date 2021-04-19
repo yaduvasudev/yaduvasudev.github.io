@@ -127,8 +127,8 @@ body {
 
   a:not(.btn) {
     &:hover {
-      text-decoration: underline;
-
+      text-decoration-style: dotted; /*underline;*/
+      background-color: #9999ff;
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);
       }
