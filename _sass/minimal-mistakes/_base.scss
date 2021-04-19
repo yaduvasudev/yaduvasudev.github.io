@@ -126,19 +126,19 @@ blockquote {
 /* links */
 
 a {
-   text-decoration:none;
+   /*text-decoration:none;*/
   &:focus {
-    text-decoration:none;
+    text-decoration-style:dotted;
     @extend %tab-focus;
   }
 
   &:visited {
-    text-decoration:none;
+    text-decoration-style:dotted;
     //color: $link-color-visited;
   }
 
   &:hover {
-    text-decoration:none;
+    text-decoration-style:dotted;
     //color: $link-color-hover;
     //outline: 0;
   }
@@ -188,7 +188,7 @@ hr {
   display: block;
   margin: 1em 0;
   border: 0;
-  border-top: 1px solid $border-color;
+  border-top: 2px solid $border-color;
 }
 
 /* lists */
