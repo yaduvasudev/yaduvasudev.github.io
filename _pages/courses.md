@@ -7,6 +7,9 @@ classes: wide
 title: Courses
 ---
 
+<!-- CS1100 Introduction to programming
+: [Jul-Nov 21]("") -->
+
 CS2200 Languages, Machines and Computation
 : [Jan-May 20](2200/20/)
 
@@ -21,6 +24,9 @@ CS6025 Sublinear Algorithms
 
 CS6030 Logic and Combinatorics for Computer Science
 : [Jul-Nov 18](6030/18/)
+
+<!-- CS6170 Randomized Algorithms
+: [Jul-Nov 21](6170/21/) -->
 
 CS6840 Modern Complexity Theory
 : [Feb-May 21](6840/21/)
