@@ -5,6 +5,8 @@ permalink: research/
 title: Publications
 ---
 
+(*Pre-prints are available from my [DBLP page](https://dblp.org/pid/23/10305.html). If you can't find a copy, feel free to email me*.)
+
 - **Dynamic Complexity of Expansion**\\
 	(with Samir Datta and Anuj Tawari)\\
 	*CSR 2021*
