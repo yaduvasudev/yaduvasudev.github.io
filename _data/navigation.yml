@@ -15,14 +15,14 @@ main:
   #   url: /sitemap/
 
 courses:
-  - title: "Current"
+  - title: "Current/Upcoming"
     children:
-      #- title: "Randomized Algorithms('21)"
-      #  url: /courses/6170/21/
-      #- title: "Intro to Programming('21)"
-      #  url: ""
       - title: "Modern Complexity Theory('21)"
         url: /courses/6840/21/
+      - title: "Intro to Programming('21)"
+        url: ""
+      - title: "Randomized Algorithms('21)"
+        url: /courses/6170/21/
   - title: "Past"
     children:
       - title: "Computability and Complexity('20)"
