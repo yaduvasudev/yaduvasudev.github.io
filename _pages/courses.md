@@ -5,8 +5,7 @@ classes: wide
 title: Courses
 ---
 
-#### Current/Upcoming Courses
-- CS6840 Modern Complexity Theory - [Feb-May 21](6840/21/)
+#### Current/Upcoming Courses <i class="fas fa-certificate" style="color:red"></i>
 - CS1100 Introduction to Programming - Jul-Nov 21
 - CS6170 Randomized Algorithms  - [Jul-Nov 21](6170/21/)
 
