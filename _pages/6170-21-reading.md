@@ -53,4 +53,4 @@ This is the first of three papers (the others are [here](https://arxiv.org/pdf/0
 #### Online algorithms
 1. [Online Budgeted Matching in Random Input Models with applications
 to Adwords](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.87.9205&rep=rep1&type=pdf) - Goel and Mehta.
-2. [Online Stochastic Matching: Beating $1 − \tfrac{1}{e}$](https://arxiv.org/pdf/0905.4100.pdf) - Feldman, Mehta, Mirrokni and Muthukrishnan.
+2. [Online Stochastic Matching: Beating $$1 − \tfrac{1}{e}$$](https://arxiv.org/pdf/0905.4100.pdf) - Feldman, Mehta, Mirrokni and Muthukrishnan.
