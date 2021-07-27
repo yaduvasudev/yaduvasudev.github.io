@@ -39,7 +39,7 @@ This is the first of three papers (the others are [here](https://arxiv.org/pdf/0
 
 #### Matching in graphs
 1. [Perfect Matchings via Uniform Sampling in Regular Bipartite Graphs](https://arxiv.org/pdf/0811.2457.pdf) - Goel, Kapralov and Khanna.
-2. [Perfect Matchings in $O(n \log n)$ Time in Regular Bipartite Graphs](https://arxiv.org/pdf/0909.3346.pdf) - Goel, Kapralov and Khanna.
+2. [Perfect Matchings in $$O(n \log n)$$ Time in Regular Bipartite Graphs](https://arxiv.org/pdf/0909.3346.pdf) - Goel, Kapralov and Khanna.
 
 #### Color-coding and subset sum
 1. [Color-Coding](http://courses.cs.tau.ac.il/combsem/09a/papers/ColorCoding.pdf) - Alon, Yuster and Zwick.
@@ -47,7 +47,7 @@ This is the first of three papers (the others are [here](https://arxiv.org/pdf/0
 
 #### Dynamic algorithms
 1. [Maintaining a Large Matching and a Small Vertex Cover](http://people.csail.mit.edu/ronitt/papers/01-maintaining.pdf) - Onak and Rubinfeld.
-2. [Fully dynamic maximal matching in O(log n) update time](https://www.cse.iitk.ac.in/users/sbaswana/Papers-published/sicomp-corrected-full-version.pdf) - Baswana, Gupta and Sen.
+2. [Fully dynamic maximal matching in $$O(\log n)$$ update time](https://www.cse.iitk.ac.in/users/sbaswana/Papers-published/sicomp-corrected-full-version.pdf) - Baswana, Gupta and Sen.
 
 
 #### Online algorithms
