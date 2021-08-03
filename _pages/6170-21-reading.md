@@ -7,7 +7,7 @@ sidebar:
 title: CS6170 Randomized Algorithms
 ---
 
-## July - Nov 2021
+## Aug - Nov 2021
 ### Topics/References for course reading
 
 Below are a list of topics and related references. You can form groups of size at most 3 to read the material, and give a lecture in class during the normal lecture slot. We will schedule these towards the end of the semester. If you want to read some other topic of your choice, please talk to me about it.
