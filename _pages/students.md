@@ -5,6 +5,9 @@ permalink: students/
 
 #### Current students
 
+##### MS
+- Keshav Tiwari (Aug 2021 - )
+
 ##### PhD
 - Sampriti Roy (July 2018 - )
 
