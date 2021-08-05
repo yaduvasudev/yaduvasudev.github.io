@@ -17,6 +17,8 @@ The lecture videos and notes written during the lectures are available in the li
 
 Lecture 2, Aug 4
 : Polynomial Identity Testing - connections to perfect matching in graphs; statement of the DeMillo-Lipton-Shwartz-Zippel lemma.
+- References: **[MU]** - Chapter 1
 
 Lecture 1, Aug 2
 : Introduction to the course; Toy example - verifying polynomial factorization; extending the idea to multivariate polynomials - Polynomial identity testing.
+- References: **[MU]** - Chapter 1
