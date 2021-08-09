@@ -11,9 +11,13 @@ title: CS6170 Randomized Algorithms
 
 The lecture videos and notes written during the lectures are available in the links below.
 - [Lectures](https://drive.google.com/drive/folders/1xnNnWubteTBNMIvmvtjj1fXwqO5fo_So?usp=sharing)
-- [Scribbles](https://drive.google.com/drive/folders/1Qe_6Kr5V5LlGuCRcxGxqcOnaoGHpS57X?usp=sharing)
+- [Scribbles](https://drive.google.com/drive/folders/1Qe_6Kr5V5LlGuCRcxGxqcOnaoGHpS57X?usp=sharing) and [Notes](https://1drv.ms/u/s!Av99lURRg1j_umQuc2a1uqqanbwr) (from Aug 9)
 
 ---
+
+Lecture 4, Aug 9
+: Mincut - Karger's algorithm and analysis.
+- References: [MU] - Chapter 1
 
 Lecture 3, Aug 5
 : Proof of DeMillo-Lipton-Schwartz-Zippel lemma - recall of basic probability definitions and concepts; Verifying matrix multiplication - Frievald's algorithm.
