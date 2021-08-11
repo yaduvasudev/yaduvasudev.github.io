@@ -15,6 +15,10 @@ The lecture videos and notes written during the lectures are available in the li
 
 ---
 
+Lecture 5, Aug 11
+: Randomized Maxcut - analysis of the algorithm, properties of the random variables.
+
+
 Lecture 4, Aug 9
 : Mincut - Karger's algorithm and analysis.
 - References: [MU] - Chapter 1
