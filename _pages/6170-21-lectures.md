@@ -10,7 +10,7 @@ title: CS6170 Randomized Algorithms
 ## Aug-Nov 2021
 
 The lecture videos and notes written during the lectures are available in the links below.
-- [Lectures](https://drive.google.com/drive/folders/1xnNnWubteTBNMIvmvtjj1fXwqO5fo_So?usp=sharing)
+- [Lectures](https://youtube.com/playlist?list=PLZA35hZpGfDFnKnAd9f_JnloWb-Cno86K)
 - [Scribbles](https://drive.google.com/drive/folders/1Qe_6Kr5V5LlGuCRcxGxqcOnaoGHpS57X?usp=sharing) and [Notes](https://1drv.ms/u/s!Av99lURRg1j_umQuc2a1uqqanbwr) (from Aug 9)
 
 ---
