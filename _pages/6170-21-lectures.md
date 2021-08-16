@@ -17,9 +17,11 @@ The lecture videos and notes written during the lectures are available in the li
 
 Lecture 6, Aug 12
 : Randomized Maxcut - pairwise independent random bits and derandomization; Randomized Quicksort and its analysis.
+- References: [MU] - Chapter 2
 
 Lecture 5, Aug 11
 : Randomized Maxcut - analysis of the algorithm, properties of the random variables.
+- References: [MU] - Chapter 2
 
 Lecture 4, Aug 9
 : Mincut - Karger's algorithm and analysis.
