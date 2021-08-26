@@ -14,6 +14,21 @@ The lecture videos and notes written during the lectures are available in the li
 - [Scribbles](https://drive.google.com/drive/folders/1Qe_6Kr5V5LlGuCRcxGxqcOnaoGHpS57X?usp=sharing) and [Notes](https://1drv.ms/u/s!Av99lURRg1j_umQuc2a1uqqanbwr) (from Aug 9)
 
 ---
+Lecture 10, Aug 26
+: Probability amplification of one-sided error algorithms; Chernoff-Hoeffding bounds - outline of the proof and applications;
+- References: [MU] - Chapter 4, [DP] - Chapters 1, 2
+
+Lecture 9, Aug 25
+: Chebyshev's inequality - probability amplification of one-sided error algorithms; pairwise independent hash families;
+- References: Salil Vadhan's [notes](https://people.seas.harvard.edu/~salil/pseudorandomness/basic.pdf) - Section 3.5, [MU] - Chapter 3
+
+Lecture 8, Aug 19
+: Analysis of the Coupon-collector problem; Markov's inequality - analyis of randomized Quicksort.
+- References: [MU] - Chapters 2, 3
+
+Lecture 7, Aug 16
+: Random variables - Bernoulli, Binomial, Geometric; Probability Mass functions; Coupon-collector problem.
+- References: [MU] - Chapter 2
 
 Lecture 6, Aug 12
 : Randomized Maxcut - pairwise independent random bits and derandomization; Randomized Quicksort and its analysis.
