@@ -14,12 +14,20 @@ The lecture videos and notes written during the lectures are available in the li
 - [Scribbles](https://drive.google.com/drive/folders/1Qe_6Kr5V5LlGuCRcxGxqcOnaoGHpS57X?usp=sharing) and [Notes](https://1drv.ms/u/s!Av99lURRg1j_umQuc2a1uqqanbwr) (from Aug 9)
 
 ---
+Lecture 11, Sep 1
+: Balls and bins - birthday paradox, maximum load, Poisson approximation.
+- References: [MU] - Chapter 5
+- Additional reading: [Tight bounds](https://www.ic.unicamp.br/~celio/peer2peer/math/balls-into-bins.pdf) for balls and bins for different values of $$m$$ and $$n$$
+
+Tutorial, Aug 30
+: Discussion of Pset 1
+
 Lecture 10, Aug 26
-: Probability amplification of one-sided error algorithms; Chernoff-Hoeffding bounds - outline of the proof and applications;
+: Probability amplification of one-sided error algorithms; Chernoff-Hoeffding bounds - outline of the proof and applications.
 - References: [MU] - Chapter 4, [DP] - Chapters 1, 2
 
 Lecture 9, Aug 25
-: Chebyshev's inequality - probability amplification of one-sided error algorithms; pairwise independent hash families;
+: Chebyshev's inequality - probability amplification of one-sided error algorithms; pairwise independent hash families.
 - References: Salil Vadhan's [notes](https://people.seas.harvard.edu/~salil/pseudorandomness/basic.pdf) - Section 3.5, [MU] - Chapter 3
 
 Lecture 8, Aug 19
