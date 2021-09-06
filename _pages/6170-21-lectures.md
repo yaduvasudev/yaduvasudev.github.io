@@ -14,6 +14,10 @@ The lecture videos and notes written during the lectures are available in the li
 - [Scribbles](https://drive.google.com/drive/folders/1Qe_6Kr5V5LlGuCRcxGxqcOnaoGHpS57X?usp=sharing) and [Notes](https://1drv.ms/u/s!Av99lURRg1j_umQuc2a1uqqanbwr) (from Aug 9)
 
 ---
+Lecture 12, Sep 2
+: Balls and bins - Poisson approximation; lower bound on the maximum load.
+- References: [MU] - Chapter 5
+
 Lecture 11, Sep 1
 : Balls and bins - birthday paradox, maximum load, Poisson approximation.
 - References: [MU] - Chapter 5
