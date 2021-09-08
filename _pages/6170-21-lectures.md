@@ -14,6 +14,10 @@ The lecture videos and notes written during the lectures are available in the li
 - [Scribbles](https://drive.google.com/drive/folders/1Qe_6Kr5V5LlGuCRcxGxqcOnaoGHpS57X?usp=sharing) and [Notes](https://1drv.ms/u/s!Av99lURRg1j_umQuc2a1uqqanbwr) (from Aug 9)
 
 ---
+Lecture 14, Sep 8
+: Bloom filters - false positives; Negatively associated random variables and their properties - concentration bounds and application to analyzing the Bloom filter.
+- References: [MU] - Chapter 5; [DP] - Chapter 3.1
+
 Lecture 13, Sep 6
 : Poisson approximation - Coupon collector problem.
 - References: [MU] - Chapter 5
