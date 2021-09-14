@@ -14,6 +14,15 @@ The lecture videos and notes written during the lectures are available in the li
 - [Scribbles](https://drive.google.com/drive/folders/1Qe_6Kr5V5LlGuCRcxGxqcOnaoGHpS57X?usp=sharing) and [Notes](https://1drv.ms/u/s!Av99lURRg1j_umQuc2a1uqqanbwr) (from Aug 9)
 
 ---
+Lecture 16, Sep 13
+: FKS hashing - construction and bounds; Hashing with open addressing - linear probing.
+- References: [MU] - Chapter 15, [MR] - Chapter 8.5
+- Additional reading: [Knuth's note on the analysis of linear probing](https://jeffe.cs.illinois.edu/teaching/datastructures/2011/notes/knuth-OALP.pdf)
+
+Lecture 15, Sep 9
+: Universal hash families - constructions, applications, bounds; Perfect hash families.
+- References: [MU] - Chapter 15
+
 Lecture 14, Sep 8
 : Bloom filters - false positives; Negatively associated random variables and their properties - concentration bounds and application to analyzing the Bloom filter.
 - References: [MU] - Chapter 5; [DP] - Chapter 3.1
