@@ -14,6 +14,10 @@ The lecture videos and notes written during the lectures are available in the li
 - [Scribbles](https://drive.google.com/drive/folders/1Qe_6Kr5V5LlGuCRcxGxqcOnaoGHpS57X?usp=sharing) and [Notes](https://1drv.ms/u/s!Av99lURRg1j_umQuc2a1uqqanbwr) (from Aug 9)
 
 ---
+Lecture 17, Sep 16
+: Cuckoo hashing - bounds and analysis using random graphs.
+- References: [MU] - Chapter 17
+
 Lecture 16, Sep 13
 : FKS hashing - construction and bounds; Hashing with open addressing - linear probing.
 - References: [MU] - Chapter 15, [MR] - Chapter 8.5
