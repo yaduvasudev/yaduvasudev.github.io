@@ -14,6 +14,11 @@ The lecture videos and notes written during the lectures are available in the li
 - [Scribbles](https://drive.google.com/drive/folders/1Qe_6Kr5V5LlGuCRcxGxqcOnaoGHpS57X?usp=sharing) and [Notes](https://1drv.ms/u/s!Av99lURRg1j_umQuc2a1uqqanbwr) (from Aug 9)
 
 ---
+Lecture 18, Sep 20
+: Cuckoo hashing - analysis (contd.) and bounds.
+- References: [MU] - Chapter 17
+- Additional reading - [Cuckoo Hashing](https://www.cs.tau.ac.il/~shanir/advanced-seminar-data-structures-2009/bib/pagh01cuckoo.pdf) - Pagh and Rodler.
+
 Lecture 17, Sep 16
 : Cuckoo hashing - bounds and analysis using random graphs.
 - References: [MU] - Chapter 17
