@@ -14,6 +14,13 @@ The lecture videos and notes written during the lectures are available in the li
 - [Scribbles](https://drive.google.com/drive/folders/1Qe_6Kr5V5LlGuCRcxGxqcOnaoGHpS57X?usp=sharing) and [Notes](https://1drv.ms/u/s!Av99lURRg1j_umQuc2a1uqqanbwr) (from Aug 9)
 
 ---
+Lecture 19, Sep 27
+: Random-walk based algorithm for 2-SAT.
+- References: [MU] - Chapter 7
+
+Tutorial, Sep 22
+: Discussion of Pset 2
+
 Lecture 18, Sep 20
 : Cuckoo hashing - analysis (contd.) and bounds.
 - References: [MU] - Chapter 17
