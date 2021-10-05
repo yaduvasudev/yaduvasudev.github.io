@@ -14,8 +14,16 @@ The lecture videos and notes written during the lectures are available in the li
 - [Scribbles](https://drive.google.com/drive/folders/1Qe_6Kr5V5LlGuCRcxGxqcOnaoGHpS57X?usp=sharing) and [Notes](https://1drv.ms/u/s!Av99lURRg1j_umQuc2a1uqqanbwr) (from Aug 9), [from Sep 29](https://1drv.ms/p/s!Av99lURRg1j_vAZ-b9A638BQDsaa?e=A6qYeM)
 
 ---
+Lecture 22, Oct 4
+: Markov chains - more definitions, properties, stationary distributions; Random walks on undirected graphs.
+- References: [MU] - Chapter 7
+
+Lecture 21, Sep 30
+: Randomized 3-SAT - extending the idea of the 2-SAT algorithm, Modifications and a better analysis - Schoening's algorithm.
+- References: [MU] - Chapter 7
+
 Lecture 20, Sep 29
-: Randomized 2-SAT, Markov chains - definition and basics, Randomized 3-statement
+: Randomized 2-SAT, Markov chains - definition and basics, Randomized 3-SAT.
 - References: [MU] - Chapter 7
 
 Lecture 19, Sep 27
