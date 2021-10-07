@@ -16,7 +16,7 @@ The lecture videos and notes written during the lectures are available in the li
 ---
 Lecture 23, Oct 6
 : Random walks on undirected graphs - s-t connectivity; convergence of random walks - connections with spectrum of a graph.
-- References: [MU] - Chapter 7
+- References: [MU] - Chapter 7, [Pseudorandomness](https://people.seas.harvard.edu/~salil/pseudorandomness/) by Vadhan - [Section 2.4](https://people.seas.harvard.edu/~salil/pseudorandomness/power.pdf) 
 
 Lecture 22, Oct 4
 : Markov chains - more definitions, properties, stationary distributions; Random walks on undirected graphs.
