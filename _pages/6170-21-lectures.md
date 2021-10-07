@@ -14,6 +14,10 @@ The lecture videos and notes written during the lectures are available in the li
 - [Scribbles](https://drive.google.com/drive/folders/1Qe_6Kr5V5LlGuCRcxGxqcOnaoGHpS57X?usp=sharing) and [Notes](https://1drv.ms/u/s!Av99lURRg1j_umQuc2a1uqqanbwr) (from Aug 9), [from Sep 29](https://1drv.ms/p/s!Av99lURRg1j_vAZ-b9A638BQDsaa?e=A6qYeM)
 
 ---
+Lecture 23, Oct 6
+: Random walks on undirected graphs - s-t connectivity; convergence of random walks - connections with spectrum of a graph.
+- References: [MU] - Chapter 7
+
 Lecture 22, Oct 4
 : Markov chains - more definitions, properties, stationary distributions; Random walks on undirected graphs.
 - References: [MU] - Chapter 7
