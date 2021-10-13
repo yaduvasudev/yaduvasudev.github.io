@@ -14,10 +14,14 @@ The lecture videos and notes written during the lectures are available in the li
 - [Scribbles](https://drive.google.com/drive/folders/1Qe_6Kr5V5LlGuCRcxGxqcOnaoGHpS57X?usp=sharing) and [Notes](https://1drv.ms/u/s!Av99lURRg1j_umQuc2a1uqqanbwr) (from Aug 9), [from Sep 29](https://1drv.ms/p/s!Av99lURRg1j_vAZ-b9A638BQDsaa?e=A6qYeM)
 
 ---
+Lecture 26, Oct 13
+: FPRAS for #DNF; FPRAS for #SAT with black-box access to SAT
+- References: [MU] - Chapter 11
+
 Lecture 25, Oct 11
 : Monte-Carlo method; FPRAS for #DNF; Importance sampling.
 - References: [MU] - Chapter 11
- 
+
 Lecture 24, Oct 7
 : Random walks on expander; Probability amplification using expander random walks; Counting problems.
 - References: [Pseudorandomness](https://people.seas.harvard.edu/~salil/pseudorandomness/) by Vadhan - [Sections 4.1, 4.2 ](https://people.seas.harvard.edu/~salil/pseudorandomness/power.pdf)  
