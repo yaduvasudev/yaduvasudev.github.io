@@ -14,8 +14,12 @@ The lecture videos and notes written during the lectures are available in the li
 - [Scribbles](https://drive.google.com/drive/folders/1Qe_6Kr5V5LlGuCRcxGxqcOnaoGHpS57X?usp=sharing) and [Notes](https://1drv.ms/u/s!Av99lURRg1j_umQuc2a1uqqanbwr) (from Aug 9), [from Sep 29](https://1drv.ms/p/s!Av99lURRg1j_vAZ-b9A638BQDsaa?e=A6qYeM)
 
 ---
+Lecture 27, Oct 14
+: FPRAS for #SAT (contd.); Connection between sampling and counting: FPAUS implies FPRAS.
+- References: [MU] - Chapter 11
+
 Lecture 26, Oct 13
-: FPRAS for #DNF; FPRAS for #SAT with black-box access to SAT
+: FPRAS for #DNF; FPRAS for #SAT with black-box access to SAT.
 - References: [MU] - Chapter 11
 
 Lecture 25, Oct 11
