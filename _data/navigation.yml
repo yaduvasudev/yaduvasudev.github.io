@@ -17,12 +17,14 @@ main:
 courses:
   - title: "Current/Upcoming"
     children:
-      - title: "Intro to Programming('21)"
+      - title: "Intro to Programming('22)"
         url: ""
-      - title: "Randomized Algorithms('21)"
-        url: /courses/6170/21/
+      - title: "Sublinear Algorithms('22)"
+        url: /courses/6025/22/
   - title: "Past"
     children:
+      - title: "Randomized Algorithms('21)"
+        url: /courses/6170/21/
       - title: "Modern Complexity Theory('21)"
         url: /courses/6840/21/
       - title: "Computability and Complexity('20)"
