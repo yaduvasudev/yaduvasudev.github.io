@@ -15,4 +15,5 @@ The lecture videos and notes written during the lectures are available in the li
 
 ---
 Week 1, Jan 17-21
-: Outline of the course, logistics
+: Outline of the course; logistics; reservoir sampling; parameter estimation; basic probability and concentration bounds;
+- References: Probability and Computing - Mitzenmacher and Upfal (for brushing up basic discrete probability)
