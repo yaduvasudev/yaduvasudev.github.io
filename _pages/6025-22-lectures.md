@@ -9,11 +9,14 @@ title: CS6025 Sublinear Algorithms
 
 ## Jan-May 2022
 
+{::options parse_block_html="true" /}
+<div class="notice--info">
 The lecture videos and notes written during the lectures are available in the links below.
 - [Lectures](https://drive.google.com/drive/folders/1Ip-Ow2DhP5-cBkDiI44uJ_mwhnMZjyhN?usp=sharing)
 - [Scribbles](https://drive.google.com/drive/folders/1bpaONejdSOU0yu0blv9rYYdGxIw6OqFZ?usp=sharing)
+</div>
+{::options parse_block_html="false" /}
 
----
 Week 1, Jan 17-21
 : Outline of the course; logistics; reservoir sampling; parameter estimation; basic probability and concentration bounds; Probabilistic counting - Morris counter.
 - References:
@@ -22,8 +25,10 @@ Week 1, Jan 17-21
     - [Notes](https://drive.google.com/file/d/1DIy1HJbasqZ6vkkQNNToWniEeGQ36F_f/view?usp=sharing) from a previous offering of this course (incomplete and unedited)
 - Additional reading: [Optimal bounds for approximate counting](https://arxiv.org/pdf/2010.02116.pdf) - Nelson and Yu
 
+---
+
 Week 2, Jan 24-28
-: Frequency moments - counting distinct elements; Flajolet-Martin algorithm; BJKST's algorithm.
+: Frequency moments - counting distinct elements; Flajolet-Martin algorithm; BJKST's algorithm and analysis; Pairwise-independent hash families.
 - References:
     - Jelani Nelson's [notes](https://www.sketchingbigdata.org/fall20/lec/notes.pdf)
     - [Notes](https://drive.google.com/file/d/1DIy1HJbasqZ6vkkQNNToWniEeGQ36F_f/view?usp=sharing) from a previous offering of this course (incomplete and unedited)
