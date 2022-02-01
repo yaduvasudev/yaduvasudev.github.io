@@ -12,7 +12,7 @@ title: CS6025 Sublinear Algorithms
 {::options parse_block_html="true" /}
 <div class="notice--info">
 The lecture videos and notes written during the lectures are available in the links below.
-- [Lectures](https://drive.google.com/drive/folders/1Ip-Ow2DhP5-cBkDiI44uJ_mwhnMZjyhN?usp=sharing)
+- [Lectures](https://drive.google.com/drive/folders/1Ip-Ow2DhP5-cBkDiI44uJ_mwhnMZjyhN?usp=sharing) (till Jan 27)
 - [Scribbles](https://drive.google.com/drive/folders/1bpaONejdSOU0yu0blv9rYYdGxIw6OqFZ?usp=sharing)
 </div>
 {::options parse_block_html="false" /}
@@ -37,3 +37,12 @@ Week 2, Jan 24-28
 cardinality estimation algorithm](http://algo.inria.fr/flajolet/Publications/FlFuGaMe07.pdf) - Flajolet, Fusy, Gandouet, Meunier
     - [Wikipedia entry](https://en.wikipedia.org/wiki/HyperLogLog) for HyperLogLog
     - [Counting distinct elements in a data stream](http://cs.haifa.ac.il/~ilan/randomized_algorithms/bar-yosef_jayram.pdf) - Bar-Yossef, Jayram, Kumar, Sivakumar, Trevisan.
+
+---
+
+Week 3, Jan 31-Feb 4
+: Counting distinct elements in turstile streams; Linear sketching.
+- Videos: [Jan 31](https://iitmadras.webex.com/iitmadras/ldr.php?RCID=42e74864dbe623c846e861e45d910040)
+- References:
+    - Jelani Nelson's [notes](https://www.sketchingbigdata.org/fall20/lec/notes.pdf)
+    - [Notes](https://drive.google.com/file/d/1DIy1HJbasqZ6vkkQNNToWniEeGQ36F_f/view?usp=sharing) from a previous offering of this course (incomplete and unedited)
