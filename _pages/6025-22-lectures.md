@@ -41,8 +41,12 @@ cardinality estimation algorithm](http://algo.inria.fr/flajolet/Publications/FlF
 ---
 
 Week 3, Jan 31-Feb 4
-: Counting distinct elements in turstile streams; Linear sketching.
-- Videos: [Jan 31](https://iitmadras.webex.com/iitmadras/ldr.php?RCID=42e74864dbe623c846e861e45d910040)
+: Counting distinct elements in turstile streams; Linear sketching; Nisan's PRG; Frequency moments - AMS algorithm and sketch for $$F_2$$.
+- Videos: [Jan 31](https://iitmadras.webex.com/iitmadras/ldr.php?RCID=42e74864dbe623c846e861e45d910040), [Feb 2](https://iitmadras.webex.com/iitmadras/ldr.php?RCID=eb934d595ad3fef69250bd9d6ae9034c), [Feb 3](https://iitmadras.webex.com/iitmadras/ldr.php?RCID=1366544ba2063cab74ffddcf42f8f2b8)
 - References:
     - Jelani Nelson's [notes](https://www.sketchingbigdata.org/fall20/lec/notes.pdf)
     - [Notes](https://drive.google.com/file/d/1DIy1HJbasqZ6vkkQNNToWniEeGQ36F_f/view?usp=sharing) from a previous offering of this course (incomplete and unedited)
+- Additional reading:
+    - [The Space Complexity of Approximating the Frequency Moments](https://www.sciencedirect.com/science/article/pii/S0022000097915452) - Alon, Matias, Szegedy.
+    - [Stable Distributions, Pseudorandom Generators,
+Embeddings, and Data Stream Computation](https://dl.acm.org/doi/10.1145/1147954.1147955) - Indyk.
