@@ -50,3 +50,14 @@ Week 3, Jan 31-Feb 4
     - [The Space Complexity of Approximating the Frequency Moments](https://www.sciencedirect.com/science/article/pii/S0022000097915452) - Alon, Matias, Szegedy.
     - [Stable Distributions, Pseudorandom Generators,
 Embeddings, and Data Stream Computation](https://dl.acm.org/doi/10.1145/1147954.1147955) - Indyk.
+
+---
+
+Week 4, Feb 7-11
+: Heavy-hitters problem - CountMin sketch.
+- Videos: [Feb 7](https://iitmadras.webex.com/iitmadras/ldr.php?RCID=54451fc296a8f5b77beb3a51d4a36898)
+- References:
+    - Jelani Nelson's [notes](https://www.sketchingbigdata.org/fall20/lec/notes.pdf)
+    - [Notes](https://drive.google.com/file/d/1DIy1HJbasqZ6vkkQNNToWniEeGQ36F_f/view?usp=sharing) from a previous offering of this course (incomplete and unedited)
+- Additional reading:
+    - [An Improved Data Stream Summary: The Count-Min Sketch and its Applications](http://dimacs.rutgers.edu/~graham/pubs/papers/cm-full.pdf) - Cormode, Muthukrishnan.
