@@ -54,10 +54,11 @@ Embeddings, and Data Stream Computation](https://dl.acm.org/doi/10.1145/1147954.
 ---
 
 Week 4, Feb 7-11
-: Heavy-hitters problem - CountMin sketch.
-- Videos: [Feb 7](https://iitmadras.webex.com/iitmadras/ldr.php?RCID=54451fc296a8f5b77beb3a51d4a36898)
+: Heavy-hitters problem - CountMin sketch and Count sketch; $$\ell_0$$-sampling and sparse recovery.
+- Videos: [Feb 7](https://iitmadras.webex.com/iitmadras/ldr.php?RCID=54451fc296a8f5b77beb3a51d4a36898), [Feb 9](https://iitmadras.webex.com/iitmadras/ldr.php?RCID=20e707c952c4a84a7ed0cb094c1a5e75), [Feb 10](https://iitmadras.webex.com/iitmadras/ldr.php?RCID=f9c84ea6f2739c71d3918393d65ff073)
 - References:
     - Jelani Nelson's [notes](https://www.sketchingbigdata.org/fall20/lec/notes.pdf)
     - [Notes](https://drive.google.com/file/d/1DIy1HJbasqZ6vkkQNNToWniEeGQ36F_f/view?usp=sharing) from a previous offering of this course (incomplete and unedited)
 - Additional reading:
     - [An Improved Data Stream Summary: The Count-Min Sketch and its Applications](http://dimacs.rutgers.edu/~graham/pubs/papers/cm-full.pdf) - Cormode, Muthukrishnan.
+    - [Finding Frequent Items in Data Streams](https://people.cs.rutgers.edu/~farach/pubs/FrequentStream.pdf) - Charikar, Chen, Farch-Colton.
