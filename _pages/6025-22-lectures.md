@@ -62,3 +62,12 @@ Week 4, Feb 7-11
 - Additional reading:
     - [An Improved Data Stream Summary: The Count-Min Sketch and its Applications](http://dimacs.rutgers.edu/~graham/pubs/papers/cm-full.pdf) - Cormode, Muthukrishnan.
     - [Finding Frequent Items in Data Streams](https://people.cs.rutgers.edu/~farach/pubs/FrequentStream.pdf) - Charikar, Chen, Farch-Colton.
+
+---
+
+Week 5, Feb 14-18
+: $$\ell_0$$-sampling and sparse recovery (contd.)
+- Videos: [Feb 14](https://iitmadras.webex.com/iitmadras/ldr.php?RCID=8d17a8b838d8baa21dc0ec3b40eb2df2)
+- References:
+    - Jelani Nelson's [notes](https://www.sketchingbigdata.org/fall20/lec/notes.pdf)
+    - [Notes](https://drive.google.com/file/d/1DIy1HJbasqZ6vkkQNNToWniEeGQ36F_f/view?usp=sharing) from a previous offering of this course (incomplete and unedited)
