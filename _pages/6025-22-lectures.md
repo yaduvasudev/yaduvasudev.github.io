@@ -66,8 +66,9 @@ Week 4, Feb 7-11
 ---
 
 Week 5, Feb 14-18
-: $$\ell_0$$-sampling and sparse recovery (contd.)
-- Videos: [Feb 14](https://iitmadras.webex.com/iitmadras/ldr.php?RCID=8d17a8b838d8baa21dc0ec3b40eb2df2)
+: $$\ell_0$$-sampling and sparse recovery (contd.), Graph streams - connectivity, spanners, sparsifiers, triangle counting.
+- Videos: [Feb 14](https://iitmadras.webex.com/iitmadras/ldr.php?RCID=8d17a8b838d8baa21dc0ec3b40eb2df2), [Feb 16](https://iitmadras.webex.com/iitmadras/ldr.php?RCID=38bed31dc1a2157766879db2e8611dbe), [Feb 17](https://iitmadras.webex.com/iitmadras/ldr.php?RCID=a2e11c1002dcd4c5f6b6755e283aca82)
 - References:
     - Jelani Nelson's [notes](https://www.sketchingbigdata.org/fall20/lec/notes.pdf)
     - [Notes](https://drive.google.com/file/d/1DIy1HJbasqZ6vkkQNNToWniEeGQ36F_f/view?usp=sharing) from a previous offering of this course (incomplete and unedited)
+    - [Graph Stream Algorithms: A Survey](https://people.cs.umass.edu/~mcgregor/papers/13-graphsurvey.pdf) - McGregor
