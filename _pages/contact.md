@@ -5,7 +5,7 @@ author_profile: true
 ---
 
 Office
-: BSB 351
+: SSB 207
 : Dept of Computer Science and Engineering
 : IIT Madras, Chennai - 600036
 

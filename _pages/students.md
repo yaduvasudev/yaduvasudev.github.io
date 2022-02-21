@@ -5,6 +5,10 @@ permalink: students/
 
 #### Current students
 
+##### Dual Degree
+- Prashanth T (2021-22)
+- B Abhijit (2022-23)
+
 ##### MS
 - Keshav Tiwari (Aug 2021 - )
 
