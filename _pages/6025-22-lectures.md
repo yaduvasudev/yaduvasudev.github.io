@@ -72,3 +72,14 @@ Week 5, Feb 14-18
     - Jelani Nelson's [notes](https://www.sketchingbigdata.org/fall20/lec/notes.pdf)
     - [Notes](https://drive.google.com/file/d/1DIy1HJbasqZ6vkkQNNToWniEeGQ36F_f/view?usp=sharing) from a previous offering of this course (incomplete and unedited)
     - [Graph Stream Algorithms: A Survey](https://people.cs.umass.edu/~mcgregor/papers/13-graphsurvey.pdf) - McGregor
+
+---
+
+Week 6, Feb 21-25
+: Graph streams - random walks; Graph sketches - connectivity in fully dynamic streams.
+- Videos: [Feb 21](https://iitmadras.webex.com/iitmadras/ldr.php?RCID=aefeeeb2de301c298ad56963b61bf5b0)
+- References:
+    - [Notes](https://drive.google.com/file/d/1DIy1HJbasqZ6vkkQNNToWniEeGQ36F_f/view?usp=sharing) from a previous offering of this course (incomplete and unedited)
+    - [Graph Stream Algorithms: A Survey](https://people.cs.umass.edu/~mcgregor/papers/13-graphsurvey.pdf) - McGregor
+- Additional reading:
+    - [Estimating PageRank on Graph Streams](https://www.cs.dartmouth.edu/~ac/Teach/CS49-Fall11/Papers/dassarma-pagerank.pdf) - Das Sarma, Gollapudi, Panigrahy.
