@@ -76,10 +76,11 @@ Week 5, Feb 14-18
 ---
 
 Week 6, Feb 21-25
-: Graph streams - random walks; Graph sketches - connectivity in fully dynamic streams.
-- Videos: [Feb 21](https://iitmadras.webex.com/iitmadras/ldr.php?RCID=aefeeeb2de301c298ad56963b61bf5b0)
+: Graph streams - random walks; Graph sketches - connectivity in fully dynamic streams; Lower bounds for streaming algorithms - intro to communication complexity.
+- Videos: [Feb 21](https://iitmadras.webex.com/iitmadras/ldr.php?RCID=aefeeeb2de301c298ad56963b61bf5b0), [Feb 23](https://iitmadras.webex.com/iitmadras/ldr.php?RCID=ca8288e765ff71a09fb6e8c5c3930dcb), [Feb 24](https://iitmadras.webex.com/iitmadras/ldr.php?RCID=67088186eb70992b4321a897e95d3040)
 - References:
     - [Notes](https://drive.google.com/file/d/1DIy1HJbasqZ6vkkQNNToWniEeGQ36F_f/view?usp=sharing) from a previous offering of this course (incomplete and unedited)
     - [Graph Stream Algorithms: A Survey](https://people.cs.umass.edu/~mcgregor/papers/13-graphsurvey.pdf) - McGregor
+    - **[RY]**
 - Additional reading:
     - [Estimating PageRank on Graph Streams](https://www.cs.dartmouth.edu/~ac/Teach/CS49-Fall11/Papers/dassarma-pagerank.pdf) - Das Sarma, Gollapudi, Panigrahy.
