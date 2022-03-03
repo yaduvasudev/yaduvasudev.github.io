@@ -84,3 +84,12 @@ Week 6, Feb 21-25
     - **[RY]**
 - Additional reading:
     - [Estimating PageRank on Graph Streams](https://www.cs.dartmouth.edu/~ac/Teach/CS49-Fall11/Papers/dassarma-pagerank.pdf) - Das Sarma, Gollapudi, Panigrahy.
+
+---
+
+Week 7, Feb 28-Mar 4
+: Lower bounds for streaming algorithms using communication complexity.
+- Videos: [Feb 28](https://iitmadras.webex.com/iitmadras/ldr.php?RCID=7bb4806f9ea8da95ac6a3730cdf3605f), [Mar 2](https://iitmadras.webex.com/iitmadras/ldr.php?RCID=b54bf1f8631965859b691b93b2a19fab), [Mar 3](https://iitmadras.webex.com/iitmadras/ldr.php?RCID=475e1c361c22f6f5308e7044d2c41f58)
+- References:
+    - [Notes](https://drive.google.com/file/d/1DIy1HJbasqZ6vkkQNNToWniEeGQ36F_f/view?usp=sharing) from a previous offering of this course (incomplete and unedited)
+    - **[RY]**
