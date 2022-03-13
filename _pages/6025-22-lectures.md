@@ -93,3 +93,11 @@ Week 7, Feb 28-Mar 4
 - References:
     - [Notes](https://drive.google.com/file/d/1DIy1HJbasqZ6vkkQNNToWniEeGQ36F_f/view?usp=sharing) from a previous offering of this course (incomplete and unedited)
     - **[RY]**
+
+---
+
+Week 8, Mar 7-11
+: Introduction to property testing; Testing linearity - the BLR test; Fourier analysis of Boolean functions.
+- Videos: [Mar 7](https://iitmadras.webex.com/iitmadras/ldr.php?RCID=127b8359dda7331d11e1a31c2f2efb2a), [Mar 9](https://iitmadras.webex.com/iitmadras/ldr.php?RCID=5147e543a3ebe24cc7944f0f358a9b00)
+- References:
+    - Chapter 1 - [Analysis of Boolean Functions](https://arxiv.org/pdf/2105.10386.pdf) by O'Donnell
