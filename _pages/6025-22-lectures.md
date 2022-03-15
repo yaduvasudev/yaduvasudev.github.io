@@ -101,3 +101,10 @@ Week 8, Mar 7-11
 - Videos: [Mar 7](https://iitmadras.webex.com/iitmadras/ldr.php?RCID=127b8359dda7331d11e1a31c2f2efb2a), [Mar 9](https://iitmadras.webex.com/iitmadras/ldr.php?RCID=5147e543a3ebe24cc7944f0f358a9b00)
 - References:
     - Chapter 1 - [Analysis of Boolean Functions](https://arxiv.org/pdf/2105.10386.pdf) by O'Donnell
+
+---
+
+Week 9, Mar 14-18 
+: PAC learning and Fourier concentration - decision trees.
+- References:
+  - Chapter 3 - [Analysis of Boolean Functions](https://arxiv.org/pdf/2105.10386.pdf) by O'Donnell
