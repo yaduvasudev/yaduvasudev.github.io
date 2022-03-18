@@ -104,7 +104,7 @@ Week 8, Mar 7-11
 
 ---
 
-Week 9, Mar 14-18 
-: PAC learning and Fourier concentration - decision trees.
+Week 9, Mar 14-18
+: PAC learning and Fourier concentration - decision trees; Dictatorship testing.
 - References:
-  - Chapter 3 - [Analysis of Boolean Functions](https://arxiv.org/pdf/2105.10386.pdf) by O'Donnell
+  - Chapters 2, 3, 7 - [Analysis of Boolean Functions](https://arxiv.org/pdf/2105.10386.pdf) by O'Donnell
