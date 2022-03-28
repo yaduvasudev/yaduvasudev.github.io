@@ -107,4 +107,12 @@ Week 8, Mar 7-11
 Week 9, Mar 14-18
 : PAC learning and Fourier concentration - decision trees; Dictatorship testing.
 - References:
-  - Chapters 2, 3, 7 - [Analysis of Boolean Functions](https://arxiv.org/pdf/2105.10386.pdf) by O'Donnell
+    - Chapters 2, 3, 7 - [Analysis of Boolean Functions](https://arxiv.org/pdf/2105.10386.pdf) by O'Donnell
+
+---
+
+Week 10, Mar 21-25
+: Testing monotonicity of Boolean functions; Lower bounds for monotonicity testing; Graph property testing in the dense model - biclique and bipartiteness.
+- References:
+    - Servedio's [lecture notes](http://www.cs.columbia.edu/~rocco/Teaching/S14/Scribe/lecture8.pdf)
+    - Chapter 8 - [Introduction to Property Testing](https://www.wisdom.weizmann.ac.il/~oded/PDF/pt-v3.pdf) by Goldreich
