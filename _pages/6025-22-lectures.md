@@ -116,3 +116,10 @@ Week 10, Mar 21-25
 - References:
     - Servedio's [lecture notes](http://www.cs.columbia.edu/~rocco/Teaching/S14/Scribe/lecture8.pdf)
     - Chapter 8 - [Introduction to Property Testing](https://www.wisdom.weizmann.ac.il/~oded/PDF/pt-v3.pdf) by Goldreich
+
+---
+
+Week 11, Mar 28-Apr 1
+: Canonical testers for graph properties.
+- References
+    - [Three Theorems Regarding Testing Graph Properties](http://theory.stanford.edu/~trevisan/pubs/gt03.pdf) by Goldreich, Trevisan
