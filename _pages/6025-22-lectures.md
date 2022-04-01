@@ -120,6 +120,9 @@ Week 10, Mar 21-25
 ---
 
 Week 11, Mar 28-Apr 1
-: Canonical testers for graph properties.
+: Canonical testers for graph properties; Triangle-freeness testing; Szemeredi regularity lemma and characterization of constant-query testable properties; Testing properties of sparse graphs
 - References
+    - Chapter 8,9 - [Introduction to Property Testing](https://www.wisdom.weizmann.ac.il/~oded/PDF/pt-v3.pdf) by Goldreich
+    - Chapter 17 - The Probabilistic Method by Alon, Spencer
+    - [Lecture notes](https://ocw.mit.edu/courses/18-217-graph-theory-and-additive-combinatorics-fall-2019/a5281a219e31cddd10e5fe74434087a9_MIT18_217F19_ch3.pdf) on Regularity lemma and graph removal lemmas by Zhao
     - [Three Theorems Regarding Testing Graph Properties](http://theory.stanford.edu/~trevisan/pubs/gt03.pdf) by Goldreich, Trevisan
