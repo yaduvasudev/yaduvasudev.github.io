@@ -126,3 +126,12 @@ Week 11, Mar 28-Apr 1
     - Chapter 17 - The Probabilistic Method by Alon, Spencer
     - [Lecture notes](https://ocw.mit.edu/courses/18-217-graph-theory-and-additive-combinatorics-fall-2019/a5281a219e31cddd10e5fe74434087a9_MIT18_217F19_ch3.pdf) on Regularity lemma and graph removal lemmas by Zhao
     - [Three Theorems Regarding Testing Graph Properties](http://theory.stanford.edu/~trevisan/pubs/gt03.pdf) by Goldreich, Trevisan
+
+---
+
+Week 12, Apr 4-8
+: Connectivity testing; estimating the number of connected components; Cycle-freeness; Lower bound for bipartiteness Testing
+- References
+    - Chapter 9 - [Introduction to Property Testing](https://www.wisdom.weizmann.ac.il/~oded/PDF/pt-v3.pdf) by Goldreich
+    - [Property Testing in Bounded Degree Graphs](https://www.cs.princeton.edu/courses/archive/spr04/cos598B/bib/GoldreichR-boundedG.pdf) - Goldreich and Ron
+    - Assadi's [lecture notes](https://people.cs.rutgers.edu/~sa1497/courses/cs514-s20/lec2.pdf)
