@@ -130,8 +130,10 @@ Week 11, Mar 28-Apr 1
 ---
 
 Week 12, Apr 4-8
-: Connectivity testing; estimating the number of connected components; Cycle-freeness; Lower bound for bipartiteness Testing
+: Connectivity testing; estimating the number of connected components; Cycle-freeness - one-sided and two-sided testers; One-sided tester for bipartiteness; Lower bound for bipartiteness testing
 - References
     - Chapter 9 - [Introduction to Property Testing](https://www.wisdom.weizmann.ac.il/~oded/PDF/pt-v3.pdf) by Goldreich
     - [Property Testing in Bounded Degree Graphs](https://www.cs.princeton.edu/courses/archive/spr04/cos598B/bib/GoldreichR-boundedG.pdf) - Goldreich and Ron
     - Assadi's [lecture notes](https://people.cs.rutgers.edu/~sa1497/courses/cs514-s20/lec2.pdf)
+- Additional reading:
+    - [A Sublinear Bipartiteness Tester for Bounded Degree Graphs](https://www.cs.princeton.edu/courses/archive/spr04/cos598B/bib/GoldreichR-bipartTest.pdf) - Goldreich and Ron
