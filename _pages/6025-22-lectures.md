@@ -137,3 +137,11 @@ Week 12, Apr 4-8
     - Assadi's [lecture notes](https://people.cs.rutgers.edu/~sa1497/courses/cs514-s20/lec2.pdf)
 - Additional reading:
     - [A Sublinear Bipartiteness Tester for Bounded Degree Graphs](https://www.cs.princeton.edu/courses/archive/spr04/cos598B/bib/GoldreichR-bipartTest.pdf) - Goldreich and Ron
+
+---
+
+Week 13, Apr 11-15
+: Partition oracles and applications - testing minor-closed properties
+- References
+    - Chapter 9 - [Introduction to Property Testing](https://www.wisdom.weizmann.ac.il/~oded/PDF/pt-v3.pdf) by Goldreich
+    - [Local Graph Partitions for Approximation and Testing](https://math.mit.edu/~kelner/publications/localPartitioningConference.pdf) - Hassidim, Kelner, Nguyen and Onak
