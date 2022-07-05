@@ -7,7 +7,7 @@ title: Courses
 
 #### Current/Upcoming Courses <i class="fas fa-certificate" style="color:red"></i>
 - CS6150 Advanced Programming - July-Nov 22
-- CS6170 Randomized Algorithms  - July-Nov 22
+- CS6170 Randomized Algorithms  - [July-Nov 22](6170/22/)
 
 | All courses | |
 |:-------|:---|
