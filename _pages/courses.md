@@ -6,8 +6,8 @@ title: Courses
 ---
 
 #### Current/Upcoming Courses <i class="fas fa-certificate" style="color:red"></i>
-- CS1100 Introduction to Programming - May-July 22
-- CS6025 Sublinear Algorithms  - [Jan-May 22](6025/22/)
+- CS6150 Advanced Programming - July-Nov 22
+- CS6170 Randomized Algorithms  - July-Nov 22
 
 | All courses | |
 |:-------|:---|
@@ -17,7 +17,8 @@ title: Courses
 | CS6014 Computability and Complexity | [Sep-Dec 20](6014/20/) |
 | CS6025 Sublinear Algorithms | [Jan-May 19](6025/19/), [Jan-May 22](6025/22) |
 | CS6030 Logic and Combinatorics for Computer Science | [Jul-Nov 18](6030/18/) |
-| CS6170 Randomized Algorithms | [Jul-Nov 21](6170/21/)
+| CS6150 Advanced Programming | Jul-Nov 22 |
+| CS6170 Randomized Algorithms | [Jul-Nov 21](6170/21/), [Jul-Nov 22](6170/22/)|
 | CS6840 Modern Complexity Theory | [Feb-May 21](6840/21/) |
 | CS6845 Pseudorandomness | [Jan-May 18](6845/18/) |
 {: style="font-size:1em; width:100%"}
