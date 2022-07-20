@@ -17,10 +17,10 @@ main:
 courses:
   - title: "Current/Upcoming"
     children:
-      - title: "Intro to Programming('22)"
+      - title: "Advanced Programming('22)"
         url: ""
-      - title: "Sublinear Algorithms('22)"
-        url: /courses/6025/22/
+      - title: "Randomized Algorithms('22)"
+        url: /courses/6170/22/
   - title: "Past"
     children:
       - title: "Randomized Algorithms('21)"
