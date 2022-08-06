@@ -12,3 +12,9 @@ title: CS6170 Randomized Algorithms
 Week 1
 : Introduction, motivation and outline of the course; Simple examples of randomized algorithms and revision of basics of discrete probability; Verifying polynomial identities, PIT and connection to the perfect matching problem; Verifying matrix multiplication - Freivald's algorithm; Randomized Min-Cut - Karger's algorithm.
 - References: Chapter 1 - **[MU]**
+
+---
+
+Week 2
+: Analysis of Karger's algorithm; Randomized max-cut - random variables, expectation; Deterministic max-cut using pairwise independence; Bernoulli, binomial and geometric random variables and their properties - branching processes.
+- References: Chapter 1, 2 - **[MU]**
