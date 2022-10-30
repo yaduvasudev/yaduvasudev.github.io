@@ -1,0 +1,33 @@
+---
+layout: single
+---
+<div class="post">
+
+  <header class="post-header">
+    <!--<h1 class="post-title">{{ page.title }}</h1>-->
+    <h2 class="post-description">{{ page.description }}</h2>
+  </header>
+
+  <article class="post-content {{page.title}} clearfix">
+    <table class="table table-hover", style="font-size:1em">
+      <colgroup>
+        <col style="width:15%">
+        <col style="width:40%">
+        <col style="width:30%">
+        <col style="width:15%">
+      </colgroup>
+      <thead class="thead-light">
+        <tr>
+          <th scope="col">Date</th>
+          <th scope="col">Lecture</th>
+          <th scope="col">References</th>
+          <th scope="col">Misc</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{ content }}
+      </tbody>
+    </table>
+  </article>
+
+</div>

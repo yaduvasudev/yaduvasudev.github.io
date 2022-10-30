@@ -23,6 +23,10 @@ courses:
         url: /courses/6170/22/
   - title: "Past"
     children:
+      - title: "Introduction to Programming ('22)"
+        url: 
+      - title: "Sublinear Algorithms('22)"
+        url: /courses/6025/22/
       - title: "Randomized Algorithms('21)"
         url: /courses/6170/21/
       - title: "Modern Complexity Theory('21)"
