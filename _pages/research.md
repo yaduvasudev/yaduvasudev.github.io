@@ -7,6 +7,9 @@ title: Publications
 
 (*Pre-prints are available from my [DBLP page](https://dblp.org/pid/23/10305.html). If you can't find a copy, feel free to email me*.)
 
+- **Byzantine Connectivity Testing in the Congested Clique**\\
+	(with John Augusting, Anisur Rahaman Molla, and Gopal Pandurangan)\\
+	*DISC 2022*
 - **Dynamic Complexity of Expansion**\\
 	(with Samir Datta and Anuj Tawari)\\
 	*CSR 2021*
