@@ -5,6 +5,10 @@ permalink: students/
 
 #### Current students
 
+#### BTech
+- D Hakesh (2022-23)
+- Vineet KD (2022-23)
+
 ##### Dual Degree
 - Prashanth T (2021-22)
 - B Abhijit (2022-23)

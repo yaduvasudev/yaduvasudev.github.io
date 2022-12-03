@@ -17,12 +17,14 @@ main:
 courses:
   - title: "Current/Upcoming"
     children:
+      - title: "Design and Analysis of Algorithms('23)"
+      - url: ""
+  - title: "Past"
+    children:
       - title: "Advanced Programming('22)"
         url: ""
       - title: "Randomized Algorithms('22)"
         url: /courses/6170/22/
-  - title: "Past"
-    children:
       - title: "Introduction to Programming ('22)"
         url: 
       - title: "Sublinear Algorithms('22)"
