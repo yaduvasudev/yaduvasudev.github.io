@@ -6,7 +6,7 @@ title: Courses
 ---
 
 #### Current/Upcoming Courses <i class="fas fa-certificate" style="color:red"></i>
-- CS2800 Design and Analysis of Algorithms  - [Jan-May 23]()
+- CS2800 Design and Analysis of Algorithms  - [Jan-May 23](https://yaduvasudev.github.io/2800-23/)
 
 | All courses | |
 |:-------|:---|
