@@ -17,16 +17,18 @@ main:
 courses:
   - title: "Current/Upcoming"
     children:
-      - title: "Design and Analysis of Algorithms('23)"
-      - url: ""
+      - title: "Randomized Algorithms ('23)"
+        url:
   - title: "Past"
     children:
+      - title: "Design and Analysis of Algorithms ('23)"
+        url: "https://yaduvasudev.github.io/2800-23"
       - title: "Advanced Programming('22)"
         url: ""
       - title: "Randomized Algorithms('22)"
         url: /courses/6170/22/
       - title: "Introduction to Programming ('22)"
-        url: 
+        url: "" 
       - title: "Sublinear Algorithms('22)"
         url: /courses/6025/22/
       - title: "Randomized Algorithms('21)"
