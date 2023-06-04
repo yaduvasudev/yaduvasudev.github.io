@@ -7,11 +7,12 @@ title: Courses
 
 #### Current/Upcoming Courses <i class="fas fa-certificate" style="color:red"></i>
 - CS6170 Randomized Algorithms - [Jul-Nov 23]()
+- CS2200 Languages, Machines, and Computation - [Jan-May 24]()
 
 | All courses | |
 |:-------|:---|
 | CS1100 Introduction to Programming | May-July 22 |
-| CS2200 Languages, Machines and Computation | [Jan-May 20](2200/20/) |
+| CS2200 Languages, Machines and Computation | [Jan-May 20](2200/20/), [Jan-May 24]() |
 | CS2800 Design and Analysis of Algorithms  | [Jan-May 23](https://yaduvasudev.github.io/2800-23/)
 | CS5800 Advanced Data Structures and Algorithms | [Jul-Nov 19](5800/19/) |
 | CS6014 Computability and Complexity | [Sep-Dec 20](6014/20/) |

@@ -19,6 +19,8 @@ courses:
     children:
       - title: "Randomized Algorithms ('23)"
         url:
+      - title: "Languages, Machines, and Computation ('24)"
+        url: 
   - title: "Past"
     children:
       - title: "Design and Analysis of Algorithms ('23)"
