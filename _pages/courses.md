@@ -6,7 +6,7 @@ title: Courses
 ---
 
 #### Current/Upcoming Courses <i class="fas fa-certificate" style="color:red"></i>
-- CS6170 Randomized Algorithms - [Jul-Nov 23]()
+- CS6170 Randomized Algorithms - [Jul-Nov 23](https://yaduvasudev.github.io/6170-23/)
 - CS2200 Languages, Machines, and Computation - [Jan-May 24]()
 
 | All courses | |
