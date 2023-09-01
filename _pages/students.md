@@ -4,7 +4,6 @@ permalink: students/
 ---
 
 ### Current students
----
 
 #### BTech
 - K Dhanush (2023-24)
@@ -15,8 +14,9 @@ permalink: students/
 #### PhD
 - Sampriti Roy (July 2018 - )
 
-### Former Students
 ---
+
+### Former Students
 
 #### BTech
 - D Hakesh (2022-23)
