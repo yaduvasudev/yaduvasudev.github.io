@@ -1,0 +1,57 @@
+/* css styles */
+
+.rounded-corners {
+  border: 2px solid steelblue;
+  border-radius: 10px;
+}
+
+ul.tight {
+  margin: 0ex 0ex;
+  padding-left: 1em;
+}
+
+.callout.callout-style-default .callout-body {
+  font-size: var(--bs-body-font-size);
+}
+
+.callout.callout-style-default>div.callout-header {
+  font-size: var(--bs-body-font-size);
+  font-weight: 400;
+}
+
+body {
+  font-weight: 400;
+}
+
+.navbar-title {
+  color: brown;
+  font-family: 'Ubuntu';
+  font-weight: 400;
+  font-size: 1.1em;
+  background-color: transparent;
+}
+
+h1,
+.h1,
+h2,
+.h2 {
+  opacity: 0.8;
+  font-weight: 500;
+}
+
+b {
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+span.important {
+  color: #800;
+  background-color: #ffb;
+}
+
+.navbar-nav .dropdown-menu {
+  font-size: var(--bs-body-font-size);
+}
