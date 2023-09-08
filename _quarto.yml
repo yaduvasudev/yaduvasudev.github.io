@@ -4,6 +4,7 @@ project:
 website:
   title: "Yadu Vasudev"
   search: false
+  google-analytics: G-MN1T4J4SRB
   navbar: 
     left:
       - text: Research
