@@ -25,6 +25,42 @@
       </td>
     </tr>
     <% } %>
+    <% if (item.miniquiz) { %>
+    <tr bgcolor="#FACABC">
+      <% mq_num++ %>
+      <td>
+        <b>Mini quiz</b> #<%= mq_num %><br />
+        <%= item.day %>
+      </td>
+      <td>
+        <%= item.miniquiz %>
+      </td>
+    </tr>
+    <% } %>
+    <% if (item.quiz) { %>
+    <tr bgcolor="#FACABC">
+      <% q_num++ %>
+      <td>
+        <b>Quiz</b> #<%= q_num %><br />
+        <%= item.day %>
+      </td>
+      <td>
+        <%= item.quiz %>
+      </td>
+    </tr>
+    <% } %>
+    <% if (item.endsem) { %>
+    <tr bgcolor="#FACABC">
+      <% e_sem++ %>
+      <td>
+        <b>End-sem</b><br />
+        <%= item.day %>
+      </td>
+      <td>
+        <%= item.endsem %>
+      </td>
+    </tr>
+    <% } %>
     <% if (item.contents) { %>
     <tr>
       <% lec_num++ %>
