@@ -1,0 +1,157 @@
+---
+title: "CS2800 Design and Analysis of Algorithms"
+subtitle: Jan - May 2023
+page-layout: article
+listing:
+  - id: lectures
+    type: table
+    contents: lectures.yml
+    template: ../../lectures.ejs
+    page-size: 100
+---
+
+::: panel-tabset
+
+## about
+
+#### **Coordinates**
+
+- Where: CS15
+- When: B slot - Mon (9 am), Tue (8 am), Wed (1 pm), Fri (11 am)
+
+
+#### **Instructor**
+- [Yadu Vasudev](https://yaduvasudev.github.io/)
+- SSB 207
+- yadu@cse.iitm.ac.in
+
+#### **TAs**
+Abhijit, Ankit, Anmol, Barenya, Bibhuti, Keshav, Ravi, Sampriti, Souradipta, Susmit
+
+## contents
+
+##### **About this course**
+
+This course is an introductory course on the design and analysis of algorithms. It serves as a recommended, and sometimes necessary, prerequisite for almost all courses in the area of theoretical computer science offered in the CSE department. The emphasis is on understanding some basic design principles that can be applied in a variety of algorithmic questions. That said, these principles are neither exhaustive nor applicable in all situations. The hope is that the student gets sufficient background to think in a principled manner when confronted with a new computational question.
+
+**Prerequisites**: The course on programming and data structures (CS2700/CS2705) is a necessary prerequisite for the course. In particular, I will assume that you know the following (which are typically covered in CS2700/CS2705):
+- The concept of an abstract data type and the difference between ADTs and data structures.
+- Basic ADTs like stacks, queues, priority queues. Basic data structures like arrays, linked lists, heaps, simple BSTs and operations on them.
+- The concept of pseudocode, and the difference between pseudocode and a computer program.
+- Algorithms for sorting, searching, and basic algorithms on graphs.
+- The concept of asymptotic analysis, and the definitions of $O(\cdot), \Omega(\cdot)$, and $\Theta(\cdot)$ as well as $o(\cdot)$ and $\omega(\cdot)$.
+
+The course will require you to design algorithms, and then mathematically prove their correctness. There **will not be any programming component** for this course, though you may be required to implement a few of the algorithms if you take the lab course Object-Oriented Analysis, Implementation and Algorithms (OOAIA, CS2810).
+
+---
+
+##### **Course contents**
+
+The course will look at some basic  algorithm design techniques using examples. The contents of the course include the following topics:
+
+- Recursion and divide-and-conquer algorithms
+- Dynamic programming
+- Greedy algorithms
+- Graph algorithms like shortest path, minimum spanning trees
+- Brief introduction to intractability
+- Advanced topics (based on time): Randomization in algorithms, network flows, linear programming
+
+The topics included above will be covered at different depths, and the order in which they are covered will also vary.
+
+---
+
+##### **Course resources**
+
+There are many textbooks and resources (both offline and online) that cover most of the material presented in the list above. We will not be following one textbook. Our main sources of reference will be the following textbooks.
+
+1. **Algorithms** by *Jeff Erickson* - This book is freely available [online](http://jeffe.cs.illinois.edu/teaching/algorithms/) and contains a large number of exercises with varying degrees of difficulty. This is a fairly recent book.
+2. **Algorithm Design** by *Jon Klienberg and Eva Tardos* - A slightly older textbook than the one by Erickson, this contains most of the material given in the course contents. It also contains chapters on topics that one might see in a slightly more advanced course. Copies are available in the library and the Indian edition is not too pricey (in case you are planning to buy).
+3. **Introduction to Algorithms** by *Cormen ,Leiserson, Rivest and Stein* (referred to as CLRS) - An old textbook, currently in its 4th edition. Copies are available in the library, and Indian editions (for the 2nd and 3rd editions) are not pricey.
+4. **Algorithms** by *Dasgupta, Papadimitriou and Vazirani* - Another nice book on algorithm design. Contains some topics that are not dealt properly in the three earlier books. Copies of the book are available in the library, but I am unable to find a cheap Indian edition of this book.
+
+Apart from this, there are a lot of resources available online. We may refer to them occasionally. All these books contain a number of exercise problems for practice.
+
+
+## administrivia
+
+##### **Weekly schedule**
+
+- Lectures: Mon (9 am), Tue (8 am), Wed (1 pm)
+- Tutorials: Fri (11 am)
+
+The Friday slot will be used for tutorials. This includes both ungraded practice tutorials, as well as mini-quizzes. Please see the details below to know the dates for the mini-quizzes and ungraded tutorials. We will stick to this schedule unless there is some unforeseen change in the academic calendar.
+
+---
+
+##### **Grading policy** (tentative)
+
+The course will be evaluated through a series of quizzes and finally the end-sem. I will be releasing problem sets on a weekly basis, and we will have tutorial sessions to discuss the these problems and possible approaches to solving them. The tentative grading scheme is as follows.
+
+
+::: {.grid}
+
+::: {.g-col-6}
+
+::: {.callout-note icon=false}
+
+##### Grading pattern
+
+- Mini-quizzes: **20%** (best 2/4)
+- Quiz 1 & 2: 2 * 20 = **40%**
+- End-sem: **40%**
+
+:::
+
+:::
+
+:::
+
+
+---
+
+##### **Important dates** (tentative)
+
+Please note the following dates for the ungraded tutorials and mini-quizzes. The dates for Quiz 1,2 and end-semester examination will be as per the institute calendar.
+
+::: {.grid}
+
+::: {.g-col-10}
+
+::: {.callout-important icon="false" title="Dates"}
+
+|      |     |
+|------|-----|
+| Practice tutorials | Jan 20, Jan 27, Feb 10, Feb 17, Feb 24, Mar 3, Mar 17, Mar 24, Mar 31|
+| Mini quizzes | Feb 3, Mar 10, Apr 21, Apr 26 |
+| Quiz 1 | Feb 21 |
+| Quiz 2 | Mar 21 |
+| End-sem | May 3 |
+
+: {tbl-colwidths="[25,75]"}
+
+:::
+
+:::
+
+::: 
+
+##### **Contact**
+
+Please sign up on the course discussion forum [here](https://cs2800-23.zulipchat.com/join/uvymrsnqzxkomvzj4yocflc5/). This will be the first point of contact for any issues related to the course. Please do not email me or the TAs unless the issue is specific to you (like missing lectures, correction in grading). Even for such issues, we highly recommend you to message privately using the discussion forum.
+
+For general questions related to the course (any comments/doubts), please create a topic in the correct stream and add you question/comment there. You are also welcome to reply and clear the doubts of your friends.
+
+## lectures
+
+::: {.grid}
+
+::: {.g-col-11}
+
+::: {#lectures}
+:::
+
+:::
+
+:::
+
+:::

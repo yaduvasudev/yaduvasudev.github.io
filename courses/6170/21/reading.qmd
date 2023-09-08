@@ -1,0 +1,52 @@
+---
+title: "CS6170 Randomized Algorithms"
+subtitle: July - Nov 2021
+page-layout: full
+---
+
+### Topics/References for course reading
+
+Below are a list of topics and related references. You can form groups of size at most 3 to read the material, and give a lecture in class during the normal lecture slot. We will schedule these towards the end of the semester. If you want to read some other topic of your choice, please talk to me about it.
+
+#### Randomized rounding
+1. [Randomized Rounding: A Technique for Provably Good Algorithms and Algorithmic Proofs](https://www.cs.auckland.ac.nz/~cthombor/Pubs/RandomRounding/RandomRounding1987.pdf) - Raghavan and Thompson.
+2. [Approximation Algorithms via Randomized Rounding:  A Survey](http://homepage.cs.uiowa.edu/~sriram/196/fall08/rr-final.pdf) - Srinivasan.
+
+#### Pessimistic estimators and derandomization
+1. [Probabilistic Construction of Deterministic Algorithms - Approximating Packing Integer Programs](http://www.cs.cmu.edu/afs/cs/academic/class/15854-f05/www/handouts/raghavan-pessimistic.pdf) - Raghavan.
+2. [Derandomizing the Ahlswede-Winter Matrix-valued Chernoff bound using pessimistic estimators, and applications](https://theoryofcomputing.org/articles/v004a003/v004a003.pdf) - Wigderson and Xiao.
+
+#### Hashing
+1. [The Power of Simple Tabulation Hashing](https://arxiv.org/pdf/1011.5200.pdf) - Patrascu and Thorup.
+2. [Why Simple Hash Functions Work: Exploiting the Entropy in a Data Stream](https://www.eecs.harvard.edu/~michaelm/postscripts/soda2008b.pdf) - Mitzenmacher and Vadhan.
+
+#### Random walks and clustering
+1. [A Local Clustering Algorithm for Massive Graphs and its Application to Nearly-Linear Time Graph Partitioning](https://arxiv.org/pdf/0809.3232.pdf) - Spielman and Teng.
+
+This is the first of three papers (the others are [here](https://arxiv.org/pdf/0808.4134.pdf) and [here](https://arxiv.org/pdf/cs/0607105.pdf)), that give a nearly linear-time algorithm for solving certain systems of linear equations. We will stick to just this paper.
+
+#### Algebraic techniques
+1. [Probabilistic Polynomials and Hamming Nearest Neighbors](https://arxiv.org/pdf/1507.05106.pdf) - Alman and Williams.
+2. [An Illuminating Algorithm for the Light Bulb Problem](https://arxiv.org/pdf/1810.06740.pdf) - Alman.
+
+#### Dimension reduction and applications
+1. [Database-friendly random projections: Johnson-Lindenstrauss with binary coins](https://core.ac.uk/download/pdf/82724427.pdf) - Achlioptas.
+2. [Approximate Nearest Neighbor: Towards Removing the Curse of Dimensionality](https://www.theoryofcomputing.org/articles/v008a014/v008a014.pdf) - Har-Peled, Indyk and Motwani.
+
+#### Matching in graphs
+1. [Perfect Matchings via Uniform Sampling in Regular Bipartite Graphs](https://arxiv.org/pdf/0811.2457.pdf) - Goel, Kapralov and Khanna.
+2. [Perfect Matchings in $O(n \log n)$ Time in Regular Bipartite Graphs](https://arxiv.org/pdf/0909.3346.pdf) - Goel, Kapralov and Khanna.
+
+#### Color-coding and subset sum
+1. [Color-Coding](http://courses.cs.tau.ac.il/combsem/09a/papers/ColorCoding.pdf) - Alon, Yuster and Zwick.
+2. [A Near-Linear Pseudopolynomial Time Algorithm for Subset Sum](https://arxiv.org/pdf/1610.04712.pdf) - Bringmann.
+
+#### Dynamic algorithms
+1. [Maintaining a Large Matching and a Small Vertex Cover](http://people.csail.mit.edu/ronitt/papers/01-maintaining.pdf) - Onak and Rubinfeld.
+2. [Fully dynamic maximal matching in $O(\log n)$ update time](https://www.cse.iitk.ac.in/users/sbaswana/Papers-published/sicomp-corrected-full-version.pdf) - Baswana, Gupta and Sen.
+
+
+#### Online algorithms
+1. [Online Budgeted Matching in Random Input Models with applications
+to Adwords](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.87.9205&rep=rep1&type=pdf) - Goel and Mehta.
+2. [Online Stochastic Matching: Beating $1 − \tfrac{1}{e}$](https://arxiv.org/pdf/0905.4100.pdf) - Feldman, Mehta, Mirrokni and Muthukrishnan.

@@ -1,0 +1,474 @@
+- day: Mon 16/01
+  contents: Introduction to the course; administrative details; algorithms for integer multiplication - what constitutes a good algorithm?
+  slides: https://drive.google.com/file/d/1F21tBuUGVUf62bTXjWu6lp8M2T9ye65P/view?usp=share_link
+  notes:
+  references: 
+    - Section 0.2 - Erickson
+  misc: <a href="https://drive.google.com/file/d/1znDMqRm3Xka-TBif1dNpt6NIrZwudtNd/view?usp=share_link">PS0</a> released
+
+- day: Tue 17/01
+  contents: Stable marriage problem; Gale-Shapley algorithm and examples
+  slides: https://drive.google.com/file/d/1F21tBuUGVUf62bTXjWu6lp8M2T9ye65P/view?usp=share_link
+  notes:
+  references: 
+    - Section 1.1 - [KT]
+  misc:
+
+- day: Wed 18/01
+  contents: Gale-Shapley algorithm - proof of correctness; properties of the solution and proof of optimality
+  slides: https://drive.google.com/file/d/1F21tBuUGVUf62bTXjWu6lp8M2T9ye65P/view?usp=share_link
+  notes:
+  references: 
+    - Section 1.1 - [KT]
+  misc:
+
+- day: "Fri 20/01"
+  tutorial: "Based on Problem set 0"
+  contents:
+  slides:
+  notes:
+  references:
+  misc:
+
+- day: Mon 23/01
+  contents: Recall of asymptotic analysis; Divide-and-conquer - Karatsuba's algorithm, recurrence relations, recurrence trees, master theorem
+  slides: https://drive.google.com/file/d/1XD8684cRD8UmHnfDsMClkFV2he4Mv6LS/view?usp=share_link
+  notes:
+  references: 
+    - Section 1.9 - Erickson
+    - Section 2.1, 2.2 - [DPV]
+    - Chapter 3 - [CLRS] (asymptotic notation)
+    - Section 4.6 - [CLRS] (for a proof of the master theorem)
+  misc:
+  - <a href="https://drive.google.com/file/d/1JFAQMWRS4YHyZLUPQlZHIraohbeFLNWZ/view?usp=share_link">PS1</a> released
+
+- day: Tue 24/01
+  contents: Order statistics - finding the \(k^{th}\) smallest element; median-of-medians - recursive solution, analyzing the recurrence using recursion trees
+  slides: https://drive.google.com/file/d/1XD8684cRD8UmHnfDsMClkFV2he4Mv6LS/view?usp=share_link
+  notes:
+  references:
+    - Section 1.8 - Erickson
+  misc:
+
+- day: Wed 25/01
+  contents: Convolution of vectors; equivalence with polynomial multiplication; evaluating polynomials on mulitple points; FFT algorithm
+  slides: https://drive.google.com/file/d/1XD8684cRD8UmHnfDsMClkFV2he4Mv6LS/view?usp=share_link
+  notes:
+  references:
+    - Section 2.6 - [DPV]
+    - <a href="http://jeffe.cs.illinois.edu/teaching/algorithms/notes/A-fft.pdf">FFT notes</a> - Erickson
+  misc:
+
+- day: Mon 30/01
+  contents: FFT algorithm (contd.); Closest pair of points in 2D
+  slides: https://drive.google.com/file/d/1XD8684cRD8UmHnfDsMClkFV2he4Mv6LS/view?usp=share_link
+  notes:
+  references:
+    - Section 2.6 - [DPV]
+    - <a href="http://jeffe.cs.illinois.edu/teaching/algorithms/notes/A-fft.pdf">FFT notes</a> - Erickson
+    - Section 5.4 - [KT]
+  misc:
+    - <a href="https://drive.google.com/file/d/1W0KItGCZgYIrff1yNkLzR-MXyp3FLWPs/view?usp=share_link">PS2</a> released
+
+- day: Tue 31/01
+  contents: Basic graph algorithms; adjacency matrices and lists; graph traversals - DFS
+  slides: https://drive.google.com/file/d/11qcqp4d1mp421IzMoWrJLGe_9fFy1J_0/view?usp=share_link
+  notes:
+  references:
+    - Sections 3.1, 3.2 - [DPV]
+    - Chapter 5 - Erickson
+  misc:
+
+- day: "Wed 01/02"
+  tutorial: "Discussion of Problem Sets 1 and 2"
+  contents:
+  slides:
+  notes:
+  references:
+  misc:
+
+- day: Fri 03/02
+  miniquiz: Based on material covered in Problem sets 0, 1, 2
+  contents:
+  slides:
+  notes:
+  references:
+  misc:
+
+- day: Mon 06/02
+  contents: BFS; finding connected components in graphs; digraphs - classification of edges
+  slides: https://drive.google.com/file/d/11qcqp4d1mp421IzMoWrJLGe_9fFy1J_0/view?usp=share_link
+  notes:
+  references:
+    - Sections 3.2, 3.3 - [DPV]
+    - Sections 6.1, 6.2 - Erickson
+  misc: <a href="https://drive.google.com/file/d/1TD_HcZRNBKeX0ZoaRnV6jmdh0VC87jk1/view?usp=share_link">PS3</a> released
+
+- day: Tue 07/02
+  contents: DFS with clocks - classification of edges; Topological ordering of DAGs
+  slides: https://drive.google.com/file/d/11qcqp4d1mp421IzMoWrJLGe_9fFy1J_0/view?usp=share_link
+  notes:
+  references:
+    - Section 3.3 - [DPV]
+    - Section 6.3 - Erickson
+  misc:
+
+- day: Wed 08/02
+  contents: Digraphs and their strongly connected components; Finding and labelling the strongly connected components of a digraph
+  slides: https://drive.google.com/file/d/11qcqp4d1mp421IzMoWrJLGe_9fFy1J_0/view?usp=share_link
+  notes:
+  references:
+    - Section 3.4 - [DPV]
+    - Sections 6.5, 6.6 - Erickson
+  misc:
+
+- day: Fri 10/02
+  tutorial: Discussion of Problem set 3
+  contents:
+  slides:
+  notes:
+  references:
+  misc:
+
+- day: Mon 13/02
+  contents: Finding and labelling strongly connected components - Kosaraju-Sharir algorithm; Shortest paths in graphs - BFS
+  slides: https://drive.google.com/file/d/11qcqp4d1mp421IzMoWrJLGe_9fFy1J_0/view?usp=share_link
+  notes:
+  references:
+    - Sections 3.4,4.2 - [DPV]
+    - Sections 6.6,8.4 - Erickson
+  misc: <a href="https://drive.google.com/file/d/1OCOD_QA-Q1G8etqOqVk8d8erqgkXF4lZ/view?usp=share_link">PS4</a> released
+
+- day: Tue 14/02
+  contents: Shortest path in unweighed graphs - BFS (contd); Shortest paths in DAGs
+  slides: https://drive.google.com/file/d/11qcqp4d1mp421IzMoWrJLGe_9fFy1J_0/view?usp=share_link
+  notes:
+  references:
+    - Sections 4.2,4.7 - [DPV]
+    - Sections 8.4,8.5 - Erickson
+  misc:
+
+- day: Wed 15/02
+  contents: Shortest path in graphs - Dijkstra's algorithm
+  slides: https://drive.google.com/file/d/11qcqp4d1mp421IzMoWrJLGe_9fFy1J_0/view?usp=share_link
+  notes:
+  references:
+    - Section 4.4 - [KT]
+    - Section 4.4 - [DPV]
+    - Section 8.6 - Erickson
+  misc:
+
+- day: Fri 17/02
+  tutorial: Discussion of Problem set 4
+  contents:
+  slides:
+  notes:
+  references:
+  misc:
+
+- day: Mon 20/02
+  contents: Shortest path in graphs - Dijkstra's algorithm (contd), Bellman-Ford algorithm
+  slides: https://drive.google.com/file/d/11qcqp4d1mp421IzMoWrJLGe_9fFy1J_0/view?usp=share_link
+  notes:
+  references:
+    - Section 4.4 - [KT]
+    - Section 4.4 - [DPV]
+    - Sections 8.6,8.7 - Erickson
+  misc:
+
+- day: Tue 21/02
+  quiz: Based on material covered till Mon Feb 13
+  contents:
+  slides:
+  notes:
+  references:
+  misc:
+
+- day: Wed 22/02
+  contents: Bellman-Ford algorithm (contd)
+  slides:
+  notes: https://drive.google.com/file/d/1GijCXkdgW9yaUpDxyZRUamYrBXRw-c9h/view?usp=share_link
+  references:
+    - Section 8.7 - Erickson
+  misc:
+
+- day: Fri 24/02
+  contents: Greedy algorithms - interval scheduling
+  slides:
+  notes: https://drive.google.com/file/d/1R_JkHFORZd8pC-kamwWCGrJE-nC6zfNr/view?usp=share_link
+  references:
+    - Section 4.1 - [KT]
+  misc:
+
+- day: Mon 27/02
+  contents: Greedy algorithms - scheduling jobs to minimize delays; exchange arguments
+  slides:
+  notes:
+  references:
+    - Section 4.2 - [KT]
+  misc: <a href="https://drive.google.com/file/d/1kv1oyNQYgl4QGbUDaRdR3pwQcSQKFtC4/view?usp=share_link">PS5</a> released
+
+- day: Tue 28/02
+  contents: Greedy algorithms - scheduling jobs to minimize delays; exchange arguments; greedy vertex cover
+  slides:
+  notes: https://drive.google.com/file/d/1xwPrzIwwzLPCK-ZsbeKch2cC1sTXiAM7/view?usp=share_link
+  references:
+    - Section 4.2 - [KT]
+  misc:
+
+- day: Wed 01/03
+  contents: Huffman coding - optimal prefix codes and binary trees
+  slides:
+  notes: https://drive.google.com/file/d/17rszgMvEOe3DTxtTrg_jhfmP63l722wn/view?usp=share_link
+  references:
+    - Section 4.8 - [KT]
+  misc:
+
+- day: Fri 03/03
+  tutorial: Discussion of Problem set 5
+  contents:
+  slides:
+  notes:
+  references:
+  misc:
+
+- day: Mon 06/03
+  contents: Huffman coding - algorithm and proof of correctness
+  slides:
+  notes: https://drive.google.com/file/d/19Xp5YVZl7d724ZWLBUKi2dCiKy56PzBQ/view?usp=share_link
+  references:
+    - Section 4.8 - [KT]
+  misc: <a href="https://drive.google.com/file/d/1BiKZ8NIKwbXI6sO5MSf_NFB8qNvPRY2V/view?usp=share_link">PS6</a> released
+
+- day: Tue 07/03
+  contents: Huffman coding - implementation details; Minimum spanning trees - cut property
+  slides:
+  notes: https://drive.google.com/file/d/1g212yMOZCNVeY8ouKM-WSsPUY-BxzjbH/view?usp=share_link
+  references:
+    - Sections 4.5, 4.8 - [KT]
+    - Section 7.1 - Erickson
+  misc:
+
+- day: Fri 10/03
+  miniquiz: Based on Problem sets 5 and 6
+  contents:
+  slides:
+  notes:
+  references:
+  misc:
+
+- day: Mon 13/03
+  contents: Minimum spanning trees - proof of the cut property; Boruvka's algorithm
+  slides:
+  notes: https://drive.google.com/file/d/1cZ0WzWV0eMOWZrmvpLFdog7Kf3dA6M2u/view?usp=share_link
+  references:
+    - Sections 7.2, 7.3 - Erickson
+  misc: <a href="https://drive.google.com/file/d/1MvF2LhwqBJXjh2xrsU495Fz0gX3A9PI0/view?usp=share_link">PS7</a> released
+
+- day: Tue 14/03
+  contents: Prim's and Kruskal's algorithms - examples, implementation details, running time
+  slides:
+  notes: https://drive.google.com/file/d/1e1MdTBYlGwIWpaMq6aLKaqYLH-FKsm28/view?usp=share_link
+  references:
+    - Sections 7.4, 7.5 - Erickson
+  misc:
+
+- day: Wed 15/03
+  contents: Kruskal's algorithm - amortized analysis; data structures for disjoint sets
+  slides:
+  notes: https://drive.google.com/file/d/1WLlWJuwj4YrcmSIuOhu1HDBcwV_3NzLH/view?usp=share_link
+  references:
+    - Section 7.5 - Erickson
+  misc:
+  
+- day: Fri 17/03
+  tutorial: Discussion of Problem set 7
+  contents:
+  slides:
+  notes:
+  references:
+  misc:
+  
+- day: Tue 21/03
+  quiz: Based on material covered through Problems sets 5,6,7
+  contents:
+  slides:
+  notes:
+  references:
+  misc:
+
+- day: Fri 24/03
+  contents: Union-by-rank with path compression; Amortized analysis - accounting method
+  slides:
+  notes: https://drive.google.com/file/d/18Qi6M1bnAuRMxjx7GjxlT7zn6sabrhE7/view?usp=share_link
+  references:
+    - Section 5.1.4 - [DPV]
+  misc:
+  
+- day: Mon 27/03
+  contents: Union-by-rank with path compression - amortized analysis
+  slides:
+  notes: https://drive.google.com/file/d/1y-xnA6s5EkwdUEumzU1nS0gURQakKZiB/view?usp=share_link
+  references:
+    - Section 5.1.4 - [DPV]
+  misc:
+  
+- day: Tue 28/03
+  contents: Dynamic programming - text segmentation
+  slides:
+  notes: https://drive.google.com/file/d/1sn9aEyTr-BZMX2unUJrZicM5vx9AA4UL/view?usp=share_link
+  references:
+    - Sections 3.3, 3.4 - Erickson
+  misc:
+  
+- day: Wed 29/03
+  contents: Dynamic programming - text justification, edit distance
+  slides:
+  notes: https://drive.google.com/file/d/1GVh3DovQ_Mj6itUeAFl9WX1Z9W56oSzy/view?usp=share_link
+  references:
+    - class notes
+  misc: <a href="https://drive.google.com/file/d/1vjvbEnHDtTyrgBfAZiAHUCr7_24Ik3pP/view?usp=share_link">PS8</a> released
+  
+- day: Fri 31/03
+  tutorial: Discussion of Problem set 8
+  contents:
+  slides:
+  notes:
+  references:
+  misc:
+  
+- day: Mon 03/04
+  contents: Dynamic programming - edit distance; saving space using divide-and-conquer
+  slides:
+  notes: https://drive.google.com/file/d/1E7gQo2f3DljzUSqvCoyksS_Vt19Dgd0Q/view?usp=share_link
+  references:
+    - Section 3.7 - Erickson
+    - Sections 6.6, 6.7 - [KT]
+  misc:
+
+
+- day: Wed 05/04
+  contents: Dynamic programming - edit distane (contd.); 0-1 Knapsack - pseudopolynomial-time algorithm
+  slides:
+  notes: https://drive.google.com/file/d/19snuWfstHntULkblCml8blP-scKElZ8h/view?usp=share_link
+  references:
+    - Sections 6.6, 6.7 - [KT]
+  misc: Online lecture - video link on Zulip
+
+
+- day: Mon 10/04
+  contents: 0-1 Knapsack - pseudopolynomial-time algorithm (contd.); Dynamic programming on trees - independent sets
+  slides:
+  notes: https://drive.google.com/file/d/1AnCzEWsCKWIZZyI8jMgq0DR0ju2t-1iQ/view?usp=share_link
+  references:
+    - Section 3.10 - Erickson
+  misc:
+  
+- day: Tue 11/04
+  contents: All Pairs Shortest Paths (APSP) - Johnson's algorithm; Dynamic programming based algorithms
+  slides:
+  notes: https://drive.google.com/file/d/1ER-SBl5RJs2_Unf0jfSnfev3_m3-BLys/view?usp=share_link
+  references:
+    - Sections 9.4, 9.5, 9.6 - Erickson
+  misc:
+  
+- day: Wed 12/04
+  contents: Floyd-Warshall algorithm; APSP and matrix multiplication
+  slides:
+  notes: https://drive.google.com/file/d/1o8h2mZIZjyNYHKJo3cT2uHPDDl6pS5ur/view?usp=share_link
+  references:
+    - Sections 9.7, 9.8 - Erickson
+  misc: 
+  
+- day: Mon 17/04
+  contents: APSP and matrix multiplication - Seidel's algorithm; Introduction to computational intractability
+  slides:
+  notes: https://drive.google.com/file/d/1whGubSYMS_dfLYTrjvFpscvy4klXQ7h-/view?usp=share_link
+  references:
+    - Section 4.4 - Anupam Gupta's <a href="https://drive.google.com/file/d/1qEJNzfoujYR3mwS9MiOz-dmZ99zvCos7/view?usp=share_link">lecture notes</a>
+    - Seidel's <a href="https://drive.google.com/file/d/1PCLoJ_XXNeIo6smDab8rOn2yuCVREqMA/view?usp=share_link">paper</a>
+  misc: <a href="https://drive.google.com/file/d/10Q6JH3qDt-a9s1RFM0Bj1kezwjEW7xfR/view?usp=share_link">PS9</a> released
+  
+- day: Tue 18/04
+  contents: Introduction to intractability - P and NP; poly-time solving versus poly-time verification
+  slides:
+  notes: https://drive.google.com/file/d/1q-tGHOUH1-lqIlmTTSGxuqixj-oQj2xN/view?usp=share_link
+  references:
+    - Sections 34.1, 34.2 - [CLRS]
+    - Sections 12.1, 12.2 - Erickson
+  misc:
+  
+- day: Wed 19/04
+  contents: Polynomial-time reductions - NP completeness, examples of reductions
+  slides:
+  notes: https://drive.google.com/file/d/1iQ4IL2PXEgHeAY2BxGxXzFq_TTuH_2B4/view?usp=share_link
+  references:
+    - Chapter 12 - Erickson
+  misc:
+  
+- day: Fri 21/04
+  miniquiz: Based on Problem set 8
+  contents:
+  slides:
+  notes:
+  references:
+  misc:
+  
+- day: Mon 24/04
+  contents: NP-completeness - examples of reductions
+  slides:
+  notes: https://drive.google.com/file/d/1TQr5lM9eRAQby7oSuN6PFYtMfM71O8_I/view?usp=share_link
+  references:
+    - Chapter 12 - Erickson
+  misc: <a href="https://drive.google.com/file/d/1MJyaz_w3VI5g3Qyk3n5XkGCtA89gu1hz/view?usp=share_link">PS10</a> released
+  
+- day: Tue 25/04
+  contents: Beyond NP-completeness - brief overview; Wrap-up of the course
+  slides:
+  notes: 
+  references: 
+  misc:
+  
+- day: Wed 26/04
+  miniquiz: Based on Problem set 9
+  contents:
+  slides:
+  notes:
+  references:
+  misc:
+
+# - day: Wed 04/08
+# contents: Verifying polynomial identities; verifying matrix multiplication
+#   slides:
+#   notes:
+#   references:
+#     - MU - Chapter 2
+#   misc:
+#
+# - day: Thu 05/08
+#   tutorial: Prev week
+#   contents:
+#   slides:
+#   notes:
+#   references:
+#   misc:
+#
+# - day: Fri 06/08
+#   contents: Concentration inequalities - Markov, Chebyshev and Chernoff
+#   references: MU - Chapter 4
+#
+# - day: Mon 09/08
+#   miniquiz: Based on Tutorial 1
+#
+# - day: Wed 08/08
+#   contents: Balls and bins; Birthday problems
+#   references:
+#     - MU - Chapter 5
+#
+# - day: Thur 09/08
+#   quiz: Material till concentration bounds
+#
+# - day: Fri 10/08
+#   contents: Hashing with chaining - analysis
+#   references:
+#     - MU - Chapter 5

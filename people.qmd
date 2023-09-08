@@ -1,0 +1,64 @@
+---
+title: ""
+page-layout: full
+---
+
+::: {.grid}
+
+::: {.g-col-9}
+
+## People
+
+**PhD**
+
+::: {.callout-note icon=false collapse=true title="Sampriti Roy (2018 - )"}
+
+Sampriti is working on problems related to the property testing of probability distributions.
+
+:::
+
+**MS**
+
+::: {.callout-note icon=false collapse=true title="Keshav Tiwari (2021 - )"}
+
+Keshav is working on coloring problems in the LCA and related models.
+
+:::
+
+**DD**
+
+::: {.callout-note icon=false collapse=true title="T Prashanth (2021-22)"}
+
+Prashanth worked on property testing of graph problems in the streaming model.
+
+:::
+
+::: {.callout-note icon=false collapse=true title="B Abhijit (2022-23)"}
+
+Abhijit worked on algorithms for simulating random walks in the streaming model.
+
+:::
+
+**BTech**
+
+::: {.callout-note icon=false collapse=true title="K Dhanush (2023-24)"}
+
+Dhanush is working on algorithms for finding/learning hypergraphs and hyperedges with queries.
+
+:::
+
+::: {.callout-note icon=false collapse=true title="D Hakesh (2022-23)"}
+
+Hakesh worked on understanding the average sensitivity of online graph algorithms.
+
+:::
+
+::: {.callout-note icon=false collapse=true title="Vineet Dhandharia (2022-23)"}
+
+Vineet worked on algorithms for finding an edge in a hidden graph under various query models.
+
+:::
+
+::: 
+
+::: 

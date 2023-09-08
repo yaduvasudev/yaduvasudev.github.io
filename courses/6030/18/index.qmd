@@ -1,0 +1,51 @@
+---
+title: "CS6030 Logic and Combinatorics for Computer Science"
+subtitle: July - Nov 2018
+page-layout: full
+---
+
+#### Coordinates
+- Where: CS 34
+- When: D slot; Mon(11-11.50am), Tue(10-10.50am), Wed(9-9.50am), Thu(12-12.50pm)
+
+#### TAs
+- Barath Ashok (barath@cse, ACT Lab)
+- Ankit Kumar Yadav (ankitky@cse, ACT Lab)
+- Tenkayya Gari Pradeep Reddy (cs16s010@smail, TCS Lab)
+- Purnata Ghosal (purnatag@gmail, ACT Lab)
+
+#### Objectives
+The aim is to help the student to gain the ability to use some of the fundamental methods of logic and combinatorics in Computer Science. The course is intended to provide the foundations of mathematical rigor, fundamental methods of logic and combinatorics in Computer Science.
+
+#### Contents
+The tentative outline of the topics that will be covered in the course is as follows. The order of the topics might vary.
+
+- **Logic** - Propositional Logic, Predicate and First order Logic, Examples, Soundness and Completeness. Second Order Logic. Incompleteness theorems. Further extensions of logic(MSO, Temporal etc). Subsets of first order logic. Example Applications.
+- **Proofs** - Mathematical Arguments and Argument Forms, Inference Rules, Notion of a Proof and validity of an argument, Various Proof techniques and examples, Identifying fallacies.
+- **Infinite Sets** - Countable and uncountable sets, Cantors diagonalization. Undecidability : Turing Machines, Church-Turing Thesis. Notion of Computation and decidability, Undecidability of the Halting Problem. Consequences to the Program Verification Problem.
+- **Counting and Combinatorics** - Basics: Pigeonhole Principle and applications.
+Counting methods: Principle of Inclusion Exclusion, Proving Combinatorial Identities, Combinatorial Arguments, Permutations, Derangements. Recurrence: Linear recurrences, Generating Functions and Examples.
+**Structured Sets** - Posets and Lattices, Fixed Point Theorems (Knaster-Tarski and Polya), Monoids, Semigroups, Groupoids and Groups, Examples, Subgroups, Cosets, Lagranges theorem. Introduction to Polyas theory of counting.
+
+#### References
+ - *Discrete Mathematics and its Applications* - *Kenneth H. Rosen, 7th Edition, Tata McGraw Hill Publishers (Indian adaptation by Kamala Krithivasan).*
+- *A Mathematical Introduction to Logic* - *Herbert B. Enderton, Elsevier, 2nd Edition.*
+- *Logic in Computer Science: Modelling and Reasoning about Systems* - *Michael Huth and Mark Ryan, Cambridge University Press, 2nd Edition.*
+- *Combinatorics: Topics, Techniques, Algorithms* - *Peter J. Cameron, Cambridge University Press, 1st Edition.*
+- *Concrete Mathematics* - *Ronald Graham, Donald Knuth, and Oren Patashnik.*
+
+#### Grading policy
+ - Assignments: 30%
+ - Scribing and class participation: 10%
+ - Course project: 10%
+ - Mid-sem exam: 20%
+ - End-sem exam: 30%
+
+#### Important dates
+ - Tutorial quizzes (3-5): 20%
+ - Quiz 1(Sep 10, 2018): 20%
+ - Quiz 2(Oct 23, 2018): 20%
+ - Final exam(Nov 19, 2018): 40%
+
+#### Course Materials
+ - [Lectures]()

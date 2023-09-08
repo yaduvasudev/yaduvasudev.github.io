@@ -1,0 +1,29 @@
+project:
+  type: website
+
+website:
+  title: "Yadu Vasudev"
+  search: false
+  navbar: 
+    left:
+      - text: Research
+        menu:
+          - text: Publications
+            href: research.qmd
+          - text: People
+            href: people.qmd
+      - href: courses.qmd
+        text: Teaching
+      - text: Contact
+        href: contact.qmd
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    mainfont: 'Ubuntu'
+    fontsize: 1em
+    margin-left: 10px
+
+
+

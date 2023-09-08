@@ -1,0 +1,49 @@
+---
+title: "CS6170 Randomized Algorithms"
+subtitle: July - Nov 2021
+page-layout: full
+---
+
+#### Coordinates
+- Where: Online
+- When: J slot - Mon (16.50-17.40), Wed (14-15.15), Thu (15.25-16.40)
+
+#### TA
+Sampriti Roy (cs18d200@smail)
+
+#### Objectives
+Randomization and probabilistic methods are ubiquitous in Computer Science. Randomization often provides simple, elegant algorithms that perform well in practice. Furthermore, there are problems for which we do not know any efficient algorithm that does not use randomness. This course will introduce methods to design and analyze randomized algorithms in a variety of settings.
+
+#### Contents
+We will study the application of randomization and probabilistic methods in a variety of settings. The following is a brief outline of the contents of the course. The emphasis on the various topics, and their order will be determined later.
+- Basic probabilistic techniques - random variables, expectation, variance, tail bounds with applications.
+- Markov chains, random walks and applications
+- Sampling and estimation - Monte Carlo methods
+- Balls and bins, balanced allocations and applications
+- VC dimension and PAC learning, online algorithms, algebraic techniques (if time permits)
+
+
+#### References
+ - **[MU]**: Probability and Computing - Mitzenmacher and Upfal.
+ - **[MR]**: Randomized Algorithms - Motwani and Raghavan.
+ - **[DP]**: Concentration of Measure for the analysis of Randomized Algorithms - Dubhashi and Panconesi.
+
+ There are lots of lecture notes and resources available online that we will refer to occasionally.
+
+#### Grading policy (tentative)
+- Problem sets: 40% (best 4/5)
+- Scribing: 5%
+- Course reading: 20% (in groups of at most 3)
+- Mid-sem: 15%
+- End-sem + viva: 20%
+
+#### Important dates (tentative)
+- Problem sets: Aug 13, Sep 10, Sep 24, Oct 15, Oct 29 (deadlines will be about 10 days after the dates given)
+- Mid-sem: Sep 23
+- End-sem: Nov 18
+
+#### Course Materials
+- [Moodle](https://courses.iitm.ac.in/course/view.php?id=425)
+- [Lecture schedule](lectures.qmd) (with links to the videos and notes)
+- [Course reading](reading.qmd)
+- Problem sets: [1](https://courses.iitm.ac.in/mod/assign/view.php?id=2705), [2](https://courses.iitm.ac.in/mod/assign/view.php?id=6501), [3](https://courses.iitm.ac.in/mod/assign/view.php?id=8410)

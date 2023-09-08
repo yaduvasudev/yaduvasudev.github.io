@@ -1,0 +1,72 @@
+```{=html}
+
+<table class="quarto-listing-table table">
+  <thead>
+    <th style="width:25%">Date</th>
+    <th style="width:75%">Lecture</th>
+  </thead>
+
+  <tbody class="list">
+    <% var lec_num=0 %>
+    <% var tut_num=0 %>
+    <% var mq_num=0 %>
+    <% var q_num=0 %>
+    <% var e_sem=0 %>
+    <% for (const item of items) { %>
+    <% if (item.tutorial) { %>
+    <tr bgcolor="#BEF8F4">
+      <% tut_num++ %>
+      <td>
+        <b>Tutorial</b> #<%= tut_num %><br />
+        <%= item.day %>
+      </td>
+      <td>
+        <%= item.tutorial %>
+      </td>
+    </tr>
+    <% } %>
+    <% if (item.contents) { %>
+    <tr>
+      <% lec_num++ %>
+      <td> <b>Lecture</b> #<%= lec_num %><br />
+        <%= item.day %>
+      </td>
+      <td>
+        <%= item.contents %> <br />
+        <% if (item.slides) { %>
+        [<a href="<%= item.slides %>">slides</a>]
+        <% } %>
+        <% if (item.notes) { %>
+        [<a href="<%= item.slides %>">notes</a>]
+        <% } %>
+        <% if (item.references) {%>
+        <div class="callout callout-style-default callout-note no-icon callout-titled" title="Dates">
+          <div class="callout-header d-flex align-content-center">
+            <div class="callout-icon-container">
+              <i class="callout-icon no-icon"></i>
+            </div>
+            <div class="callout-title-container flex-fill">
+              <b>References</b>
+            </div>
+          </div>
+          <div class="callout-body-container callout-body">
+            <% var ref = item.references %>
+            <% for (elts of ref) { %>
+            <ul class="tight">
+              <li><%= elts %></li>
+            </ul>
+            <% } %>
+          </div>
+        </div>
+        <% } %>
+        <% if (item.misc) {%>
+        <span class="important"><%= item.misc %></span>
+        <% } %>
+      </td>
+    </tr>
+    <% } %>
+    <% } %>
+  </tbody>
+</table>
+
+```

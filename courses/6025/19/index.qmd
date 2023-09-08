@@ -1,0 +1,47 @@
+---
+title: "CS6025 Sublinear Algorithms"
+subtitle: Jan - May 2019
+page-layout: full
+---
+
+#### Coordinates
+- Where: CS 34
+- When: F slot; Tue(4.50-5.40pm), Wed(11-11.50am), Thur(9-9.50am), Fri(8-8.50am)
+
+#### Objectives
+The aim of the course is to understand algorithmic techniques to handle large amounts of data that cannot be stored and accessed as a whole. To process such large amounts of data, classical algorithms, even those that are linear-time, are inefficient. Through this course, we will look at techniques to design and analyze algorithms of sublinear time and space complexity. The main focus of the course would streaming, sketching, sampling and property testing algorithms. To complement this, we will also study techniques developed to prove lower bounds against such algorithms.
+
+#### Contents
+The tentative outline of the topics that will be covered in the course is as follows. The order of the topics might vary.
+
+- **Preliminaries** -  Tail-bounds (Markov, Chebyshev, Chernoff), Basic linear algebra, motivation and introduction to ideas of streaming, sketching and property testing with simple examples.
+- **Streaming, sketching and sampling** - Estimating distinct elements, Estimating frequency moments – the Alon-Mathias-Szegedy sketch, Johnson-Lindenstrauss lemma based l_2 norm approximation, Heavy-hitters – Count-Min sketch, Reservoir sampling & L_p sampling, Graph streams – connectivity, spanners, sparsifiers.
+- **Property testing** - Testing graph properties - Comparison of graph property testing models, Szemeredi regularity lemma and testing properties of dense graphs, random walk based testers for sparse graphs,
+Testing Boolean functions - Fourier analytic methods for testing Boolean functions – linearity, monotonicity,
+Testing properties of probability distributions – uniformity, monotonicity.
+- **Lower bound techniques** - Communication complexity based lower bounds for streaming, Lower bounds for property testing algorithms, connections between communication complexity lower bounds and property testing.
+
+#### References
+ - *Concentration of Measure for the Analysis of Randomized Algorithms* – *Devdatt Dubashi and Alessandro Panconesi. Cambridge University Press, 1st Edition 2009.*
+- *Data Streams: Algorithms and Applications* – *S. Muthukrishnan, Foundations and Trends in Theoretical Computer Science, 2005.*
+- *Sketching Algorithms for Big Data* – *Lecture notes from a course by Jelani Nelson and Piotr Indyk (Harvard University).*
+- *Sublinear (and Streaming) Algorithms* – *Lecture notes from a course by Paul Beame (University of Washington).*
+- *Introduction to Property Testing* – *Oded Goldreich, Cambridge University Press, 1st Edition, 2017.*
+- *Communication Complexity* – *Eyal Kushilevitz and Noam Nisan, Cambridge University Press, 2007.*
+- *Recent research papers.*
+
+#### Grading policy
+ - Assignments: 30%
+ - Scribing and class participation: 10%
+ - Course project: 10%
+ - Mid-sem exam: 20%
+ - End-sem exam: 30%
+
+#### Important dates
+ - Tutorials: Aug 9, Aug 30, Sep 20, Oct 11, Nov 1
+ - Short exams: Aug 23, Sep 27, Nov 8
+ - Quizzes: Sep 7, Oct 19
+ - End-sem: Nov 19
+
+#### Course Materials
+ - [Moodle](https://courses.iitm.ac.in/course/view.php?id=3920)
