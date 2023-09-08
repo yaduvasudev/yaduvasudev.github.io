@@ -23,7 +23,7 @@ format:
     css: styles.css
     toc: false
     header-includes: |
-      <link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Ubuntu" type="text/css"/>
+      <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
     mainfont: 'Ubuntu'
     fontsize: 1em
     margin-left: 10px
