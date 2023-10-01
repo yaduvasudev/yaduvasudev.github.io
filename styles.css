@@ -24,7 +24,7 @@
   font-weight: bold;
   font-stretch: normal;
   font-display: auto;
-  src: url('fonts/Ubuntu-Medium.ttf') format('truetype');
+  src: url('fonts/Ubuntu-Bold.ttf') format('truetype');
 }
 
 .rounded-corners {
