@@ -82,3 +82,7 @@ span.important {
 .navbar-nav .dropdown-menu {
   font-size: var(--bs-body-font-size);
 }
+
+table.lectures {
+  border-radius:10px;
+}
