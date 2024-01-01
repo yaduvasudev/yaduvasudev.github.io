@@ -11,7 +11,7 @@ page-layout: full
 	(with Sampriti Roy)\
 	*ISAAC 2023*
 - **Byzantine Connectivity Testing in the Congested Clique**\
-	(with John Augusting, Anisur Rahaman Molla, and Gopal Pandurangan)\
+	(with John Augustine, Anisur Rahaman Molla, and Gopal Pandurangan)\
 	*DISC 2022*
 - **Dynamic Complexity of Expansion**\
 	(with Samir Datta and Anuj Tawari)\

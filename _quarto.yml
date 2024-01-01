@@ -25,9 +25,9 @@ format:
     theme: cosmo
     css: styles.css
     toc: false
-    mainfont: 'Ubuntu'
-    fontsize: 1em
-    margin-left: 10px
+    mainfont: 'Lato'
+    fontsize: 1.1em
+    margin-left: 100px
 
 
 

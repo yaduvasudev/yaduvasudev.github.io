@@ -41,6 +41,16 @@ Abhijit worked on algorithms for simulating random walks in the streaming model.
 
 **BTech**
 
+::: {.callout-note icon=false collapse=true title="Chahel Singh (2023-24)"}
+
+
+:::
+
+::: {.callout-note icon=false collapse=true title="Dhruv Aggarwal (2023-24)"}
+
+
+:::
+
 ::: {.callout-note icon=false collapse=true title="K Dhanush (2023-24)"}
 
 Dhanush is working on algorithms for finding/learning hypergraphs and hyperedges with queries.
