@@ -1,30 +1,43 @@
 /* css styles */
 
 @font-face {
-  font-family: "Ubuntu";
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-stretch: normal;
   font-display: auto;
-  src: url('fonts/Ubuntu-Regular.ttf') format('truetype');
+  src: url('fonts/lato/Lato-Regular.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: "Ubuntu";
+  font-family: "Lato";
   font-style: italic;
   font-weight: normal;
   font-stretch: normal;
   font-display: auto;
-  src: url('fonts/Ubuntu-Italic.ttf') format('truetype');
+  src: url('fonts/lato/Lato-Italic.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: "Ubuntu";
+  font-family: "Lato";
   font-style: bold;
   font-weight: bold;
   font-stretch: normal;
   font-display: auto;
-  src: url('fonts/Ubuntu-Bold.ttf') format('truetype');
+  src: url('fonts/lato/Lato-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "alegreya";
+  font-style: normal;
+  font-weight: bold;
+  font-stretch: normal;
+  font-display: auto;
+  src: url('fonts/alegreya/Alegreya-Medium.ttf') format('truetype');
+}
+
+.navbar {
+  background-color: #f9f9f9;
 }
 
 .rounded-corners {
@@ -41,20 +54,33 @@ ul.tight {
   font-size: var(--bs-body-font-size);
 }
 
+.callout.callout-style-simple .callout-body {
+  font-size: var(--bs-body-font-size);
+}
+
 .callout.callout-style-default>div.callout-header {
   font-size: var(--bs-body-font-size);
   font-weight: 400;
 }
 
-body {
+.callout.callout-style-simple>div.callout-header {
+  border-bottom: none;
+  font-size: var(--bs-body-font-size);
+  font-weight: 600;
+}
+
+.table {
+  color: #020F32;
   font-weight: 400;
+  font-size: var(--bs-body-font-size);
 }
 
 .navbar-title {
-  color: brown;
-  font-family: 'Ubuntu';
-  font-weight: 400;
-  font-size: 1.1em;
+  color: #0077ff;
+  font-family: 'alegreya';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.6em;
   background-color: transparent;
 }
 
@@ -62,21 +88,72 @@ h1,
 .h1,
 h2,
 .h2 {
-  opacity: 0.8;
-  font-weight: 500;
-}
-
-b {
+  opacity: 0.9;
   font-weight: 600;
 }
 
+h1.title {
+  margin-top: 20px;
+}
+
+h3,
+.h3,
+h4,
+.h4 {
+  opacity: 0.9;
+  font-weight: 600;
+}
+
+li {
+  font-size: var(--bs-body-font-size);
+}
+
 a {
+  color: #1F16E2;
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline dotted;
+  background-color: #ccF7F1;
+  text-underline-offset: 3px;
+  color: #0F096A;
+}
+
+.nav-link {
+  color: #1F16E2;
+}
+
+.navbar .nav-link {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.navbar .nav-link:hover {
+  text-decoration: underline dotted;
+  background-color: #ccF7F1;
+  border-radius: 3px;
+  color: #0F096A;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #0F096A;
+}
+
+a.navbar-brand:hover {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a.dropdown-item:hover {
+  text-decoration: none;
+  background-color: #ccF7F1;
+}
+
+
 span.important {
   color: #800;
-  background-color: #ffb;
+  background-color: #f9fb81;
 }
 
 .navbar-nav .dropdown-menu {
@@ -84,5 +161,34 @@ span.important {
 }
 
 table.lectures {
-  border-radius:10px;
+  border-radius: 10px;
+  border-collapse: separate;
+  border-spacing: 0 5px;
+  width: 100%;
+}
+
+.lectures td,
+.lectures th {
+  vertical-align: text-top;
+  padding: 10px;
+}
+
+.lectures td:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.lectures td:last-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.lectures th:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.lectures th:last-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
