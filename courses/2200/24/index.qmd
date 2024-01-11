@@ -191,14 +191,8 @@ Please sign up on the course discussion forum [here](). This will be the first p
 
 ## lectures
 
-::: {.grid}
-
-::: {.g-col-10}
 
 ::: {#lectures}
-:::
-
-:::
 
 :::
 
