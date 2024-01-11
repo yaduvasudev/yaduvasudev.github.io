@@ -7,7 +7,7 @@ page-layout: full
 
 ::: {.g-col-4}
 
-![](prague2.jpg){fig-align="left" width=50% .rounded-corners }
+![](prague2.jpg){fig-align="left" width=40% .rounded-corners }
 
 :::
 

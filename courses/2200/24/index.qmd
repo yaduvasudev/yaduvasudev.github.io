@@ -81,7 +81,7 @@ include-in-header:
 
 ::: {.grid}
 
-::: {.g-col-8}
+::: {.g-col-10}
 
 #### {{< bi body-text color=#40CB2D >}} About this course
 
@@ -119,7 +119,7 @@ All these books contain a number of exercise problems for practice.
 
 ::: {.grid}
 
-::: {.g-col-8}
+::: {.g-col-10}
 
 #### {{< bi clock-fill color=#40CB2D >}} Weekly schedule
 
