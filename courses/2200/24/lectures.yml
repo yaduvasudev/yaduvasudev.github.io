@@ -14,28 +14,28 @@
 #    - Sections 11.3.2, 11.3.4 - Sipser
 #  misc:
 #
-# - day: Thu 05/08
-#   tutorial: Prev week
-#   contents:
-#   slides:
-#   notes:
-#   references:
-#   misc:
+#- day: Thu 05/08
+#  tutorial: Prev week
+#  contents:
+#  slides:
+#  notes:
+#  references:
+#  misc:
 #
 # - day: Fri 06/08
 #   contents: Concentration inequalities - Markov, Chebyshev and Chernoff
 #   references: MU - Chapter 4
 #
-# - day: Mon 09/08
-#   miniquiz: Based on Tutorial 1
+#- day: Mon 09/08
+#  miniquiz: Based on Tutorial 1
 #
 # - day: Wed 08/08
 #   contents: Balls and bins; Birthday problems
 #   references:
 #     - MU - Chapter 5
 #
-# - day: Thur 09/08
-#   quiz: Material till concentration bounds
+#- day: Thur 09/08
+#  quiz: Material till concentration bounds
 #
 # - day: Fri 10/08
 #   contents: Hashing with chaining - analysis

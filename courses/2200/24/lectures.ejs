@@ -19,7 +19,7 @@
     <tr bgcolor="#BDF9C4">
       <% tut_num++ %>
       <td>
-        <b>Tutorial</b> #<%= tut_num %><br />
+        <b>Tutorial #<%= tut_num %></b><br />
         <%= item.day %>
       </td>
       <td>
@@ -46,7 +46,7 @@
     <tr bgcolor="#FCDAD0">
       <% mq_num++ %>
       <td>
-        <b>Test</b> #<%= mq_num %><br />
+        <b>Test #<%= mq_num %></b><br />
         <%= item.day %>
       </td>
       <td>
@@ -70,10 +70,10 @@
     </tr>
     <% } %>
     <% if (item.quiz) { %>
-    <tr bgcolor="#FACABC">
+    <tr bgcolor="#FADAD0">
       <% q_num++ %>
       <td>
-        <b>Quiz</b> #<%= q_num %><br />
+        <b>Quiz #<%= q_num %></b><br />
         <%= item.day %>
       </td>
       <td>
@@ -100,7 +100,7 @@
     <% if (item.contents) { %>
     <tr bgcolor="#EAECEE">
       <% lec_num++ %>
-      <td> <b>Lecture</b> #<%= lec_num %><br />
+      <td> <b>Lecture #<%= lec_num %></b> <br />
         <%= item.day %>
       </td>
       <td>
