@@ -1,7 +1,7 @@
 ---
 title: "CS2200 Languages, Machines, and Computation"
 subtitle: Jan - May 2024
-page-layout: custom
+page-layout: full
 listing:
   - id: lectures
     type: table
