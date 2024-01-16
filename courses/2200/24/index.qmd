@@ -62,6 +62,17 @@ include-in-header:
 
 #### {{< bi people-fill color=#40CB2D >}} TAs
 
+- Akash (cs22d012@smail)
+- Balakrishnan (cs20b012@smail)
+- Bhabya (cs21d200@smail)
+- Kumaresan (cs21b045@smail)
+- Nagashri (cs21d004@smail)
+- Narayana (cs22s004@smail)
+- Sampriti (cs18d200@smail)
+- Subramanian (cs23m067@smail)
+- Tahir (cs20b078@smail)
+- Vishnu (cs23m073@smail)
+
 :::
 
 ::: {.g-col-6}
@@ -178,8 +189,8 @@ Please sign up on the course discussion forum [here](https://edstem.org/us/join/
 
 ## lectures
 
-
 ::: {#lectures}
+
 
 :::
 
