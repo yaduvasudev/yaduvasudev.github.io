@@ -1,9 +1,11 @@
 - day: Wed 17/01
-  contents: Introduction to the course
+  contents: Introduction to the course • Admin and logistics • Brief history of computing 
   slides: 
   notes:
   references: 
   misc: 
+    <span class="important"><a href="https://drive.google.com/file/d/1-AX90nHcTD1EveGYqXzSEFeRFc6uqtz-/view?usp=sharing">PS0</a> released</span><br>
+    Register on the <a href="https://edstem.org/us/join/TNAbRy">Ed Discussions</a>
 
 #- day: Fri 26/01
 #  contents: Verifying polynomial identities • Verifying matrix multiplication
