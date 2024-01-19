@@ -118,8 +118,8 @@ The following is a brief overview of the topics that will be covered in this cou
 There are many textbooks and resources (both offline and online) that cover most of the material presented in the list above. We will not be following one textbook. Our main sources of reference will be the following textbooks.
 
 - **[K]**: Automata and Computability - *Dexter C. Kozen*
-- **[HMU]**: Introduction to Automata Theory, Languages and Computation - *Hopcroft, Motwani and Ullman.*
-- **[S]**: Introduction to the Theory of Computation - *Michael Sipser*
+- **[HMU]**: Introduction to Automata Theory, Languages and Computation - *Hopcroft, Motwani and Ullman*, 3rd Edition
+- **[S]**: Introduction to the Theory of Computation - *Michael Sipser*, 3rd Edition
 
 All these books contain a number of exercise problems for practice.
 
