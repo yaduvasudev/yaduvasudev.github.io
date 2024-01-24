@@ -22,6 +22,14 @@
   references:
     - Section 2.1 - [HMU]
     - Section 1.1 - [S]
+
+- day: Wed 24/01
+  contents: Programs with read-once inputs and bounded memory - states and transitions • DFAs - formal definition • Examples
+  notes: https://edstem.org/us/courses/53487/resources?download=33732
+  references:
+    - Lecture 3 - [K]
+    - Section 1.1 - [S]
+    - Section 2.1, 2.2.1, 2.2.2 - [HMU]
 #- day: Fri 26/01
 #  contents: Verifying polynomial identities • Verifying matrix multiplication
 #  slides:
