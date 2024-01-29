@@ -30,6 +30,12 @@
     - Lecture 3 - [K]
     - Section 1.1 - [S]
     - Section 2.1, 2.2.1, 2.2.2 - [HMU]
+
+- day: Mon 29/01
+  contents: DFA -formal definition, notion of acceptance, regular languages, examples • Formal proof correctness of construction - examples
+  notes: https://edstem.org/us/courses/53487/resources?download=33943
+  references:
+    - Lectures 3, 4 - [K] 
 #- day: Fri 26/01
 #  contents: Verifying polynomial identities • Verifying matrix multiplication
 #  slides:
