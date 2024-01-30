@@ -32,10 +32,18 @@
     - Section 2.1, 2.2.1, 2.2.2 - [HMU]
 
 - day: Mon 29/01
-  contents: DFA -formal definition, notion of acceptance, regular languages, examples • Formal proof correctness of construction - examples
+  contents: DFA - formal definition, notion of acceptance, regular languages, examples • Formal proof correctness of construction - examples
   notes: https://edstem.org/us/courses/53487/resources?download=33943
   references:
     - Lectures 3, 4 - [K] 
+
+- day: Tue 30/01
+  contents: DFA - proving correctness • Operations on languages - union, intersection, concatenation, Kleene star, examples • Closure properties of regular languages
+  notes: https://edstem.org/us/courses/53487/resources?download=33991
+  references:
+    - Lectures 2, 4 - [K] 
+  misc: 
+    <span class="important"><a href="https://drive.google.com/file/d/1YKXuQmDkL3SOpHhkOuHqQPHQQOQGW50g/view?usp=sharing">PS1</a> released</span>
 #- day: Fri 26/01
 #  contents: Verifying polynomial identities • Verifying matrix multiplication
 #  slides:
