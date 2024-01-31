@@ -44,6 +44,12 @@
     - Lectures 2, 4 - [K] 
   misc: 
     <span class="important"><a href="https://drive.google.com/file/d/1YKXuQmDkL3SOpHhkOuHqQPHQQOQGW50g/view?usp=sharing">PS1</a> released</span>
+
+- day: Wed 31/01
+  contents: Closure properties of regular languages - union, intersection, complement, examples • Concatenation of regular languages - the need to guess
+  notes: https://edstem.org/us/courses/53487/resources?download=34070
+  references:
+    - Lecture 4 - [K]
 #- day: Fri 26/01
 #  contents: Verifying polynomial identities • Verifying matrix multiplication
 #  slides:
