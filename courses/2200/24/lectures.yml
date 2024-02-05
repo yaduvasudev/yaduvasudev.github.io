@@ -53,6 +53,14 @@
 
 - day: Fri 02/02
   tutorial: Based on Problem sets 0 and 1
+
+- day: Mon 05/02
+  contents: Non-determinism - examples and definitions • Equivalent models - multiple start states, \( \varepsilon \)-transitions
+  notes: https://edstem.org/us/courses/53487/resources?download=34278
+  references:
+    - Lecture 5 - [K]
+    - Section 2.2 - [S]
+    - Sections 2.3.1 to 2.3.4 - [HMU]
 #- day: Fri 26/01
 #  contents: Verifying polynomial identities • Verifying matrix multiplication
 #  slides:
