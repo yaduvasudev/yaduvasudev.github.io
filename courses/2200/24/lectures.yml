@@ -61,6 +61,15 @@
     - Lecture 5 - [K]
     - Section 2.2 - [S]
     - Sections 2.3.1 to 2.3.4 - [HMU]
+
+- day: Tue 06/02
+  contents: Equivalent definitions - multiple start states, \( \varepsilon \)-transitions, examples • Concatenation and Kleene star using NFAs • From NFAs to DFAs
+  notes: https://edstem.org/us/courses/53487/resources?download=34319
+  references:
+    - Lectures 5,6 - [K]
+    - Section 2.2 - [S]
+    - Sections 2.3.5 - [HMU]
+
 #- day: Fri 26/01
 #  contents: Verifying polynomial identities • Verifying matrix multiplication
 #  slides:
