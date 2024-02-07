@@ -68,6 +68,14 @@
   references:
     - Lectures 5,6 - [K]
     - Section 2.2 - [S]
+    - Section 2.3.5 - [HMU]
+
+- day: Wed 07/02
+  contents: Equivalence of NFAs and DFAs - construction and examples • More closure properties using NFAs
+  notes: https://edstem.org/us/courses/53487/resources?download=34345
+  references:
+    - Lecture 6 - [K]
+    - Section 2.2 - [S]
     - Sections 2.3.5 - [HMU]
 
 #- day: Fri 26/01
