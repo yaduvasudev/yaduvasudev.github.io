@@ -81,6 +81,12 @@
 - day: Fri 09/02
   miniquiz: Based on Lectures 1 - 7 (Problem sets 0 and 1)
 
+- day: Mon 12/02
+  contents: Non-regular languages - examples and proof ideas • Formalizing the idea - statement of the pumping lemma
+  notes: https://edstem.org/us/courses/53487/resources?download=34443
+  references:
+    - Lecture 11 - [K]
+
 #- day: Fri 26/01
 #  contents: Verifying polynomial identities • Verifying matrix multiplication
 #  slides:
