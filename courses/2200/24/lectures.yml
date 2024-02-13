@@ -88,6 +88,13 @@
     - Lecture 11 - [K]
   misc: <span class="important"><a href="https://drive.google.com/file/d/10IxnbFx_nH2QQpeYcRxWtNrzKpOgFzAZ/view?usp=sharing">PS2</a> released</span>
 
+- day: Tue 13/02
+  contents: Pumping lemma - statement and proof • Contrapositive form - examples
+  notes: https://edstem.org/us/courses/53487/resources?download=34470
+  references:
+    - Lecture 11 - [K]
+
+
 #- day: Fri 26/01
 #  contents: Verifying polynomial identities • Verifying matrix multiplication
 #  slides:
