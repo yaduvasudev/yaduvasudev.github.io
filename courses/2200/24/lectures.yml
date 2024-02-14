@@ -94,6 +94,12 @@
   references:
     - Lecture 11 - [K]
 
+- day: Wed 14/02
+  contents: Pumping lemma - more examples and uses
+  notes: https://edstem.org/us/courses/53487/resources?download=34557
+  references:
+    - Lectures 11, 12 - [K]
+
 
 #- day: Fri 26/01
 #  contents: Verifying polynomial identities • Verifying matrix multiplication
