@@ -103,6 +103,13 @@
 - day: Fri 16/02
   tutorial: Based on Problem set 2
 
+- day: Mon 19/02
+  contents: Distinguishable and indistinguishable strings • Using distinguishable strings to prove non-regularity • Indistinguihability as an equivalence relation
+  notes: https://edstem.org/us/courses/53487/resources?download=34814
+  references:
+    - class notes
+    - Lecture 15 - [K]
+
 
 #- day: Fri 26/01
 #  contents: Verifying polynomial identities • Verifying matrix multiplication
