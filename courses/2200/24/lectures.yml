@@ -113,6 +113,12 @@
 - day: Tue 20/02
   quiz: Based on Lectures 1 - 13 (Problem sets 0, 1, and 2)
 
+- day: Wed 21/02
+  contents: Myhill-Nerode relations • Indistinguishability relation as a Myhill-Nerode relation • From DFAs to Myhill-Nerode relations
+  notes: https://edstem.org/us/courses/53487/resources?download=34868
+  references:
+    - Lecture 15 - [K]
+
 
 #- day: Fri 26/01
 #  contents: Verifying polynomial identities • Verifying matrix multiplication
