@@ -119,6 +119,12 @@
   references:
     - Lecture 15 - [K]
 
+- day: Fri 23/02
+  contents: From Myhill-Nerode relations to DFAs - construction, examples • Coarsest Myhill-Nerode relation
+  notes: https://edstem.org/us/courses/53487/resources?download=34972
+  references:
+    - Lecture 15 - [K]
+
 
 #- day: Fri 26/01
 #  contents: Verifying polynomial identities • Verifying matrix multiplication
