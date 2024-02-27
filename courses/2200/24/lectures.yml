@@ -125,6 +125,13 @@
   references:
     - Lecture 15 - [K]
 
+- day: Tue 27/02 
+  contents: Coarsest Myhill-Nerode relation • Uniqueness of minimal DFA • Quotient construction and the minimization algorithm
+  notes: https://edstem.org/us/courses/53487/resources?download=35141
+  references:
+    - Lectures 13, 16 - [K]
+  misc: <span class="important"><a href="https://drive.google.com/file/d/1lNKlAitm5dktJ6rYWj5BhjyUopgu7IGZ/view?usp=sharing">PS3</a> released</span>
+
 
 #- day: Fri 26/01
 #  contents: Verifying polynomial identities • Verifying matrix multiplication
