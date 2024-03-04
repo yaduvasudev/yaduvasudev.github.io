@@ -141,6 +141,12 @@
 - day: Fri 01/03
   tutorial: Based on Problem set 3
 
+- day: Mon 04/03  
+  contents: Regular expressions - pattern matching, examples • From regular expressions to DFAs - construction, examples, complexity
+  notes: https://edstem.org/us/courses/53487/resources?download=35541
+  references:
+    - Lectures 8 - [K]
+
 #- day: Fri 26/01
 #  contents: Verifying polynomial identities • Verifying matrix multiplication
 #  slides:
