@@ -147,6 +147,13 @@
   references:
     - Lectures 8 - [K]
 
+- day: Tue 05/03
+  contents: From DFA to regex - state elimination, examples • Decision problems on regular languages and their complexity
+  notes: https://edstem.org/us/courses/53487/resources?download=35567
+  references:
+    - Section 1.3 - [S]
+    - Sections 3.2.2, 4.3 - [HMU]
+
 #- day: Fri 26/01
 #  contents: Verifying polynomial identities • Verifying matrix multiplication
 #  slides:
