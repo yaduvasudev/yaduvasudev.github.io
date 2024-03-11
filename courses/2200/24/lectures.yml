@@ -157,6 +157,13 @@
 - day: Wed 06/03
   miniquiz: Based on Lectures 14 - 18 (Problem set 3)
 
+- day: Mon 11/03 
+  contents: Context-Free Languages(CFL) - motivation, definition • Context-Free Grammars (CFG) - examples, derivations
+  notes: https://edstem.org/us/courses/53487/resources?download=35745
+  references:
+    - Lecture 19 - [K]
+    - Section 2.1 - [S]
+
 #- day: Fri 26/01
 #  contents: Verifying polynomial identities • Verifying matrix multiplication
 #  slides:
