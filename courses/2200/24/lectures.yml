@@ -165,6 +165,12 @@
     - Section 2.1 - [S]
   misc: <span class="important"><a href="https://drive.google.com/file/d/1y7bRz7eGzyF4whzBp73pzVyqA-q0UiOV/view?usp=sharing">PS4</a> released
 
+- day: Tue 12/03
+  contents: Context-Free Grammars (CFG) - more examples and constructions, the Dyck language
+  notes: https://edstem.org/us/courses/53487/resources?download=35760
+  references:
+    - Lecture 20 - [K]
+
 #- day: Fri 26/01
 #  contents: Verifying polynomial identities • Verifying matrix multiplication
 #  slides:
