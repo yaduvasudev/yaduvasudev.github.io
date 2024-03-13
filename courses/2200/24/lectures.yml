@@ -171,6 +171,12 @@
   references:
     - Lecture 20 - [K]
 
+- day: Wed 13/03
+  contents: Dyck language (contd) • Regular languages and linear grammars • Parse trees
+  notes: https://edstem.org/us/courses/53487/resources?download=35766
+  references:
+    - Lecture 20 - [K] 
+
 #- day: Fri 26/01
 #  contents: Verifying polynomial identities • Verifying matrix multiplication
 #  slides:
