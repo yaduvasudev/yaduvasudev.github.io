@@ -180,6 +180,13 @@
 - day: Fri 15/03
   tutorial: Based on Problem set 4
 
+- day: Mon 18/03
+  contents: Ambiguity in grammars - leftmost derivations and parse trees • Examples - arithmetic expressions, dangling else • Closure properties of CFLs
+  notes: https://edstem.org/us/courses/53487/resources?download=35968
+  references: 
+    - Section 2.1 - [S]
+    - Section 5.2, 5.4 - [HMU]
+
 #- day: Fri 26/01
 #  contents: Verifying polynomial identities • Verifying matrix multiplication
 #  slides:
