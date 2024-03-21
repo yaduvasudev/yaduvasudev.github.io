@@ -190,6 +190,13 @@
 - day: Tue 19/03
   quiz: Based on Lectures 14 - 20 (Problem sets 3 and 4)
 
+- day: Wed 20/03
+  contents: Chomsky Normal Form - removing unit productions and \( \varepsilon \)-productions
+  notes: https://edstem.org/us/courses/53487/resources?download=36029
+  references:
+    - Lecture 21 - [K]
+    - Section 2.1 - [S]
+
 #- day: Fri 26/01
 #  contents: Verifying polynomial identities • Verifying matrix multiplication
 #  slides:
