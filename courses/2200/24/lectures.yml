@@ -197,39 +197,11 @@
     - Lecture 21 - [K]
     - Section 2.1 - [S]
 
-#- day: Fri 26/01
-#  contents: Verifying polynomial identities • Verifying matrix multiplication
-#  slides:
-#  notes:
-#  references:
-#    - MU - Chapter 2
-#    - Sections 11.3.2, 11.3.4 - Sipser
-#  misc:
-#
-#- day: Thu 05/08
-#  tutorial: Prev week
-#  contents:
-#  slides:
-#  notes:
-#  references:
-#  misc:
-#
-# - day: Fri 06/08
-#   contents: Concentration inequalities - Markov, Chebyshev and Chernoff
-#   references: MU - Chapter 4
-#
-#- day: Mon 09/08
-#  miniquiz: Based on Tutorial 1
-#
-# - day: Wed 08/08
-#   contents: Balls and bins; Birthday problems
-#   references:
-#     - MU - Chapter 5
-#
-#- day: Thur 09/08
-#  quiz: Material till concentration bounds
-#
-# - day: Fri 10/08
-#   contents: Hashing with chaining - analysis
-#   references:
-#     - MU - Chapter 5
+- day: Fri 22/03
+  contents: Chomsky Normal Form • Pumping lemma for CFLs - statement and examples
+  notes: https://edstem.org/us/courses/53487/resources?download=36056
+  references:
+    - Lecture 22 - [K]
+    - Section 2.3 - [S]
+  misc: <span class="important"><a href="https://drive.google.com/file/d/1vTIYImxMhl2Z1amv7Ar-xZu6rI-WRD_k/view?usp=sharing">PS5</a> released
+
