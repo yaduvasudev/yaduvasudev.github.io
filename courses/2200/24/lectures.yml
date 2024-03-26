@@ -205,3 +205,9 @@
     - Section 2.3 - [S]
   misc: <span class="important"><a href="https://drive.google.com/file/d/1vTIYImxMhl2Z1amv7Ar-xZu6rI-WRD_k/view?usp=sharing">PS5</a> released
 
+- day: Tue 26/03
+  contents: Pumping lemma for CFLs - examples • Closure properties of CFL
+  notes: https://edstem.org/us/courses/53487/resources?download=36139
+  references:
+    - Lecture 22 - [K]
+
