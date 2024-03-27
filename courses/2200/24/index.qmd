@@ -167,8 +167,8 @@ Please note the following dates for the ungraded tutorials and class tests. The 
 
 |      |     |
 |------|-----|
-| Tutorials | ~~Jan 24~~, Feb 02, Feb 16, Mar 01, Mar 15, Mar 27, Apr 05, Apr 19, Apr 26|
-| Class tests | Feb 09, Mar 06, Apr 12, May 03 |
+| Tutorials | ~~Jan 24~~, Feb 02, Feb 16, Mar 01, Mar 15, Mar 27, Apr 05, ~~Apr 19~~, Apr 26|
+| Class tests | Feb 09, Mar 06, Apr ~~12~~16 , May 03 |
 | Quiz 1 | Feb 20 |
 | Quiz 2 | Mar 19 |
 | End-sem | May 07 |
