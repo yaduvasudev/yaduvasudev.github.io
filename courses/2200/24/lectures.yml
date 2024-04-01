@@ -214,3 +214,9 @@
 - day: Wed 27/03
   tutorial: Based on Problem set 5
 
+- day: Mon 01/04
+  contents: Cocke-Kasami-Younger (CYK) algorithm for parsing CFGs
+  notes: https://edstem.org/us/courses/53487/resources?download=36312
+  references:
+    - Lecture 27 - [K]
+

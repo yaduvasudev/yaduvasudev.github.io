@@ -6,6 +6,7 @@ page-layout: full
 ### Current/Upcoming courses
 
 - CS2200 Languages, Machines, and Computation - [Jan-May 24](courses/2200/24/)
+- CS5800 Advanced Data Structures and Algorithms - [July-Nov 24]()
 
 ::: {.grid}
 
@@ -18,7 +19,7 @@ page-layout: full
 | CS1100 Introduction to Programming | May-July 22 |
 | CS2200 Languages, Machines and Computation | [Jan-May 20](courses/2200/20/), [Jan-May 24](courses/2200/24/) |
 | CS2800 Design and Analysis of Algorithms  | [Jan-May 23](courses/2800/23/)
-| CS5800 Advanced Data Structures and Algorithms | [Jul-Nov 19](courses/5800/19/) |
+| CS5800 Advanced Data Structures and Algorithms | [Jul-Nov 19](courses/5800/19/), [Jul-Nov 24]() |
 | CS6014 Computability and Complexity | [Sep-Dec 20](courses/6014/20/) |
 | CS6025 Sublinear Algorithms | [Jan-May 19](courses/6025/19/), [Jan-May 22](courses/6025/22) |
 | CS6030 Logic and Combinatorics for Computer Science | [Jul-Nov 18](courses/6030/18/) |
