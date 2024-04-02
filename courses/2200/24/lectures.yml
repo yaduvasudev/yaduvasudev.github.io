@@ -220,3 +220,9 @@
   references:
     - Lecture 27 - [K]
 
+- day: Tue 02/04  
+  contents: Pushdown Automata (PDA) - definitions, acceptance conditions, examples
+  notes: https://edstem.org/us/courses/53487/resources?download=36346
+  references:
+    - Lecture 23 - [K]
+
