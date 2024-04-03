@@ -226,3 +226,10 @@
   references:
     - Lecture 23 - [K]
 
+- day: Wed 03/04  
+  contents: Equivalence of PDAs and CFGs 
+  notes: https://edstem.org/us/courses/53487/resources?download=36370
+  references: 
+    - Lectures 24,25 - [K]
+  misc: <span class="important"><a href="https://drive.google.com/file/d/1D8wCKIFMuJ5tt-XchuHuAYmOz9yPNS8u/view?usp=sharing">PS6</a> released
+
