@@ -236,3 +236,9 @@
 - day: Fri 05/04
   tutorial: Based on Problem set 6
 
+- day: Mon 08/04
+  contents: Equivalence of PDAs and CFGs (contd.) • Effective computability
+  notes: https://edstem.org/us/courses/53487/resources?download=36487
+  references:
+    - Lecture 25 -[K]
+
