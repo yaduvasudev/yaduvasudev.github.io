@@ -242,3 +242,9 @@
   references:
     - Lecture 25 -[K]
 
+- day: Wed 10/04
+  contents: Turing machines - motivation, definition, examples, configurations and acceptance condition
+  notes: https://edstem.org/us/courses/53487/resources?download=36588
+  references:
+    - Lecture 28 - [K]
+
