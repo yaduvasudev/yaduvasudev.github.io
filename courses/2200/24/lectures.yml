@@ -248,3 +248,9 @@
   references:
     - Lecture 28 - [K]
 
+- day: Fri 12/04
+  contents: Recursive and recursively enumerable languages • Multi-tape TMs • Universal TM
+  notes: https://edstem.org/us/courses/53487/resources?download=36656
+  references:
+    - Lectures 28-31 - [K]
+  misc: Lecture covered parts of these lectures. Check the notes for the exact portions
