@@ -255,8 +255,8 @@
     - Lectures 28-31 - [K]
   misc: We covered parts of these lectures. Check the notes for the exact portions
 
-  - day: Mon 15/04
-    contents: Recursive and recursively enumerable languages • Membership problem (MP) and Halting problem (HP) • Enumeration machines
-    notes: https://edstem.org/us/courses/53487/resources?download=36717
-    references:
-      - Lectures 29-30 - [K]
+- day: Mon 15/04
+  contents: Recursive and recursively enumerable languages • Membership problem (MP) and Halting problem (HP) • Enumeration machines
+  notes: https://edstem.org/us/courses/53487/resources?download=36717
+  references:
+    - Lectures 29-30 - [K]
