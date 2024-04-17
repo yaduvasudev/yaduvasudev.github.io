@@ -263,3 +263,9 @@
 
 - day: Tue 16/04
   miniquiz: Based on Lectures 21 - 30 (Problem sets 5 and 6)
+
+- day: Wed 17/04
+  contents: Diagonalization - undecidability of the Halting Problem
+  notes: https://edstem.org/us/courses/53487/resources?download=36780
+  references:
+    - Lecture 31 - [K]
