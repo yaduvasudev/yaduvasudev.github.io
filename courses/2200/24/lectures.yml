@@ -269,3 +269,9 @@
   notes: https://edstem.org/us/courses/53487/resources?download=36780
   references:
     - Lecture 31 - [K]
+
+- day: Thu 18/04
+  contents: Reducibility between problems - Halting Problem, Membership Problem and other examples
+  notes: https://edstem.org/us/courses/53487/resources?download=36980
+  references:
+    - Lectures 31, 32 - [K]
