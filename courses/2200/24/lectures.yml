@@ -281,3 +281,10 @@
   notes: https://edstem.org/us/courses/53487/resources?download=36994
   references:
     - Lecture 33 - [K]
+
+- day: Tue 23/04
+  contents: Many-one reductions - examples • Statement of Rice's theorem
+  notes: https://edstem.org/us/courses/53487/resources?download=37021
+  references:
+    - Lectures 33, 34 - [K]
+  misc: <span class="important"><a href="https://drive.google.com/file/d/1lBkyHksS7LAKez_eBnlHLCsQbWEls6Vd/view?usp=sharing">PS7</a> released
