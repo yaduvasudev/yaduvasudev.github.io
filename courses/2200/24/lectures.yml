@@ -294,3 +294,8 @@
   notes: https://edstem.org/us/courses/53487/resources?download=37043
   references: 
     - Lecture 34 - [K]
+
+- day: Thu 25/04
+  contents: Problems on CFLs • Valid computation histories - proof ideas
+  references:
+    - Lecture 35 - [K]
