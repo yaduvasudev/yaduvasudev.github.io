@@ -297,6 +297,7 @@
 
 - day: Thu 25/04
   contents: Problems on CFLs • Valid computation histories - proof ideas
+  notes: https://edstem.org/us/courses/53487/resources?download=37288
   references:
     - Lecture 35 - [K]
 
@@ -305,3 +306,6 @@
 
 - day: Mon 29/04
   contents: Notion of time-complexity • Efficient computation and complexity class P
+
+- day: Tue 30/04  
+  contents: P vs NP - efficient verifiability and search • Reductions, NP-completeness • Cook-Levin theorem (statement) • Wrap-up of the course
