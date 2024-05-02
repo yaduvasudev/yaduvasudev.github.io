@@ -2,6 +2,7 @@
 title: "CS2200 Languages, Machines, and Computation"
 subtitle: Jan - May 2024
 page-layout: full
+lightbox: true
 listing:
   - id: lectures
     type: table
@@ -44,6 +45,8 @@ include-in-header:
 ::: panel-tabset
 
 ## about
+
+![](cs2200-24.jpg){fig-align="center" fig-alt="Group pic!" width="800" .lightbox}
 
 ::: {.grid}
 
