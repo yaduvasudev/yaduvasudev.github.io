@@ -110,14 +110,16 @@ The following is a brief overview of the topics that will be covered in this cou
   - Notion of poly-time reductions
   - NP-completeness and its consequences
   - Coping with intractability
+  
+---
 
 #### {{< bi book-fill color=#40CB2D >}} Course resources
 
 There are many textbooks and resources (both offline and online) that cover most of the material presented in the list above. We will not be following one textbook. Our main sources of reference will be the following textbooks.
 
-- **[E]** - Algorithms by Erickson
+- **[E]** - [Algorithms](https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf) by Erickson
 - **[CLRS]** - Introduction to Algorithms by Cormen, Leiserson, Rivest, and Stein
-- **[M]** - Open Data Structures by Morin
+- **[M]** - [Open Data Structures](https://opendatastructures.org/) by Morin
 - **[DPV]** - Algorithms by Dasgupta, Papadimitriou, and Vazirani
 
 All these books contain a number of exercise problems for practice.
