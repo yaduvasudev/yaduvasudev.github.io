@@ -2,90 +2,94 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://yaduvasudev.github.io/courses/6014/20/index.html</loc>
-    <lastmod>2024-05-03T06:38:40.592Z</lastmod>
+    <lastmod>2024-07-11T09:49:31.555Z</lastmod>
   </url>
   <url>
     <loc>https://yaduvasudev.github.io/courses/2200/24/index.html</loc>
-    <lastmod>2024-05-03T06:38:40.096Z</lastmod>
+    <lastmod>2024-07-11T09:49:31.031Z</lastmod>
   </url>
   <url>
     <loc>https://yaduvasudev.github.io/courses/6030/18/index.html</loc>
-    <lastmod>2024-05-03T06:38:39.412Z</lastmod>
+    <lastmod>2024-07-11T09:49:30.287Z</lastmod>
   </url>
   <url>
-    <loc>https://yaduvasudev.github.io/courses/5800/19/index.html</loc>
-    <lastmod>2024-05-03T06:38:38.728Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yaduvasudev.github.io/courses/6840/21/lectures.html</loc>
-    <lastmod>2024-05-03T06:38:38.268Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yaduvasudev.github.io/courses/6025/22/lectures.html</loc>
-    <lastmod>2024-05-03T06:38:37.688Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yaduvasudev.github.io/courses/6170/22/index.html</loc>
-    <lastmod>2024-05-03T06:38:37.100Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yaduvasudev.github.io/courses/6170/21/index.html</loc>
-    <lastmod>2024-05-03T06:38:36.584Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yaduvasudev.github.io/courses/6845/18/index.html</loc>
-    <lastmod>2024-05-03T06:38:35.900Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yaduvasudev.github.io/people.html</loc>
-    <lastmod>2024-05-03T06:38:35.376Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yaduvasudev.github.io/index.html</loc>
-    <lastmod>2024-05-03T06:38:34.781Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yaduvasudev.github.io/courses.html</loc>
-    <lastmod>2024-05-03T06:38:34.521Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yaduvasudev.github.io/research.html</loc>
-    <lastmod>2024-05-03T06:38:35.069Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yaduvasudev.github.io/contact.html</loc>
-    <lastmod>2024-05-03T06:38:35.612Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yaduvasudev.github.io/courses/6170/21/lectures.html</loc>
-    <lastmod>2024-05-03T06:38:36.312Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yaduvasudev.github.io/courses/6170/21/reading.html</loc>
-    <lastmod>2024-05-03T06:38:36.868Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yaduvasudev.github.io/courses/6025/19/index.html</loc>
-    <lastmod>2024-05-03T06:38:37.336Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yaduvasudev.github.io/courses/6025/22/index.html</loc>
-    <lastmod>2024-05-03T06:38:37.936Z</lastmod>
+    <loc>https://yaduvasudev.github.io/courses/5800/24/index.html</loc>
+    <lastmod>2024-07-11T09:49:29.571Z</lastmod>
   </url>
   <url>
     <loc>https://yaduvasudev.github.io/courses/6840/21/index.html</loc>
-    <lastmod>2024-05-03T06:38:38.480Z</lastmod>
+    <lastmod>2024-07-11T09:49:28.975Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yaduvasudev.github.io/courses/6025/22/index.html</loc>
+    <lastmod>2024-07-11T09:49:28.419Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yaduvasudev.github.io/courses/6025/19/index.html</loc>
+    <lastmod>2024-07-11T09:49:27.783Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yaduvasudev.github.io/courses/6170/21/reading.html</loc>
+    <lastmod>2024-07-11T09:49:27.283Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yaduvasudev.github.io/courses/6170/21/lectures.html</loc>
+    <lastmod>2024-07-11T09:49:26.763Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yaduvasudev.github.io/contact.html</loc>
+    <lastmod>2024-07-11T09:49:26.171Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yaduvasudev.github.io/research.html</loc>
+    <lastmod>2024-07-11T09:49:25.699Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yaduvasudev.github.io/courses.html</loc>
+    <lastmod>2024-07-11T09:49:25.247Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yaduvasudev.github.io/index.html</loc>
+    <lastmod>2024-07-11T09:49:25.463Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yaduvasudev.github.io/people.html</loc>
+    <lastmod>2024-07-11T09:49:25.979Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yaduvasudev.github.io/courses/6845/18/index.html</loc>
+    <lastmod>2024-07-11T09:49:26.419Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yaduvasudev.github.io/courses/6170/21/index.html</loc>
+    <lastmod>2024-07-11T09:49:27.003Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yaduvasudev.github.io/courses/6170/22/index.html</loc>
+    <lastmod>2024-07-11T09:49:27.527Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yaduvasudev.github.io/courses/6025/22/lectures.html</loc>
+    <lastmod>2024-07-11T09:49:28.151Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yaduvasudev.github.io/courses/6840/21/lectures.html</loc>
+    <lastmod>2024-07-11T09:49:28.763Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yaduvasudev.github.io/courses/5800/19/index.html</loc>
+    <lastmod>2024-07-11T09:49:29.227Z</lastmod>
   </url>
   <url>
     <loc>https://yaduvasudev.github.io/courses/2800/23/index.html</loc>
-    <lastmod>2024-05-03T06:38:39.176Z</lastmod>
+    <lastmod>2024-07-11T09:49:30.027Z</lastmod>
   </url>
   <url>
     <loc>https://yaduvasudev.github.io/courses/2200/20/index.html</loc>
-    <lastmod>2024-05-03T06:38:39.644Z</lastmod>
+    <lastmod>2024-07-11T09:49:30.527Z</lastmod>
   </url>
   <url>
     <loc>https://yaduvasudev.github.io/courses/6014/20/lectures.html</loc>
-    <lastmod>2024-05-03T06:38:40.384Z</lastmod>
+    <lastmod>2024-07-11T09:49:31.335Z</lastmod>
   </url>
 </urlset>
