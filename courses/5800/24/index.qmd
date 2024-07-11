@@ -103,7 +103,7 @@ The following is a brief overview of the topics that will be covered in this cou
   - Priority Queue ADT - binary heaps, min-max heaps, mergeable heaps
   - Disjoint set ADT and applications
 - Algorithm design
-  - Greedy algorithms - design principles, correctness
+  - Greedy algorithms - scheduling, Huffman coding, MST
   - Dynamic programming - DP on strings, trees, DAGs, and graphs
   - Network flows and applications
 - Intractability 
