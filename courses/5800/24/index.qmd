@@ -53,7 +53,7 @@ include-in-header:
 ####  {{< bi compass color=#40CB2D >}} Coordinates
 
 - Where: CS15
-- When: D slot - Mon (11 am), Tue (10 am), Wed (9 pm), Thu (12 pm)
+- When: D slot - Mon (11 am), Tue (10 am), Wed (9 am), Thu (12 pm)
 
 
 #### {{< bi person-fill color=#40CB2D >}} Instructor
