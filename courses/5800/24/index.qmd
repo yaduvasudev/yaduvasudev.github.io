@@ -62,7 +62,13 @@ include-in-header:
 - yadu@cse.iitm.ac.in
 
 #### {{< bi people-fill color=#40CB2D >}} TAs
-
+- Aditya (cs22s005@smail)
+- Arun (cs23m017@smail)
+- Nagashri (cs21d004@smail)
+- Narayana (cs22s004@smail)
+- Sampriti (cs18d200@smail)
+- Subramanian (cs23m067@smail)
+- Vasu (cs23m072@smail)
 
 :::
 
