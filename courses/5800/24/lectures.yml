@@ -4,3 +4,12 @@
   notes:
   references: 
   misc: <a href="https://edstem.org/us/join/MQYjkx">Sign up</a> on Ed discussions
+
+- day: Tue 30/07
+  contents: Dynamic arrays - linked lists vs arrays • Amortized analysis - aggregate method
+  slides:
+  notes:
+  references:
+    - Section 1.1 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
+    - Section 17.4.1 - CLRS
+  misc: <span class="important"><a href="https://drive.google.com/file/d/1dA-7q3NZvS9ZA16FGqmEg2qi5dfhkOyk/view?usp=sharing">PS0</a> released</span>

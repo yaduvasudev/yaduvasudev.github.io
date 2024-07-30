@@ -125,7 +125,7 @@ The following is a brief overview of the topics that will be covered in this cou
 There are many textbooks and resources (both offline and online) that cover most of the material presented in the list above. We will not be following one textbook. Our main sources of reference will be the following textbooks.
 
 - **[E]** - [Algorithms](https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf) by Erickson
-- **[CLRS]** - Introduction to Algorithms by Cormen, Leiserson, Rivest, and Stein
+- **[CLRS]** - Introduction to Algorithms by Cormen, Leiserson, Rivest, and Stein, 3rd Edition
 - **[M]** - [Open Data Structures](https://opendatastructures.org/) by Morin
 - **[DPV]** - Algorithms by Dasgupta, Papadimitriou, and Vazirani
 
