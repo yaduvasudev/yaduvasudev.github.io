@@ -19,3 +19,9 @@
   references:
     - Section 1.1 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
     - Section 17.4.1 - CLRS
+
+- day: Thu 01/08
+  contents: Dynamic arrays with insertions and deletions - amortized analysis using the potential method
+  references:
+    - Section 1.1 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
+    - Section 17.4.2 - CLRS
