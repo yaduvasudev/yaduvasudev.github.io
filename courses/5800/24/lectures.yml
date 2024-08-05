@@ -25,3 +25,8 @@
   references:
     - Section 1.1 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
     - Section 17.4.2 - CLRS
+
+- day: Mon 05/08
+  contents: Basic discrete probability - sample spaces, events, independence, union bound
+  references:
+    - Section 2.1 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
