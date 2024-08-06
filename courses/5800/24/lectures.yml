@@ -30,3 +30,8 @@
   contents: Basic discrete probability - sample spaces, events, independence, union bound
   references:
     - Section 2.1 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
+
+- day: Tue 06/08
+  contents: Random variables and their properties - examples • Quicksort
+  references:
+    - Section 2.2 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
