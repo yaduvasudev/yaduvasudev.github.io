@@ -35,3 +35,9 @@
   contents: Random variables and their properties - examples • Quicksort
   references:
     - Section 2.2 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
+
+- day: Wed 07/08  
+  contents: Quicksort - correctness, recurrence for running time, randomization
+  references:
+    - Section 2.3 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
+    - Sections 7.2, 7.3 - CLRS
