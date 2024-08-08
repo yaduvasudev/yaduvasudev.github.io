@@ -41,3 +41,12 @@
   references:
     - Section 2.3 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
     - Sections 7.2, 7.3 - CLRS
+
+- day: Thu 08/08
+  contents: Analysis of randomized quicksort
+  references: 
+    - Section 2.3 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
+    - Section 7.4 - CLRS
+  misc: <span class="important"><strong><a href="https://drive.google.com/file/d/1E3AEZTRzcea8qbrY04eRRF3EYQcMaTkX/view?usp=drive_link">PS1</a> released</strong></span>
+
+  
