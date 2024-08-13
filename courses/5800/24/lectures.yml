@@ -52,7 +52,12 @@
 - day: Mon 12/08
   contents: Dictionaries and Hash tables - trade-offs between running-time and size, random hash functions and collisions
   references:
-    - Section 3.1 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
+    - Section 3.1.1 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
     - Section 11.2 - CLRS
     
+- day: Tue 13/08
+  contents: Random hash functions and collisions - the birthday problem
+  references: 
+    - Section 3.1.1 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
+    - Section 5.4.1 - CLRS
   
