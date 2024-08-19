@@ -82,6 +82,10 @@ include-in-header:
   Join using your smail/iitm ids via [this link](https://edstem.org/us/join/MQYjkx)
 - [Anonymous course feedback](https://forms.gle/st9ZZtom2DkzviV99)
 
+#### {{< bi calendar-month color=#40CB2D >}} Course calendar
+
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Asia%2FKolkata&bgcolor=%23ffffff&mode=WEEK&src=Y180YTYyZmU3NzBiYzkzYjZlMDk5ODQxMDkzNzRkMGQ3OGRmNDZhNDFjMDhlOWMxYmYzMjQ1NGFkZWIyNDJkYWYzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23616161" style="border:solid 1px #777" width="600" height="450" frameborder="0" scrolling="no"></iframe>
+
 :::
 
 :::
