@@ -76,3 +76,8 @@
   references:
     - Section 3.1.3 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
     - Section 5.1.1 - <a href="https://opendatastructures.org/ods-python.pdf">Morin</a>
+
+- day: Wed 21/08
+  contents: Perfect hashing - static dictionaries and FKS hashing
+  references:
+    - Section 11.5 - CLRS
