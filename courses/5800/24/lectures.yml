@@ -81,3 +81,6 @@
   contents: Perfect hashing - static dictionaries and FKS hashing
   references:
     - Section 11.5 - CLRS
+
+- day: Thu 22/08
+  miniquiz: Based on Lectures 1 - 8 (Problem sets 0, 1)
