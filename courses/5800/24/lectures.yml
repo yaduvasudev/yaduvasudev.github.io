@@ -84,3 +84,10 @@
 
 - day: Thu 22/08
   miniquiz: Based on Lectures 1 - 8 (Problem sets 0, 1)
+
+- day: Mon 26/08
+  contents: Hashing using open addressing - linear probing
+  references:
+    - Section 3.1.5 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
+    - Section 5.2 - <a href="https://opendatastructures.org/ods-python.pdf">Morin</a>
+  misc: <span class="important"><strong><a href="https://drive.google.com/file/d/1_NLHYrKdNWVT5Z2tV2gJtoslQHQE_taK/view?usp=drive_link">PS3</a> released</strong></span>
