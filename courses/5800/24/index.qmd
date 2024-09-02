@@ -69,7 +69,6 @@ include-in-header:
 - Sampriti (cs18d200@smail)
 - Subramanian (cs23m067@smail)
 - Vasu (cs23m072@smail)
-- Vasuki (cs22d013@smail)
 
 :::
 

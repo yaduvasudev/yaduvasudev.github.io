@@ -83,7 +83,7 @@
     - Section 11.5 - CLRS
 
 - day: Thu 22/08
-  miniquiz: Based on Lectures 1 - 8 (Problem sets 0, 1)
+  miniquiz: Based on Lectures 1 - 8 (Problem sets 0, 1, 2)
 
 - day: Mon 26/08
   contents: Hashing using open addressing - linear probing
@@ -106,3 +106,6 @@
 
 - day: Thu 29/08
   tutorial: Based on Problem set 3
+
+- day: Mon 02/09
+  quiz: Based on Lectures 1 -13 (Problem sets 0, 1, 2, 3)
