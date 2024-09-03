@@ -109,3 +109,8 @@
 
 - day: Mon 02/09
   quiz: Based on Lectures 1 -13 (Problem sets 0, 1, 2, 3)
+
+- day: Tue 03/09
+  contents: Skip lists - analysis • Binary search trees - examples
+  references:
+    - Section 3.2, 3.3 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
