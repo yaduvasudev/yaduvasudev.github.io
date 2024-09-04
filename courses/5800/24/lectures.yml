@@ -114,3 +114,8 @@
   contents: Skip lists - analysis • Binary search trees - examples
   references:
     - Section 3.2, 3.3 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
+
+- day: Wed 04/09
+  contents: Binary search trees - search, insert and delete operations, examples, time complexity
+  references:
+    - Section 3.3 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
