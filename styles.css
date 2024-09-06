@@ -167,20 +167,38 @@ table.lectures {
   width: 100%;
 }
 
-.lectures td,
 .lectures th {
   vertical-align: text-top;
   padding: 10px;
 }
 
+.lectures td {
+  vertical-align: text-top;
+  padding: 10px;
+  border-bottom: 3px slategray;
+  border-top: 3px slategray;
+  border-style: dotted;
+
+}
+
+/*.lectures tr {
+  border: 2px;
+  border-style: dotted;
+  border-color: solid black;
+}*/
+
 .lectures td:first-child {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  border-left: 3px slategray;
+  border-style: dotted;
 }
 
 .lectures td:last-child {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+  border-right: 3px slategray;
+  border-style: dotted;
 }
 
 .lectures th:first-child {
@@ -191,6 +209,15 @@ table.lectures {
 .lectures th:last-child {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+
+.btn-info,
+.btn-info:hover,
+.btn-info:visited {
+  background-color: #a9e8f5 ! important;
+  border-radius: 5px;
+  border-color: #a9e8f5;
+  color: #800;
 }
 
 html,
