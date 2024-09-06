@@ -12,7 +12,7 @@
   references:
     - Section 1.1 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
     - Section 17.4.1 - CLRS
-  misc: <span class="important"><strong><a href="https://drive.google.com/file/d/1dA-7q3NZvS9ZA16FGqmEg2qi5dfhkOyk/view?usp=sharing">PS0</a> released</strong></span>
+  misc: <a class="btn btn-info btn-sm" href="https://drive.google.com/file/d/1dA-7q3NZvS9ZA16FGqmEg2qi5dfhkOyk/view?usp=sharing"><strong>PS0 released</strong></a>
 
 - day: Wed 31/07
   contents: Dynamic arrays • Amortized analysis - accounting and potential methods
@@ -47,7 +47,7 @@
   references: 
     - Section 2.3 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
     - Section 7.4 - CLRS
-  misc: <span class="important"><strong><a href="https://drive.google.com/file/d/1E3AEZTRzcea8qbrY04eRRF3EYQcMaTkX/view?usp=drive_link">PS1</a> released</strong></span>
+  misc: <a class="btn btn-info btn-sm" href="https://drive.google.com/file/d/1E3AEZTRzcea8qbrY04eRRF3EYQcMaTkX/view?usp=drive_link"><strong>PS1 released</strong></a>
 
 - day: Mon 12/08
   contents: Dictionaries and Hash tables - trade-offs between running-time and size, random hash functions and collisions
@@ -63,7 +63,7 @@
 
 - day: Wed 14/08
   tutorial: Based on Problem sets 0 and 1
-  misc: <span class="important"><strong><a href="https://drive.google.com/file/d/1evhD1Fu1Epd7KfE8rzxZ5Nn9HiO5tfUE/view?usp=drive_link">PS2</a> released</strong></span>
+  misc: <a class="btn btn-info btn-sm" href="https://drive.google.com/file/d/1evhD1Fu1Epd7KfE8rzxZ5Nn9HiO5tfUE/view?usp=drive_link"><strong>PS2 released</strong></a>
   
 - day: Mon 19/08
   contents: Universal hash families I - construction and analysis
@@ -90,7 +90,7 @@
   references:
     - Section 3.1.5 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
     - Section 5.2 - <a href="https://opendatastructures.org/ods-python.pdf">Morin</a>
-  misc: <span class="important"><strong><a href="https://drive.google.com/file/d/1_NLHYrKdNWVT5Z2tV2gJtoslQHQE_taK/view?usp=drive_link">PS3</a> released</strong></span>
+  misc: <a class="btn btn-info btn-sm" href="https://drive.google.com/file/d/1_NLHYrKdNWVT5Z2tV2gJtoslQHQE_taK/view?usp=drive_link"><strong>PS3 released</strong></a>  
 
 - day: Tue 27/08
   contents: Hashing using open addressing - linear probing (contd.)
@@ -102,7 +102,7 @@
   contents: Skip lists - definition, examples, implementation details
   references:
     - Section 3.2 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
-    - Section 4.1, 4.2 - <a href="https://opendatastructures.org/ods-python.pdf">Morin</a>
+    - Sections 4.1, 4.2 - <a href="https://opendatastructures.org/ods-python.pdf">Morin</a>
 
 - day: Thu 29/08
   tutorial: Based on Problem set 3
@@ -113,10 +113,17 @@
 - day: Tue 03/09
   contents: Skip lists - analysis • Binary search trees - examples
   references:
-    - Section 3.2, 3.3 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
+    - Sections 3.2, 3.3 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
 
 - day: Wed 04/09
   contents: Binary search trees - search, insert and delete operations, examples, time complexity
   references:
     - Section 3.3 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
     - Section 6.2 - <a href="https://opendatastructures.org/ods-python.pdf">Morin</a>
+
+- day: Thu 05/09
+  contents: Balanced BSTs - definitions, examples • Self-adjusting BSTs - handling searches and deletions 
+  references:
+    - Sections 3.3.1, 3.3.2.1 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
+    - Section 8.1 - <a href="https://opendatastructures.org/ods-python.pdf">Morin</a>
+  misc: <a class="btn btn-info btn-sm" href="https://drive.google.com/file/d/1HhLIKnS9sbPMjl_OKoHXvB4LDJYHJaB3/view?usp=drive_link"><strong>PS4 released</strong></a>
