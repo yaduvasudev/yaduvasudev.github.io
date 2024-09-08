@@ -175,8 +175,8 @@ table.lectures {
 .lectures td {
   vertical-align: text-top;
   padding: 10px;
-  border-bottom: 3px slategray;
-  border-top: 3px slategray;
+  border-bottom: 2px slategray;
+  border-top: 2px slategray;
   border-style: dotted;
 
 }
@@ -190,14 +190,14 @@ table.lectures {
 .lectures td:first-child {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  border-left: 3px slategray;
+  border-left: 2px slategray;
   border-style: dotted;
 }
 
 .lectures td:last-child {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  border-right: 3px slategray;
+  border-right: 2px slategray;
   border-style: dotted;
 }
 
