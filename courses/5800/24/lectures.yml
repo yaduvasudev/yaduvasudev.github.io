@@ -127,3 +127,9 @@
     - Sections 3.3.1, 3.3.2.1 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
     - Section 8.1 - <a href="https://opendatastructures.org/ods-python.pdf">Morin</a>
   misc: <a class="btn btn-info btn-sm" href="https://drive.google.com/file/d/1HhLIKnS9sbPMjl_OKoHXvB4LDJYHJaB3/view?usp=drive_link"><strong>PS4 released</strong></a>
+
+- day: Mon 09/09
+  contents: Scapegoat trees - handling searches and insertions, examples, analysis
+  references:
+    - Section 3.3.2.2 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
+    - Section 8.1 - <a href="https://opendatastructures.org/ods-python.pdf">Morin</a>
