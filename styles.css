@@ -146,9 +146,11 @@ a.navbar-brand:hover {
   background-color: transparent;
 }
 
-a.dropdown-item:hover {
+a.dropdown-item:hover,
+a.dropdown-item:visited {
   text-decoration: none;
   background-color: #ccF7F1;
+  color: #0F096A;
 }
 
 
@@ -224,4 +226,5 @@ table.lectures {
 html,
 body {
   overflow-x: hidden;
+  color: black;
 }
