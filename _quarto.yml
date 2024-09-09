@@ -25,7 +25,7 @@ format:
     theme: cosmo
     css: styles.css
     toc: false
-    mainfont: 'Ubuntu'
+    mainfont: 'Open Sans'
     fontsize: 1.1em
 
 
