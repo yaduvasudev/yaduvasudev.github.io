@@ -1,21 +1,21 @@
 /* css styles */
 
 @font-face {
-  font-family: "Lato";
+  font-family: "OpenSans";
   font-style: normal;
   font-weight: 400;
   font-stretch: normal;
   font-display: auto;
-  src: url('fonts/lato/Lato-Regular.ttf') format('truetype');
+  src: url('fonts/OpenSans/OpenSans-Regular.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: "Lato";
+  font-family: "OpenSans";
   font-style: italic;
   font-weight: normal;
   font-stretch: normal;
   font-display: auto;
-  src: url('fonts/lato/Lato-Italic.ttf') format('truetype');
+  src: url('fonts/OpenSans/OpenSans-Italic.ttf') format('truetype');
 }
 
 @font-face {
@@ -24,16 +24,16 @@
   font-weight: bold;
   font-stretch: normal;
   font-display: auto;
-  src: url('fonts/lato/Lato-Bold.ttf') format('truetype');
+  src: url('fonts/OpenSans/OpenSans-Bold.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: "alegreya";
+  font-family: "Lato";
   font-style: normal;
   font-weight: bold;
   font-stretch: normal;
   font-display: auto;
-  src: url('fonts/alegreya/Alegreya-Medium.ttf') format('truetype');
+  src: url('fonts/lato/Lato-Black.ttf') format('truetype');
 }
 
 .navbar {
@@ -75,11 +75,12 @@ ul.tight {
 }
 
 .navbar-title {
-  color: #0077ff;
-  font-family: 'alegreya';
+  color: #0d24f4;
+  /*#0077ff;*/
+  font-family: 'Lato';
   font-style: normal;
   font-weight: bold;
-  font-size: 1.6em;
+  font-size: 1.5em;
   background-color: transparent;
 }
 
