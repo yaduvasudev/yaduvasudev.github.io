@@ -72,6 +72,7 @@ ul.tight {
 .table {
   font-weight: 400;
   font-size: var(--bs-body-font-size);
+  color: black;
 }
 
 .navbar-title {

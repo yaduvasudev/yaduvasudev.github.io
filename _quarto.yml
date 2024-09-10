@@ -26,7 +26,7 @@ format:
     css: styles.css
     toc: false
     mainfont: 'OpenSans'
-    fontsize: 1.1em
+    fontsize: 1em
 
 
 
