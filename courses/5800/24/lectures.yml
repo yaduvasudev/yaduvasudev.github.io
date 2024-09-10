@@ -133,3 +133,9 @@
   references:
     - Section 3.3.2.2 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
     - Section 8.1 - <a href="https://opendatastructures.org/ods-python.pdf">Morin</a>
+
+- day: Tue 10/09
+  contents: Scapegoat trees - analysis (contd.) • Priority queues - binary minheaps, properties and examples
+  references:
+    - Section 4.1 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
+    - Section 6.1 - CLRS
