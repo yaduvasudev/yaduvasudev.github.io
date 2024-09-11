@@ -139,3 +139,9 @@
   references:
     - Sections 3.3.2, 4.1 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
     - Section 6.1 - CLRS
+
+- day: Wed 11/09
+  contents: Binary heaps - examples, properties, algorithms and complexity • Min-max heaps - examples and properties
+  references:
+    - Sections 4.1, 4.2 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
+    - Section 6.1 - 6.3 - CLRS
