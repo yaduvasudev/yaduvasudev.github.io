@@ -145,3 +145,9 @@
   references:
     - Sections 4.1, 4.2 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
     - Section 6.1 - 6.3 - CLRS
+
+- day: Thu 12/09
+  contents: Min-max heaps - examples, implementation details, time complexity • Binomial heaps - properties, examples
+  references:
+    - Sections 4.2, 4.3.3 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
+  misc: <a class="btn btn-info btn-sm" href="https://drive.google.com/file/d/1jBv-hw8ekKeLWt397-lbdV-fvViLTTBi/view?usp=drive_link"><strong>PS5 released</strong></a> 
