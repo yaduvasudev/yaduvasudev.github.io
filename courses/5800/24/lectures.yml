@@ -151,3 +151,8 @@
   references:
     - Sections 4.2, 4.3.3 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
   misc: <a class="btn btn-info btn-sm" href="https://drive.google.com/file/d/1jBv-hw8ekKeLWt397-lbdV-fvViLTTBi/view?usp=drive_link"><strong>PS5 released</strong></a> 
+
+- day: Mon 16/09
+  contents: Binomial heaps - implementing insert and extractmin using merges, bounds on running-time • Lazier binomial heaps - faster insertions at the cost of extractmin
+  reference:
+    - Section 4.3.3 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
