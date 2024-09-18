@@ -166,7 +166,7 @@ We will stick to this schedule as much as possible, unless there are some unfore
 ::: {.callout-tip appearance="simple"}
 
  - Problem solving sessions: Aug 14, Sep 19, Oct 24
- - Open-book tutorial tests: Aug 22, Sep 26, Oct 30
+ - Open-book tutorial tests: Aug 22, Sep 26, Nov 7
  - Quizzes: Sep 2, Oct 10
  - End-semester exam: Nov 20
 
