@@ -165,3 +165,9 @@
 
 - day: Thu 19/09
   tutorial: Based on Problem sets 4, 5
+
+- day: Mon 23/09
+  contents: Fibonacci heaps - cascading cuts, examples and analysis
+  references:
+    - Section 4.3.4 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
+    - Section 19.4 - CLRS
