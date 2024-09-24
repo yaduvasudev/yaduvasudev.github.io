@@ -171,3 +171,8 @@
   references:
     - Section 4.3.4 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
     - Section 19.4 - CLRS
+
+- day: Tue 24/09  
+  contents: Dijkstra's shortest path algorithm - example, correctness, implementation details using priority queues
+  references:
+    - Section 4.3.4.1 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a>
