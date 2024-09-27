@@ -181,3 +181,6 @@
   contents: Greedy Algorithms I (Job scheduling) - examples, greedy choices, counter-examples, exchange arguments
   references:
     - Sections 4.2, 4.3 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a>
+
+- day: Thu 26/09
+  miniquiz: Based on Lectures 14 -23 (Problem sets 4, 5)
