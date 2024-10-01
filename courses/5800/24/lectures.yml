@@ -189,3 +189,8 @@
   contents: Greedy Algorithms II (Huffman coding) - prefix-free codes and binary trees, Huffman coding algorithm, examples
   references:
     - Section 4.4 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a>
+
+- day: Tue 30/09
+  contents: Greedy Algorithm III (Huffman coding) - proof of correctness, implementation details
+  reference:
+    - Section 4.4 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a>
