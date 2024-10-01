@@ -184,3 +184,8 @@
 
 - day: Thu 26/09
   miniquiz: Based on Lectures 14 -23 (Problem sets 4, 5)
+
+- day: Mon 30/09  
+  contents: Greedy Algorithms II (Huffman coding) - prefix-free codes and binary trees, Huffman coding algorithm, examples
+  references:
+    - Section 4.4 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a>
