@@ -190,8 +190,13 @@
   references:
     - Section 4.4 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a>
 
-- day: Tue 30/09
+- day: Tue 01/10
   contents: Greedy Algorithm III (Huffman coding) - proof of correctness, implementation details
   references:
     - Section 4.4 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a>
   misc: <a class="btn btn-info btn-sm" href="https://drive.google.com/file/d/1Vi5WaWu2ZJvBmGnA5mI7Lz-CRmNK3UC_/view?usp=drive_link"><strong>PS6 released</strong></a>
+
+- day: Thu 03/10
+  contents: Minimum spanning trees - examples, uniqueness, greedy choice
+  references:
+    - Sections 7.1, 7.2 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a>
