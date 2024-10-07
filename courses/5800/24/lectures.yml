@@ -200,3 +200,6 @@
   contents: Minimum spanning trees - examples, uniqueness, greedy choice
   references:
     - Sections 7.1, 7.2 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a>
+
+- day: Mon 07/10
+  tutorial: Based on Problem set 6
