@@ -213,3 +213,7 @@
   contents: Kruskal's algorithm - examples, analysis, implementation details • Union-Find data structure
   references:
     - Section 7.5 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a>
+
+- day: Thu 10/10
+  quiz: Based on Lectures 14 - 28 (Problems sets 4, 5, 6)
+  
