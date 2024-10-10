@@ -208,3 +208,8 @@
   contents: Boruvka's and Prim's algorithms - examples, analysis, implementation details
   references:
     - Sections 7.3, 7.4 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a>
+
+- day: Wed 09/10
+  contents: Kruskal's algorithm - examples, analysis, implementation details • Union-Find data structure
+  references:
+    - Section 7.5 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a>
