@@ -217,3 +217,7 @@
 - day: Thu 10/10
   quiz: Based on Lectures 14 - 28 (Problems sets 4, 5, 6)
   
+- day: Mon 14/10
+  contents: Union-Find data structure - union by rank, examples, analysis • Path compression - examples, brief outline of the analysis.
+  references:
+    - Section 5.1.4 - DPV
