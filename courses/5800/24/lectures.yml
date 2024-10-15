@@ -222,3 +222,8 @@
   references:
     - Section 5.1.4 - DPV
   misc: <a class="btn btn-info btn-sm" href="https://drive.google.com/file/d/1JCiRLMA1Oc06sWmPpYIH8-ZShdl_WPvE/view?usp=drive_link"><strong>PS7 released</strong></a> 
+
+- day: Tue 15/10
+  contents: Dynamic programming - Fibonacci recurrence, memoization, DAGs • Longest Increasing Subsequence - examples, recurrence
+  references:
+    - Sections 2.6, 3.1 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a>
