@@ -227,3 +227,8 @@
   contents: Dynamic programming - Fibonacci recurrence, memoization, DAGs • Longest Increasing Subsequence - examples, recurrence
   references:
     - Sections 2.6, 3.1 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a>
+
+- day: Thu 17/10
+  contents: Dynamic programming - Longest Increasing Subsequence and Edit distance
+  references:
+    - Sections 3.6, 3.7 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a>
