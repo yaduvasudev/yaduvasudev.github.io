@@ -237,3 +237,8 @@
   contents: Dynamic programming on trees and DAGs - independent sets, and single-source-shortest-path
   references:
     - Sections 3.10, 8.5 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a>
+
+- day: Tue 22/10
+  contents: Dynamic programming on digraphs - shortest paths and the Bellman-Ford algorithm
+  references:
+      - Section 8.7 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a>
