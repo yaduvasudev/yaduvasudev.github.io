@@ -242,3 +242,8 @@
   contents: Dynamic programming on digraphs - shortest paths and the Bellman-Ford algorithm
   references:
       - Section 8.7 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a>
+
+- day: Wed 23/10
+  contents: All-pairs shortest-paths via dynammic programming • APSP and matrix multiplication
+  references:
+    - Sections 9.5, 9.6, 9.7 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a>
