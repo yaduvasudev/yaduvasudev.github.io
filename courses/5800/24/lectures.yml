@@ -259,3 +259,8 @@
   contents: Efficient algorithms vs efficient verifiability - examples • Definition of NP - examples and non-examples
   references: 
     - Section 12.1 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a>
+
+- day: Tue 29/10
+  contents: Hardness and reductions - definition of NP-completeness, examples, statement of the Cook-Levin theorem
+  references:
+    - Section 12.3, 12.4 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a>
