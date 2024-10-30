@@ -264,3 +264,6 @@
   contents: Hardness and reductions - definition of NP-completeness, examples, statement of the Cook-Levin theorem
   references:
     - Section 12.3, 12.4 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a>
+
+- day: Wed 30/10
+  tutorial: Based on Problem sets 7 and 8
