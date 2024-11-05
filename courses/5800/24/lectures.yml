@@ -272,3 +272,8 @@
   contents: Examples of reductions - CircuitSat to 3SAT, 3SAT to Independent-Set
   references:
     - Sections 12.5, 12.6, 12.7 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a>
+
+- day: Tue 05/11
+  contents: More examples of reductions • P vs NP and its implications 
+  references:
+    - Sections 12.2, 12.9, 12.10 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a> 
