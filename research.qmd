@@ -7,6 +7,9 @@ page-layout: full
 
 (*Pre-prints are available from my [DBLP page](https://dblp.org/pid/23/10305.html). If you can't find a copy, feel free to email me*.)
 
+- **Tolerant Testing and Distance Estimation for Distributions Under Memory Constraints**\
+	(with Sampriti Roy)\
+	*SOFSEM 2025*
 - **The Parallel Dynamic Complexity of the Abelian Cayley Group Membership Problem**\
 	(with V Arvind, Samir Datta, Asif Khan, Shivdutt Sharma, and Shankar Ram Vasudevan)\
 	*FSTTCS 2024*
