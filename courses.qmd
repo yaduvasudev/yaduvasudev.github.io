@@ -5,7 +5,7 @@ page-layout: full
 
 ### Current/Upcoming courses
 
-- CS6170 Randomized Algorithms - [Jan-May 25]()
+- CS6170 Randomized Algorithms - [Jan-May 25](courses/6170/25/)
 
 ::: {.grid}
 
@@ -23,7 +23,7 @@ page-layout: full
 | CS6025 Sublinear Algorithms | [Jan-May 19](courses/6025/19/), [Jan-May 22](courses/6025/22) |
 | CS6030 Logic and Combinatorics for Computer Science | [Jul-Nov 18](courses/6030/18/) |
 | CS6150 Advanced Programming | Jul-Nov 22 |
-| CS6170 Randomized Algorithms | [Jul-Nov 21](courses/6170/21/), [Jul-Nov 22](courses/6170/22/), [Jul-Nov 23](https://yaduvasudev.github.io/6170-23/), [Jan-May 25]()|
+| CS6170 Randomized Algorithms | [Jul-Nov 21](courses/6170/21/), [Jul-Nov 22](courses/6170/22/), [Jul-Nov 23](https://yaduvasudev.github.io/6170-23/), [Jan-May 25](courses/6170/25/)|
 | CS6840 Modern Complexity Theory | [Feb-May 21](courses/6840/21/) |
 | CS6845 Pseudorandomness | [Jan-May 18](courses/6845/18/) |
 
