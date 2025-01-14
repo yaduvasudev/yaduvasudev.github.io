@@ -61,7 +61,8 @@ include-in-header:
 - SSB 207
 - yadu@cse.iitm.ac.in
 
-#### {{< bi people-fill color=#40CB2D >}} TAs
+#### {{< bi people-fill color=#40CB2D >}} TA
+- Dhruv Aggarwal (cs21b024@smail)
 
 :::
 
@@ -136,14 +137,20 @@ There will be four lectures every week, some of which will be converted to tutor
 
 #### {{< bi percent color=#40CB2D >}} Grading policy (tentative)
 
-TBA
+- Problem sets (1\*5 + 3\*10) = 35%
+- Course project (in groups of at most 3) = 15%
+- Mid-semester exam = 20%
+- End-semester exam = 30%
 
 ---
 
 #### {{< bi calendar-fill color=#40CB2D >}} Important dates (tentative)
 
-TBA
+- Problem sets (release dates): Jan 31, Feb 21, Mar 14, Apr 11
+- Mid-semester exam: Mar 4
+- End-semester: May 14 (according to institute calendar)
 
+The dates and details of the course project will be announced after about a month of the start of the classes.
 ---
 
 #### {{< bi chat-dots-fill color=#40CB2D >}} Communication
