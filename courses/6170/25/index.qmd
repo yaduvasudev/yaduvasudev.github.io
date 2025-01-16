@@ -44,7 +44,37 @@ include-in-header:
 ::: nav-pills
 ::: panel-tabset
 
+
 ## about
+
+::: {.grid}
+
+::: {.g-col-4}
+
+:::
+
+::: {.g-col-4}
+
+*Whenever you're called on to make up your mind,* \
+*and you're hampered by not having any,* \
+*the best way to solve the dilemma, you'll find,* \
+*is simply by spinning a penny.*
+
+*No - not so that chance shall decide the affair*\
+*while you're passively standing there moping;*\
+*but the moment the penny is up in the air,*\
+*you suddenly know what you're hoping.*
+
+                                  - Piet Hein
+
+:::
+
+::: {.g-col-4}
+
+:::
+
+:::
+
 
 ::: {.grid}
 
