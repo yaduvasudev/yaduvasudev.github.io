@@ -10,3 +10,15 @@
   references: 
     - Section 1.1, 1.2 - Course notes
 
+- day: Tue 21/01
+  contents: DeMillo-Lipton-Schwartz-Zippel lemma • One-sided error algorithms and amplifying the success probability • Freivald's algorithm
+  references: 
+    - Section 1.2, 1.3 - Course notes
+    - Section 1.3 - [MU]
+
+- day: Wed 22/01
+  contents: Mincut in graphs - Karger's algorithm
+  references:
+    - Section 1.4 - Course notes
+    - Section 1.5 - [MU]
+
