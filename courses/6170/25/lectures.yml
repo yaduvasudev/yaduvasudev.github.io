@@ -13,7 +13,7 @@
 - day: Tue 21/01
   contents: DeMillo-Lipton-Schwartz-Zippel lemma • One-sided error algorithms and amplifying the success probability • Freivald's algorithm
   references: 
-    - Section 1.2, 1.3 - Course notes
+    - Sections 1.2, 1.3 - Course notes
     - Section 1.3 - [MU]
 
 - day: Wed 22/01
@@ -21,4 +21,17 @@
   references:
     - Section 1.4 - Course notes
     - Section 1.5 - [MU]
+
+- day: Thu 23/01
+  contents: Karger and Stein's improvement for mincut • The maxcut problem
+  references:
+    - Sections 1.4, 2.1 - Course notes
+    - Section 1.5 - [MU]
+  misc: Karger and Stein's <a href="https://www.columbia.edu/~cs2035/courses/ieor6614.S09/Contraction.pdf">paper</a>
+
+- day: Fri 24/01
+  contents: Randomized algorithm for maxcut • Random variables and their properties - expectation, independence • Properties of the randomized algorithm for maxcut
+  references:
+    - Section 2.1 - Course notes
+    - Section 2.1 - [MU]
 
