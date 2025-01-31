@@ -47,3 +47,16 @@
     - Section 2.3 - Course notes
     - Sections 2.2, 2.4 - [MU]
 
+- day: Thu 30/01
+  contents: Coupon collector problem - calculation of expectation • Randomized quicksort and its analysis
+  references:
+    - Sections 2.2, 2.3.3 - Course notes
+    - Sections 2.4.1, 2.5 - [MU]
+
+- day: Fri 31/01
+  contents: Markov's inequality - analyzing quicksort using Markov's inequality • Statement of Chebyshev's inequality
+  references:
+    - Section 3.1 - Course notes
+    - Section 3.1 - [MU]
+  misc: <a class="btn btn-info btn-sm" href="https://courses.iitm.ac.in/mod/assign/view.php?id=53308"><strong>PS1 released</strong></a>
+
