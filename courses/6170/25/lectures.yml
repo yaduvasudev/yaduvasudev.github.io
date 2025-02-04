@@ -60,3 +60,9 @@
     - Section 3.1 - [MU]
   misc: <a class="btn btn-info btn-sm" href="https://courses.iitm.ac.in/mod/assign/view.php?id=53308"><strong>PS1 released</strong></a>
 
+- day: Tue 04/02
+  contents: Chebyshev's inequality • Probability amplification using pairwise independent bits
+  references:
+    - Section 3.2 - Course notes
+    - Section 3.3 - [MU]
+
