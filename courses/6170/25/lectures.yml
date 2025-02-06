@@ -66,3 +66,14 @@
     - Section 3.2 - Course notes
     - Section 3.3 - [MU]
 
+- day: Wed 05/02
+  contents: Chernoff-Hoefding bounds and applications • Outline of the proof
+  references:
+    - Section 3.3 - Course notes
+    - Section 4.2 - [MU]
+  
+- day: Thu 06/02
+  contents: Balls and bins - birthday problem, maximum load
+  references:
+    - Section 4.1 - Course notes
+    - Sections 5.1, 5.2.1 - [MU]
