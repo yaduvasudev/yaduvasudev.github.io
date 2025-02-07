@@ -77,3 +77,10 @@
   references:
     - Section 4.1 - Course notes
     - Sections 5.1, 5.2.1 - [MU]
+
+- day: Fri 07/02
+  contents: Balls and bins - maximum load and Poisson approximation
+  references:
+    - Sections 4.2, 4.3 - Course notes
+    - Sections 5.3, 5.4 - [MU]
+     
