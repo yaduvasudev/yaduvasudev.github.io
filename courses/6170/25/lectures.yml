@@ -83,4 +83,16 @@
   references:
     - Sections 4.2, 4.3 - Course notes
     - Sections 5.3, 5.4 - [MU]
-     
+    
+- day: Tue 11/02
+  contents: Bloom filters
+  references:
+    - Section 4.4 - Course notes
+    - Section 5.5.3 - [MU]
+
+- day: Wed 12/02
+  contents: Universal hash families and their properties - number of collisions, maximum load
+  references:
+    - Section 5.1 - Course notes
+    - Section 15.3 - [MU]
+
