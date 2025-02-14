@@ -96,3 +96,16 @@
     - Section 5.1 - Course notes
     - Section 15.3 - [MU]
 
+- day: Thu 13/02
+  contents: Explicit construction of 2-universal hash families • Near-universal hash families
+  references:
+    - Section 5.1 - Course notes
+    - Section 15.3 - [MU]
+  misc: Additional notes - Section 3.1 <a href="https://edstem.org/us/courses/71206/resources?download=50699">here</a>
+
+- day: Thu 14/02
+  contents: Near-universal hash families - constructions • Perfect hashing - FKS algorithm
+  references:
+    - Section 5.2 - Course notes
+    - Section 15.3 - [MU]
+  misc: Additional notes - Section 3.1 <a href="https://edstem.org/us/courses/71206/resources?download=50699">here</a>
