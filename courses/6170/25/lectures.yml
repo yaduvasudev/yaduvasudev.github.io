@@ -109,3 +109,22 @@
     - Section 5.2 - Course notes
     - Section 15.3 - [MU]
   misc: Additional notes - Section 3.1 <a href="https://edstem.org/us/courses/71206/resources?download=50699">here</a>
+
+- day: Tue 18/02
+  tutorial: Discussion of Problem set 1
+
+- day: Wed 19/02
+  contents: Open addressing - uniform probing
+  references:
+    - Class notes and additional references on Ed
+  misc: <a class="btn btn-info btn-sm" href="https://courses.iitm.ac.in/mod/assign/view.php?id=55043"><strong>PS2 released</strong></a>
+  
+- day: Thu 20/02
+  contents: Open addressing - linear probing
+  references:
+    - Section 5.4 - Course notes
+  
+- day: Fri 21/02
+  contents: Open addressing - linear probing (contd) • Cuckoo hashing
+  references:
+    - Section 5.4 - Course notes
