@@ -142,3 +142,9 @@
     - Section 17.4 - [MU]
     - Chapter 3 - <a href="http://www.mmds.org/">Mining of Massive Datasets</a>
     - Section 12.2 - Nick Harvey's <a href="https://www.cs.ubc.ca/~nickhar/Book1.pdf">book</a>
+
+- day: Thu 27/02
+  contents: Locality-sensitive hashing - Jaccard similarity and minhashing
+  references:
+    - Chapter 3 - <a href="http://www.mmds.org/">Mining of Massive Datasets</a>
+    - Section 12.2 - Nick Harvey's <a href="https://www.cs.ubc.ca/~nickhar/Book1.pdf">book</a>
