@@ -158,8 +158,20 @@
     - Chapter 13 - [MR]
     - Section 6.1 - Course notes
   
-- day: Wed 06/03
+- day: Thu 06/03
   contents: Online paging - LRU and its competitive ratio • Lower bounds for deterministic paging
   references:
     - Section 13.1 - [MR]
     - Section 6.2.1 - Course notes
+
+- day: Fri 07/03
+  contents: Marker algorithm for online paging
+  references:
+    - Section 13.3 -[MR]
+    - Section 6.2.2 - Course notes
+
+- day: Tue 11/03
+  contents: Yao's minimax principle and lower bounds for online paging
+  references:
+    - Section 13.3 - [MR]
+    - Section 6.3 - Course notes
