@@ -175,3 +175,13 @@
   references:
     - Section 13.3 - [MR]
     - Section 6.3 - Course notes
+
+- day: Wed 12/03
+  contents: Greedy matching revisited - primal dual analysis
+  references:
+    - Section 6.4.1 - Course notes
+
+- day: Thu 13/03
+  contents: Online fractional matching - primal dual analysis
+  references:
+    - Section 6.4.2 - Course notes
