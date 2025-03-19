@@ -185,3 +185,17 @@
   contents: Online fractional matching - primal dual analysis
   references:
     - Section 6.4.2 - Course notes
+
+- day: Tue 18/03
+  contents: Online fractional matching (contd) • RANKING - online bipartite matching
+  references:
+    - Section 6.4.2, 6.4.3 - Course notes
+    - [<a href="https://www.nikhildevanur.com/pubs/RPDFinal.pdf">DVK</a>]
+    - [<a href="https://people.eecs.berkeley.edu/~vazirani/pubs/online.pdf">KVV</a>]
+
+- day: Wed 19/03
+  contents: RANKING - analysis using primal-dual • Online predictions
+  references:
+    - [<a href="https://www.nikhildevanur.com/pubs/RPDFinal.pdf">DVK</a>]
+    - [<a href="https://people.eecs.berkeley.edu/~vazirani/pubs/online.pdf">KVV</a>]
+    - Section 6.5.1 - Course notes
