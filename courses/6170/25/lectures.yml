@@ -199,3 +199,14 @@
     - [<a href="https://www.nikhildevanur.com/pubs/RPDFinal.pdf">DVK</a>]
     - [<a href="https://people.eecs.berkeley.edu/~vazirani/pubs/online.pdf">KVV</a>]
     - Section 6.5.1 - Course notes
+
+- day: Thu 20/03
+  contents: Online predictions with experts - weighted majority and randomized weighted majority
+  references:
+    - Section 6.5 - Course notes
+    - <a href="https://theoryofcomputing.org/articles/v008a006/v008a006.pdf">Survey</a> by Arora, Hazan, Kale 
+
+- day: Fri 21/03
+  contents: Multiplicative weights update • Linear classification - Winnow algorithm as MWU
+  references:
+    - <a href="https://theoryofcomputing.org/articles/v008a006/v008a006.pdf">Survey</a> by Arora, Hazan, Kale 
