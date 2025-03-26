@@ -210,3 +210,13 @@
   contents: Multiplicative weights update • Linear classification - Winnow algorithm as MWU
   references:
     - <a href="https://theoryofcomputing.org/articles/v008a006/v008a006.pdf">Survey</a> by Arora, Hazan, Kale 
+
+- day: Tue 25/03
+  contents: Randomized 2-SAT - algorithm description and analysis
+  references:
+    - Section 7.1.1 - [MU]
+
+- day: Wed 26/03
+  contents: Markov chains - definition, properties • Randomized 2-SAT as a Markov chain • Randomized 3-SAT - Schoening's algorithm
+  references:
+    - Section 7.1 - [MU]
