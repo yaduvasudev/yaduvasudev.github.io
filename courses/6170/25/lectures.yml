@@ -220,3 +220,13 @@
   contents: Markov chains - definition, properties • Randomized 2-SAT as a Markov chain • Randomized 3-SAT - Schoening's algorithm
   references:
     - Section 7.1 - [MU]
+
+- day: Thu 27/03
+  contents: Schoening's algorithm (contd) • Properties of Markov chains, stationary distributions, and the fundamental theorem - examples
+  references:
+    - Sections 7.2, 7.3 - [MU]
+
+- day: Fri 28/03
+  contents: Random walks on graphs - cover times and reachability using random walks
+  references:
+    - Section 7.4 - [MU]
