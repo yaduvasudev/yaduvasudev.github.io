@@ -230,3 +230,24 @@
   contents: Random walks on graphs - cover times and reachability using random walks
   references:
     - Section 7.4 - [MU]
+
+- day: Tue 01/04
+  contents: Random walks on graphs - eigenvalues and mixing times • Monte-carlo methods - DNF counting
+  references:
+    - Section 11.1 - [MU]
+
+- day: Wed 02/04
+  contents: Monte-carlo methods - FPRAS for DNF counting • FPRAS for (#)-SAT and connections to SAT
+  references:
+    - Section 11.2 - [MU]
+    - Section 2 in <a href="https://www.cs.umd.edu/~jkatz/complexity/f05/lecture9.pdf">these notes</a>
+
+- day: Thu 03/04
+  contents: FPRAS for (#)-SAT and connections to SAT
+  references:
+    - Section 2 in <a href="https://www.cs.umd.edu/~jkatz/complexity/f05/lecture9.pdf">these notes</a>
+
+- day: Fri 04/04
+  contents: Sampling and counting - from an FPAUS to an FPRAS
+  references:
+    - Section 11.3 - [MU]
