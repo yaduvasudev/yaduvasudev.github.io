@@ -251,3 +251,15 @@
   contents: Sampling and counting - from an FPAUS to an FPRAS
   references:
     - Section 11.3 - [MU]
+
+- day: Tue 08/04
+  contents: From FPAUS to FPRAS for independent sets • Constructing FPAUS from FPRAS
+  references:
+    - Section 11.3 - [MU]
+    - Vigoda's <a href="https://faculty.cc.gatech.edu/~vigoda/MCMC_Course/Sampling-Counting.pdf">notes</a>
+
+- day: Wed 09/04
+  contents: Markov-chain Monte-Carlo - independent sets and matchings
+  references:
+    - Section 11.4 - [MU]
+    - Jerrum and Sinclair's <a href="https://people.eecs.berkeley.edu/~sinclair/mcmc.pdf">book chapter</a>
