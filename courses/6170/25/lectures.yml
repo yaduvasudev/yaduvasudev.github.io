@@ -263,3 +263,35 @@
   references:
     - Section 11.4 - [MU]
     - Jerrum and Sinclair's <a href="https://people.eecs.berkeley.edu/~sinclair/mcmc.pdf">book chapter</a>
+
+- day: Tue 15/04
+  contents: Markov-chain Monte-Carlo - matchings in graphs • Sampling from Gibb's distribution - Metropolis algorithm
+  references:
+    - Section 11.4 - [MU]
+    - Jerrum and Sinclair's <a href="https://people.eecs.berkeley.edu/~sinclair/mcmc.pdf">book chapter</a>
+
+- day: Wed 16/04
+  contents: Bounding rates of Markov chains - couplings • Examples - card shuffling
+  references:
+    - Section 12.1, 12.2 - [MU]
+
+- day: Thu 17/04
+  contents: Coupling of Markov chains • Examples - random walk on the hypercube, independent sets
+  references:
+    - Section 12.2 - [MU]
+
+- day: Tue 22/04
+  contents: Coupling of Markov chains - independent sets (contd) • Canonical paths
+  references:
+    - Section 12.2 - [MU]
+    - Jerrum and Sinclair's <a href="https://people.eecs.berkeley.edu/~sinclair/mcmc.pdf">book chapter</a>
+
+- day: Wed 23/04
+  contents: Canonical paths - outline of the approach, random walk on the hypercube, matchings in graphs
+  references:
+    - Jerrum and Sinclair's <a href="https://people.eecs.berkeley.edu/~sinclair/mcmc.pdf">book chapter</a>
+
+- day: Thu 24/04
+  contents: Canonical paths - matching in graphs (contd) • Wrap-up of the course
+  references:
+    - Jerrum and Sinclair's <a href="https://people.eecs.berkeley.edu/~sinclair/mcmc.pdf">book chapter</a>
