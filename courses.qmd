@@ -5,7 +5,7 @@ page-layout: full
 
 ### Current/Upcoming courses
 
-- CS6170 Randomized Algorithms - [Jan-May 25](courses/6170/25/)
+- CS1200 Discrete Mathematics for CS - I - [Jul-Nov 25](courses/1200/25/)
 
 ::: {.grid}
 
@@ -16,6 +16,7 @@ page-layout: full
 |  | |
 |---|---|
 | CS1100 Introduction to Programming | May-July 22 |
+| CS1200 Discrete Mathematics for CS - I | [Jul-Nov 25](courses/1200/25/) |
 | CS2200 Languages, Machines and Computation | [Jan-May 20](courses/2200/20/), [Jan-May 24](courses/2200/24/) |
 | CS2800 Design and Analysis of Algorithms  | [Jan-May 23](courses/2800/23/)
 | CS5800 Advanced Data Structures and Algorithms | [Jul-Nov 19](courses/5800/19/), [Jul-Nov 24](courses/5800/24/) |
