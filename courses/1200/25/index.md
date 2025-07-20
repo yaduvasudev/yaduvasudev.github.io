@@ -156,7 +156,7 @@ Apart from this, there are a lot of resources available online. We may refer to 
 
 #### {{< bi clock-fill color=#40CB2D >}} Weekly schedule
 
-There are four lecture slots per week. We will have tutorials and short exams after every 5-6 lectures. The exact schedule is given in the course calendar that is shared. The tutorials are ungraded and meant for practicing solving associated with the concepts taught during the lectures. They are vital for gaining better understanding of the material and must not be missed.
+There are four lecture slots per week. We will have tutorials and short exams after every 5-6 lectures. The exact schedule is given in the course calendar that is shared. The tutorials are ungraded and meant for solving practice problems associated with the concepts taught during the lectures. They are vital for gaining better understanding of the material and must not be missed.
 
 Apart from the tutorials, you are welcome to use the course discussion forum to clarify doubts with the instructor and the TAs. 
 
