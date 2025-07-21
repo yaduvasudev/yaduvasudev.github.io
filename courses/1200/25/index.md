@@ -58,7 +58,7 @@ include-in-header:
 
 ::: {.g-col-8}
 
-![](existence_proof.png)
+[![](existence_proof.png)](https://xkcd.com/1856/)
 
 :::
 
