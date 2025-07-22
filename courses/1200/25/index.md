@@ -88,8 +88,8 @@ include-in-header:
 ### {{< bi link-45deg color=#40CB2D >}} Important links
 
 - [Moodle](https://courses.iitm.ac.in/course/view.php?id=9775) 
-- [Ed Discussions]() \
-  Join using your smail/iitm ids via [this link]()
+- [Ed Discussions](https://edstem.org/us/courses/80766) \
+  Join using your smail/iitm ids via [this link](https://edstem.org/us/join/2z3GaR)
 - [Anonymous course feedback]()
 
 :::
@@ -181,7 +181,7 @@ Apart from the tutorials, you are welcome to use the course discussion forum to 
 
 #### {{< bi chat-dots-fill color=#40CB2D >}} Communication
 
-Please sign up on the course discussion forum [here](). This will be the first point of contact for any issues related to the course. For general questions related to the course (any comments/doubts), please create a thread in the correct category and add your question/comment there. You are encouraged to reply and clear the doubts of your friends. To encourage this interaction, **the forum supports anonymous posts and answers**. **Please be courteous to others when you are posting anonymously**.
+Please sign up on the course discussion forum [here](https://edstem.org/us/join/2z3GaR). This will be the first point of contact for any issues related to the course. For general questions related to the course (any comments/doubts), please create a thread in the correct category and add your question/comment there. You are encouraged to reply and clear the doubts of your friends. To encourage this interaction, **the forum supports anonymous posts and answers**. **Please be courteous to others when you are posting anonymously**.
 
 :::
 
