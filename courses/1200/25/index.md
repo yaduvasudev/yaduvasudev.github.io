@@ -80,7 +80,15 @@ include-in-header:
 ### {{< bi person-fill color=#40CB2D >}} Course staff
 
 - **Instructor**: [Yadu Vasudev](https://yaduvasudev.github.io/) (yadu@cse.iitm.ac.in)
-- **TAs**: TBA
+- **TAs**:
+  - Alan (cs24m006@smail)
+  - Aditya (cs25m007@smail)
+  - Drone (cs22b005@smail)
+  - Kunal (cs25s020@smail)
+  - Mihir (cs22b004@smail)
+  - Nagashri (cs21d004@smail)
+  - Sutanay (cs21d005@smail)
+  - Swapnil (cs25m051@smail)
 :::
 
 ::: {.g-col-6}
