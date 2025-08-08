@@ -13,10 +13,18 @@
     - Section 1.1 - Rosen
   misc: 
 
-- day: Tue 05/08
+- day: Wed 06/08
   contents: Knights and Knaves • Implication and examples
   slides: https://edstem.org/us/courses/80766/resources?download=59990
   notes:
   references: 
     - Sections 1.1, 1.2 - Rosen
+  misc: 
+
+- day: Fri 08/08
+  contents: Tautologies and contradictions • Logical equivalence - examples
+  slides: 
+  notes:
+  references: 
+    - Sections 1.3 - Rosen
   misc: 
