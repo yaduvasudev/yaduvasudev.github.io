@@ -28,3 +28,11 @@
   references: 
     - Sections 1.3 - Rosen
   misc: 
+
+- day: Mon 11/08
+  contents: Inference rules and argument forms • Example applications of inference rules
+  slides: https://edstem.org/us/courses/80766/resources?download=60057
+  notes:
+  references:
+    - Section 1.6 - Rosen
+  misc:
