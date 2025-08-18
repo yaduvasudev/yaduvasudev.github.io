@@ -45,3 +45,8 @@
 
 - day: Wed 13/08
   tutorial: Based on Problem set 1
+
+- day: Mon 18/08
+  contents: Predicate logic - domain of discourse, examples, quantifiers, negation
+  references:
+    - Section 1.4, 1.5 - Rosen
