@@ -74,3 +74,12 @@
 
 - day: Tue 26/08
   tutorial: Based on Problem set 2
+
+- day: Fri 29/08
+  miniquiz: Based on Lectures 1 - 11 (Problem sets 1 and 2)
+
+- day: Mon 01/09
+  contents: Direct and indirect proofs - examples
+  references:
+    - Section 1.7 - Rosen
+    - Section 1.9 - <a href="https://courses.csail.mit.edu/6.042/spring18/mcs.pdf">LLR</a>
