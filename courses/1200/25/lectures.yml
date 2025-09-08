@@ -92,3 +92,9 @@
 
 - day: Wed 03/09
   quiz: Based on Lectures 1 - 11 (Problem sets 1 and 2)
+
+- day: Mon 08/09
+  contents: Non-constructive proofs, proof by cases, mathematical induction
+  references:
+    - Section 1.7 - Rosen
+    - Section 1.7, 1.8 - <a href="https://courses.csail.mit.edu/6.042/spring18/mcs.pdf">LLR</a>
