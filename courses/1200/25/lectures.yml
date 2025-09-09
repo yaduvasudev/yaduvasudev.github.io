@@ -98,3 +98,9 @@
   references:
     - Section 1.7 - Rosen
     - Section 1.7, 1.8 - <a href="https://courses.csail.mit.edu/6.042/spring18/mcs.pdf">LLR</a>
+
+- day: Tue 09/09
+  contents: Principle of mathematical induction - examples, strong induction
+  references:
+    - Sections 5.1, 5.2 - Rosen
+    
