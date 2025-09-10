@@ -103,4 +103,11 @@
   contents: Principle of mathematical induction - examples, strong induction
   references:
     - Sections 5.1, 5.2 - Rosen
-    
+  
+- day: Wed 10/09
+  contents: Induction and well-ordering - examples, equivalence
+  notes: https://edstem.org/us/courses/80766/resources?download=78311
+  references:
+    - Chapter 5 - Rosen
+    - Chapter 5 - <a href="https://courses.csail.mit.edu/6.042/spring18/mcs.pdf">LLR</a>
+  misc: <a class="btn btn-info btn-sm" href="https://drive.google.com/file/d/1HI49TimckD_d3PhnEfQNxtJc0HHn-oHe/view?usp=drive_link"><strong>PS3 released</strong></a> 
