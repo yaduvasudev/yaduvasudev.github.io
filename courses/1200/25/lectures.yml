@@ -114,3 +114,8 @@
 
 - day: Fri 12/09
   tutorial: Based on Problem set 3
+
+- day: Mon 15/09
+  contents: Sets and operations on sets, relations - examples
+  references:
+    - Sections 2.1, 2.2 - Rosen
