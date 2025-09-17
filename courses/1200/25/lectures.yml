@@ -124,3 +124,8 @@
   contents: Functions on sets, cardinality and countable sets
   references:
     - Sections 2.3, 2.5 - Rosen
+
+- day: Wed 17/09  
+  contents: More examples of countable sets and their properties
+  references:
+    - Section 2.5 - Rosen
