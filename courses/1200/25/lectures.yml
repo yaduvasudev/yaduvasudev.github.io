@@ -137,3 +137,9 @@
   contents: More examples of countable sets • Uncountable sets - Cantor's diagonalization
   references:
     - Section 2.5 - Rosen
+
+- day: Mon 22/09
+  contents: More examples of uncountable sets • Diagonlization in computer science - the halting problem
+  references:
+    - Section 2.5 - Rosen
+    - Section 8.2 - <a href="https://courses.csail.mit.edu/6.042/spring18/mcs.pdf">LLR</a>
