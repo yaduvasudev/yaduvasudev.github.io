@@ -157,3 +157,8 @@
   contents: Double counting - examples • Binomial identities using double counting
   references:
     - Sections 6.3, 6.4 - Rosen
+
+- day: Mon 29/09
+  contents: Binomial theorem - combinatorial proof and proof by induction • Counting by bijections - examples
+  references:
+    - Sections 6.3, 6.4 - Rosen
