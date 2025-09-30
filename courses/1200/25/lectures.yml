@@ -162,3 +162,8 @@
   contents: Binomial theorem - combinatorial proof and proof by induction • Counting by bijections - examples
   references:
     - Sections 6.3, 6.4 - Rosen
+
+- day: Tue 30/09
+  contents: Counting by bijections - Catalan numbers 
+  references:
+    - Yuefei Zhao's <a href="https://yufeizhao.com/olympiad/bijections.pdf">notes</a>
