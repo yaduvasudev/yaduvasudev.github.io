@@ -175,3 +175,11 @@
   contents: Counting by bijections - Catalan numbers (contd.)
   references:
     - Yuefei Zhao's <a href="https://yufeizhao.com/olympiad/bijections.pdf">notes</a>
+
+- day: Mon 06/10
+  tutorial: Based on Problem set 5
+
+- day: Tue 07/10
+  contents: Multisets and multichoosing - examples and equivalences • Multinomial coefficients and balls into bins
+  references:
+    - Section 6.5 - Rosen
