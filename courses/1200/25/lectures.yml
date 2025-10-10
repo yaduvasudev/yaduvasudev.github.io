@@ -187,3 +187,7 @@
 - day: Wed 08/10
   quiz: Based on Lectures 12 -26 (Problem sets 3, 4, and 5)
   
+- day: Fri 10/10
+  contents: Balls into bins • PIE - examples, number of onto functions
+  references:
+    - Sections 8.5, 8.6 - Rosen
