@@ -191,3 +191,8 @@
   contents: Balls into bins • PIE - examples, number of onto functions
   references:
     - Sections 8.5, 8.6 - Rosen
+
+- day: Mon 13/10
+  contents: Principle of Inclusion-Exclusion - partitions and Stirling numbers, derangements
+  references:
+    - Sections 6.5, 8.6 - Rosen
