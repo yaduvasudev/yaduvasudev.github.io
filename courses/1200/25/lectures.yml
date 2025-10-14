@@ -196,3 +196,9 @@
   contents: Principle of Inclusion-Exclusion - partitions and Stirling numbers, derangements
   references:
     - Sections 6.5, 8.6 - Rosen
+
+- day: Tue 14/10
+  contents: PIE - examples • Recurrence relations - examples
+  references:
+    - Section 8.1 - Rosen
+  misc: <a class="btn btn-info btn-sm" href="https://drive.google.com/file/d/1eNDXMebvT6bIHnQWTBackzFabSl7uFs8/view?usp=drive_link"><strong>PS6 released</strong></a>
