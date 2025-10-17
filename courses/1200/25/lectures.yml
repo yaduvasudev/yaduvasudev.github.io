@@ -207,3 +207,8 @@
   contents: Recurrence relations - examples • Guessing and verifying solutions to recurrence relations
   references:
     - Section 8.1 - Rosen
+
+- day: Thu 16/10
+  contents: Linear recurrence relations and their solutions • Generating functions
+  references:
+    - Section 8.2, 8.4 - Rosen
