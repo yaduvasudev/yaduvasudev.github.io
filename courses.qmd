@@ -5,7 +5,8 @@ page-layout: full
 
 ### Current/Upcoming courses
 
-- CS1200 Discrete Mathematics for CS - I - [Jul-Nov 25](courses/1200/25/)
+- CS1200 Discrete Mathematics for CS - I [Jul-Nov 25](courses/1200/25/)
+- CS4700 Advanced Data Structures [Jan-May 26]()
 
 ::: {.grid}
 
