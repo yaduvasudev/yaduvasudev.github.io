@@ -240,3 +240,8 @@
   contents: Relations on sets and their properties - examples
   references:
     - Section 9.1 - Rosen
+
+- day: Fri 31/10
+  contents: Transitive relations, composition of relations, boolean matrix multiplication and application in computing transitive closure
+  references:
+    - Sections 9.3, 9.4 - Rosen
