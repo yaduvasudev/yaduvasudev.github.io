@@ -245,3 +245,6 @@
   contents: Transitive relations, composition of relations, boolean matrix multiplication and application in computing transitive closure
   references:
     - Sections 9.3, 9.4 - Rosen
+
+- day: Mon 03/11
+  miniquiz: Based on Lectures 27 - 33 (Problem sets 6 and 7)
