@@ -248,3 +248,8 @@
 
 - day: Mon 03/11
   miniquiz: Based on Lectures 27 - 33 (Problem sets 6 and 7)
+
+- day: Tue 04/11
+  contents: Transitive closure and boolean matrix multiplication •  Equivalence relations - examples, properties
+  references:
+    - Sections 9.4, 9.5 - Rosen
