@@ -253,3 +253,8 @@
   contents: Transitive closure and boolean matrix multiplication •  Equivalence relations - examples, properties
   references:
     - Sections 9.4, 9.5 - Rosen
+
+- day: Thu 06/11
+  contents: Equivalence relationa and partitions - examples, Bell numbers • Posets - examples and properties
+  references:
+    - Sections 9.5, 9.6 - Rosen
