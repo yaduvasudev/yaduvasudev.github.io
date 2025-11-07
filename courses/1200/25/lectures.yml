@@ -258,3 +258,9 @@
   contents: Equivalence relations and partitions - examples, Bell numbers • Posets - examples and properties
   references:
     - Sections 9.5, 9.6 - Rosen
+
+- day: Fri 07/11
+  contents: Posets - chains, antichains, decompositions, examples
+  references:
+    - Section 9.6 - Rosem
+  misc: <a class="btn btn-info btn-sm" href="https://drive.google.com/file/d/10aYjNUWZ6kL6ICdhKKbF11wYBhsuYQpM/view?usp=drive_link"><strong>PS9 released</strong></a>
