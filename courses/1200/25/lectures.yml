@@ -264,3 +264,9 @@
   references:
     - Section 9.6 - Rosem
   misc: <a class="btn btn-info btn-sm" href="https://drive.google.com/file/d/10aYjNUWZ6kL6ICdhKKbF11wYBhsuYQpM/view?usp=drive_link"><strong>PS9 released</strong></a>
+
+- day: Mon 10/11
+  contents: Posets - chains and antichains • Dilworth's/Mirsky's theorem and application • Wrap-up of the course
+  references:
+    - Section 9.6 - Rosen
+    - <a href="https://edstem.org/us/courses/80766/resources?download=81842">Notes</a> on Ed
