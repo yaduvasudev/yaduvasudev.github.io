@@ -65,8 +65,13 @@ include-in-header:
 
 - **Instructor**: [Yadu Vasudev](https://yaduvasudev.github.io/) (yadu@cse.iitm.ac.in)
 - **TAs**:
+  - Aditya (cs25m007@smail)
   - Alan (cs24m006@smail)
+  - Chetan (cs25s022@smail)
+  - Deepak (cs25m019@smail)
   - Neha (cs21d408@smail)
+  - Shivam (cs25m048@smail)
+
 :::
 
 ::: {.g-col-6}
