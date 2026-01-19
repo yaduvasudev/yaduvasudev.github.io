@@ -68,7 +68,6 @@ include-in-header:
   - Aditya (cs25m007@smail)
   - Alan (cs24m006@smail)
   - Chetan (cs25s022@smail)
-  - Deepak (cs25m019@smail)
   - Neha (cs21d408@smail)
   - Shivam (cs25m048@smail)
 
