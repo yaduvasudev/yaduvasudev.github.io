@@ -5,3 +5,9 @@
   references: 
   misc: Sign up on <a href="https://edstem.org/us/join/xtCSfa">Ed Discussions</a>
 
+- day: Wed 21/01
+  contents: Dynamic arrays - Insert operations and amortized analysis
+  references:
+    - Section 17.4.1 - CLRS
+    - Section 1.1 - Course notes
+
