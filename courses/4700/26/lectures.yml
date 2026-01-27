@@ -17,3 +17,8 @@
     - Section 17.4.2 - CLRS
     - Section 1.1 - Course notes
 
+- day: Fri 23/01
+  contents: Dictionary ADT - hash tables • Random hash functions and their properties
+  references: 
+    - Section 3.1.1 - Course notes
+
