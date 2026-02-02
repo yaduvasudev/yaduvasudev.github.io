@@ -38,3 +38,9 @@
   references:
     - Section 3.1.4, 3.1.5 - Course notes
 
+- day: Mon 02/02
+  contents: Open addressing with linear probing - analysis • Skip lists - searches, insertions and deletions
+  references:
+    - Section 3.1.5, 3.2 - Course notes
+    - Section 5.2, 4.1 - Morin
+
