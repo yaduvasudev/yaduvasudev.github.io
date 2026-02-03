@@ -65,11 +65,11 @@ include-in-header:
 
 - **Instructor**: [Yadu Vasudev](https://yaduvasudev.github.io/) (yadu@cse.iitm.ac.in)
 - **TAs**:
-  - Aditya (cs25m007@smail)
-  - Alan (cs24m006@smail)
-  - Chetan (cs25s022@smail)
-  - Neha (cs21d408@smail)
-  - Shivam (cs25m048@smail)
+  - Aditya (cs25m007@smail, **Office hours: Tue 4.45 - 5.45 PM, CS 32**)
+  - Alan (cs24m006@smail, **Office hours: Thu 2 - 3 PM, CS 36**)
+  - Chetan (cs25s022@smail, **Office hours: Fri 2 - 3 PM, SSB 324**)
+  - Neha (cs21d408@smail, **Office hours: Tue 5 - 6 PM, SSB 322**)
+  - Shivam (cs25m048@smail **Office hours: Thu 5 - 6 PM, CS 32**)
 
 :::
 
