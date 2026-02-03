@@ -42,5 +42,5 @@
   contents: Open addressing with linear probing - analysis • Skip lists - searches, insertions and deletions
   references:
     - Section 3.1.5, 3.2 - Course notes
-    - Section 5.2, 4.1 - Morin
+    - Section 5.2, 4.1 - [Morin](https://opendatastructures.org/ods-python.pdf)
 
