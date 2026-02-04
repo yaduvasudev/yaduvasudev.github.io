@@ -44,3 +44,9 @@
     - Section 3.1.5, 3.2 - Course notes
     - Section 5.2, 4.1 - <a href="https://opendatastructures.org/ods-python.pdf">Morin</a>
 
+- day: Wed 04/02
+  contents: Skip lists - implementation and analysis
+  references:
+    - Section 3.2 - Course notes
+    - Section 4.4 - <a href="https://opendatastructures.org/ods-python.pdf">Morin</a>
+
