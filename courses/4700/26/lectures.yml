@@ -50,3 +50,8 @@
     - Section 3.2 - Course notes
     - Section 4.4 - <a href="https://opendatastructures.org/ods-python.pdf">Morin</a>
 
+- day: Thu 05/02
+  contents: Binary search trees - representation, algorithms, notion of balanced trees • AVL trees
+  references:
+    - Section 3.3.1 - Course notes
+
