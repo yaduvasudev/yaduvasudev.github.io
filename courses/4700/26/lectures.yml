@@ -62,3 +62,8 @@
 - day: Wed 11/02
   miniquiz: Based on Lectures 1 to 9 (Problem sets 1 and 2)
 
+- day: Thu 12/02
+  contents: AVL trees - insertion, examples, implementation details
+  references:
+    - Section 3.3.2 - Course notes
+
