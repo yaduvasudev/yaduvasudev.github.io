@@ -67,3 +67,8 @@
   references:
     - Section 3.3.2 - Course notes
 
+- day: Fri 13/02
+  contents: AVL trees - deletions, examples • Scapegoat trees
+  references:
+    - Section 3.3.2, 3.3.3 - Course notes
+
