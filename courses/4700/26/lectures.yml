@@ -72,3 +72,8 @@
   references:
     - Section 3.3.2, 3.3.3 - Course notes
 
+- day: Mon 16/02
+  contents: Scapegoat trees - properties and analysis • Optimal BSTs and introduction to splay trees
+  references:
+    - Section 3.3.3 - Course notes
+
