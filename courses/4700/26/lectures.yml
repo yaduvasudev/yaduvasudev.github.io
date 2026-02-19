@@ -83,3 +83,8 @@
     - Section 3.3.5 - Course notes
   misc: <a href="https://www.cs.usfca.edu/~galles/visualization/SplayTree.html">Splay tree visualization</a>, Problem set 3 released on Ed
 
+- day: Thu 19/02
+  contents: Splay trees - amortized analysis
+  references:
+    - Section 3.3.5 - Course notes
+
