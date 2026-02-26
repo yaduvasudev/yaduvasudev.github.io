@@ -98,3 +98,8 @@
 
 - day: Wed 25/02
   quiz: Based on Lectures 1 to 13 (Problem sets 1, 2, and 3)
+
+- day: Thu 26/02
+  contents: Priority queues - binary heaps and their properties
+  references:
+    - Section 4.1 - Course notes
