@@ -103,3 +103,8 @@
   contents: Priority queues - binary heaps and their properties
   references:
     - Section 4.1 - Course notes
+
+- day: Fri 27/02
+  contents: Binary min-max heaps - operations, analysis, and implementation details
+  references:
+    - Section 4.2 - Course notes
