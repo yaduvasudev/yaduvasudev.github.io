@@ -108,3 +108,8 @@
   contents: Binary min-max heaps - operations, analysis, and implementation details
   references:
     - Section 4.2 - Course notes
+
+- day: Mon 02/03
+  contents: Binary min-max heaps (contd.) • Randomized mergeable heaps
+  references:
+    - Section 4.3.1 - Course notes
