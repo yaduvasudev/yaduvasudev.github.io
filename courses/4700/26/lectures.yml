@@ -113,3 +113,9 @@
   contents: Binary min-max heaps (contd.) • Randomized mergeable heaps
   references:
     - Section 4.3.1 - Course notes
+
+- day: Thu 05/03
+  contents: Leftist heaps - properties, operations, and analysis • Skew heaps
+  notes: https://edstem.org/us/courses/91442/resources?download=100780
+  references:
+    - Section 4.3.1, 4.3.2 - Course notes
