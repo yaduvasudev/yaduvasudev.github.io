@@ -119,3 +119,8 @@
   notes: https://edstem.org/us/courses/91442/resources?download=100780
   references:
     - Section 4.3.1, 4.3.2 - Course notes
+
+- day: Fri 06/03
+  contents: Skew heaps - properties, operations, and analysis • Binomial heaps
+  references:
+    - Section 4.3.2, 4.3.3 - Course notes
