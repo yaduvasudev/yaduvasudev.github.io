@@ -124,3 +124,8 @@
   contents: Skew heaps - properties, operations, and analysis • Binomial heaps
   references:
     - Section 4.3.2, 4.3.3 - Course notes
+
+- day: Mon 09/03
+  contents: Binomial heaps - properties, operations, and analysis
+  references:
+    - Section 4.3.3 - Course notes
