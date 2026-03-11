@@ -129,3 +129,8 @@
   contents: Binomial heaps - properties, operations, and analysis
   references:
     - Section 4.3.3 - Course notes
+
+- day: Wed 11/03
+  contents: Lazy binomial heaps and Fibonacci heaps - cascading cuts
+  references:
+    - Section 4.3.3, 4.3.4 - Course notes
