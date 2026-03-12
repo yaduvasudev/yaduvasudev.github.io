@@ -134,3 +134,8 @@
   contents: Lazy binomial heaps and Fibonacci heaps - cascading cuts
   references:
     - Section 4.3.3, 4.3.4 - Course notes
+
+- day: Thu 12/03
+  contents: Cascading cuts in Fibonacci heaps and amortized analysis 
+  references:
+    - Section 4.3.4 - Course notes
