@@ -144,3 +144,8 @@
   contents: Range minimum queries - lookup tables, range trees, indirection
   references:
     - Erickson's <a href="https://jeffe.cs.illinois.edu/teaching/datastructures/notes/01-RMQ-LCA.pdf">notes</a>
+
+- day: Mon 16/03
+  contents: Range minimum queries - Cartesian trees and reduction to LCA
+  references:
+    - Erickson's <a href="https://jeffe.cs.illinois.edu/teaching/datastructures/notes/01-RMQ-LCA.pdf">notes</a>
