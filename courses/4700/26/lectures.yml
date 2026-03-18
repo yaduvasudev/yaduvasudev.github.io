@@ -149,3 +149,10 @@
   contents: Range minimum queries - Cartesian trees and reduction to LCA
   references:
     - Erickson's <a href="https://jeffe.cs.illinois.edu/teaching/datastructures/notes/01-RMQ-LCA.pdf">notes</a>
+
+- day: Wed 18/03
+  contents: LCA back to RMQ - Euler tour, depth array, and the four Russians • Level ancestors in trees
+  references:
+    - Erickson's <a href="https://jeffe.cs.illinois.edu/teaching/datastructures/notes/01-RMQ-LCA.pdf">notes</a>
+    - Bender and Farach-Colton's <a href="https://edstem.org/us/courses/91442/resources?download=101321">paper</a>
+  misc: Problem set 4 released on Ed
