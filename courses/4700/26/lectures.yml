@@ -156,3 +156,8 @@
     - Erickson's <a href="https://jeffe.cs.illinois.edu/teaching/datastructures/notes/01-RMQ-LCA.pdf">notes</a>
     - Bender and Farach-Colton's <a href="https://edstem.org/us/courses/91442/resources?download=101321">paper</a>
   misc: Problem set 4 released on Ed
+
+- day: Thu 19/03
+  contents: Level ancestors in trees - jump pointers and ladder decompositions
+  references:
+    - Bender and Farach-Colton's <a href="https://edstem.org/us/courses/91442/resources?download=101321">paper</a>
