@@ -161,3 +161,9 @@
   contents: Level ancestors in trees - jump pointers and ladder decompositions
   references:
     - Bender and Farach-Colton's <a href="https://edstem.org/us/courses/91442/resources?download=101321">paper</a>
+  
+- day: Fri 20/03
+  contents: Level ancestors in trees - macro trees, micro trees, and the four Russians
+  references:
+    - Bender and Farach-Colton's <a href="https://edstem.org/us/courses/91442/resources?download=101321">paper</a>
+  misc: Problem set 4a released on Ed
