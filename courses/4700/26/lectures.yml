@@ -171,3 +171,7 @@
 - day: Mon 23/03
   tutorial: Based on Problem sets 4 and 4a  
   
+- day: Wed 25/03
+  contents: Range trees and orthogonal range searching
+  references:
+    - Mount's <a href="https://www.cs.umd.edu/class/fall2021/cmsc754/Lects/lect15-orth-range-tree.pdf">notes</a>
