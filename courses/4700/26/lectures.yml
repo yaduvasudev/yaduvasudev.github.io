@@ -175,3 +175,8 @@
   contents: Range trees and orthogonal range searching
   references:
     - Mount's <a href="https://www.cs.umd.edu/class/fall2021/cmsc754/Lects/lect15-orth-range-tree.pdf">notes</a>
+
+- day: Thu 26/03
+  contents: kd trees - range searching and nearest neighbors
+  references:
+    - Mount's <a href="https://www.cs.umd.edu/class/fall2019/cmsc420-0201/Lects/lect14-kd-query.pdf">notes</a>
