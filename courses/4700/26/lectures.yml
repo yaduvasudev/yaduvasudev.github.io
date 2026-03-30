@@ -183,3 +183,8 @@
 
 - day: Fri 27/03
   quiz: Based on Lectures 14 to 29 (Problem sets 4 and 4a)
+
+- day: Mon 30/03
+  contents: Interval trees and their applications
+  references:
+    - Section 10.1 <a href="https://edstem.org/us/courses/91442/resources?download=102020">here</a>
