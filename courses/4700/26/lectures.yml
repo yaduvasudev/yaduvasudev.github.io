@@ -193,3 +193,8 @@
   contents: Segment trees and their applications
   references:
     - Section 10.3 <a href="https://edstem.org/us/courses/91442/resources?download=102020">here</a>
+
+- day: Thu 02/04
+  contents: Fractional cascading and range trees
+  references:
+    - Section 5.6 <a href="https://edstem.org/us/courses/91442/resources?download=102143">here</a>
