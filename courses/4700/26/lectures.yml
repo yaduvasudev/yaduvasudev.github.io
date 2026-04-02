@@ -188,3 +188,8 @@
   contents: Interval trees and their applications
   references:
     - Section 10.1 <a href="https://edstem.org/us/courses/91442/resources?download=102020">here</a>
+
+- day: Wed 01/04
+  contents: Segment trees and their applications
+  references:
+    - Section 10.3 <a href="https://edstem.org/us/courses/91442/resources?download=102020">here</a>
