@@ -208,3 +208,8 @@
   contents: Data structures for strings - tries and suffix trees
   references:
     - Section 2 of Demaine's <a href="https://courses.csail.mit.edu/6.851/spring21/scribe/lec16.pdf">notes</a>
+
+- day: Thu 09/04
+  contents: Suffix trees - applications • Suffix arrays
+  references:
+    - Section 3 of Demaine's <a href="https://courses.csail.mit.edu/6.851/spring21/scribe/lec16.pdf">notes</a>
