@@ -225,3 +225,9 @@
 
 - day: Wed 15/04
   miniquiz: Based on Lectures 30 to 38 (Problem set 5)
+
+- day: Thu 16/04
+  contents: Suffix arrays in linear time - DC3 algorithm
+  references:
+    - Section 3 and 4 <a href="https://edstem.org/us/courses/91442/resources?download=102680">here</a>, source code in Appendix A
+    - Section 5 of Demaine's <a href="https://courses.csail.mit.edu/6.851/spring21/scribe/lec16.pdf">notes</a>
