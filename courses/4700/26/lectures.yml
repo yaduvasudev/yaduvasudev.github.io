@@ -241,3 +241,8 @@
   contents: Succinct data structures - binary trees and bit vectors • Succinct rank query
   references:
     - Sections 2 and 3 of Demaine's <a href="https://courses.csail.mit.edu/6.851/spring21/scribe/lec17.pdf">notes</a>
+
+- day: Wed 22/04
+  contents: Succinct data structures - select query • Data structures for dynamic graphs
+  references:
+    - Sections 2 and 3 of Demaine's <a href="https://courses.csail.mit.edu/6.851/spring21/scribe/lec17.pdf">notes</a>
