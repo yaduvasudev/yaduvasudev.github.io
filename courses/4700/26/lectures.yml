@@ -246,3 +246,9 @@
   contents: Succinct data structures - select query • Data structures for dynamic graphs
   references:
     - Sections 2 and 3 of Demaine's <a href="https://courses.csail.mit.edu/6.851/spring21/scribe/lec17.pdf">notes</a>
+
+- day: Fri 24/04  
+  contents: Link-cut trees - preferred path decomposition, examples and properties
+  references:
+    - Section 3 of Demaine's <a href="https://courses.csail.mit.edu/6.851/spring21/scribe/lec19.pdf">notes</a>
+    - Parts of Sections 5.2, 5.3 <a href="https://edstem.org/us/courses/91442/resources?download=102992">here</a> (the terminology is different from what we used in class, but the ideas are the same)
