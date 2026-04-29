@@ -251,4 +251,10 @@
   contents: Link-cut trees - preferred path decomposition, examples and properties
   references:
     - Section 3 of Demaine's <a href="https://courses.csail.mit.edu/6.851/spring21/scribe/lec19.pdf">notes</a>
-    - Parts of Sections 5.2, 5.3 <a href="https://edstem.org/us/courses/91442/resources?download=102992">here</a> (the terminology is different from what we used in class, but the ideas are the same)
+    - Parts of Section 5.2 <a href="https://edstem.org/us/courses/91442/resources?download=102992">here</a> (the terminology is different from what we used in class, but the ideas are the same)
+
+- day: Mon 27/04
+  contents: Link-cut trees - operations and analysis
+  references:
+    - Section 3 of Demaine's <a href="https://courses.csail.mit.edu/6.851/spring21/scribe/lec19.pdf">notes</a>
+    - Parts of Section 5.2 <a href="https://edstem.org/us/courses/91442/resources?download=102992">here</a> (the terminology is different from what we used in class, but the ideas are the same)
