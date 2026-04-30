@@ -258,3 +258,9 @@
   references:
     - Section 3 of Demaine's <a href="https://courses.csail.mit.edu/6.851/spring21/scribe/lec19.pdf">notes</a>
     - Parts of Section 5.2 <a href="https://edstem.org/us/courses/91442/resources?download=102992">here</a> (the terminology is different from what we used in class, but the ideas are the same)
+
+- day: Wed 29/04
+  contents: Link-cut trees • Wrap-up of the course
+  references:
+    - Section 4 of Demaine's <a href="https://courses.csail.mit.edu/6.851/spring21/scribe/lec19.pdf">notes</a>
+    - Parts of Section 5.2 <a href="https://edstem.org/us/courses/91442/resources?download=102992">here</a> (the terminology is different from what we used in class, but the ideas are the same)
