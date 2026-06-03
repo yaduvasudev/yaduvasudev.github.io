@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Yadu Vasudev - CS1200 Discrete Mathematics for CS - I</title>
+<title>CS1200 Discrete Mathematics for CS - I – Yadu Vasudev</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -28,15 +31,16 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-listing/list.min.js"></script>
 <script src="../../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-aee8030f82af2684b2a0192400fce1cc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../../../site_libs/quarto-contrib/bootstrap-icons-1.11.1/all.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "language": {
@@ -47,6 +51,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -119,55 +124,82 @@ gtag('config', 'G-MN1T4J4SRB', { 'anonymize_ip': true});
 
 </style>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Yadu Vasudev</span>
     </a>
   </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Research</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
         <li>
-    <a class="dropdown-item" href="../../../research.html" rel="" target="">
+    <a class="dropdown-item" href="../../../research.html">
  <span class="dropdown-text">Publications</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../people.html" rel="" target="">
+    <a class="dropdown-item" href="../../../people.html">
  <span class="dropdown-text">People</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../../courses.html" rel="" target="">
- <span class="menu-text">Teaching</span></a>
+    <a class="nav-link" href="../../../courses.html"> 
+<span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../contact.html" rel="" target="">
- <span class="menu-text">Contact</span></a>
+    <a class="nav-link" href="../../../contact.html"> 
+<span class="menu-text">Contact</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
-</div>
           </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -187,7 +219,7 @@ gtag('config', 'G-MN1T4J4SRB', { 'anonymize_ip': true});
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -195,11 +227,13 @@ gtag('config', 'G-MN1T4J4SRB', { 'anonymize_ip': true});
   </div>
   
 
+
 </header>
+
 
 <div class="nav-pills">
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">home</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">contents</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">administrivia</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">lectures</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">home</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">contents</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">administrivia</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">lectures</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <div class="grid">
@@ -207,11 +241,7 @@ gtag('config', 'G-MN1T4J4SRB', { 'anonymize_ip': true});
 
 </div>
 <div class="g-col-8">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://xkcd.com/1856/"><img src="existence_proof.png" class="img-fluid figure-img"></a></p>
-</figure>
-</div>
+<p><a href="https://xkcd.com/1856/"><img src="existence_proof.png" class="img-fluid"></a></p>
 </div>
 <div class="g-col-2">
 
@@ -219,15 +249,15 @@ gtag('config', 'G-MN1T4J4SRB', { 'anonymize_ip': true});
 </div>
 <div class="grid">
 <div class="g-col-6">
-<section id="bi-compass-color40cb2d-coordinates" class="level3">
-<h3 class="anchored" data-anchor-id="bi-compass-color40cb2d-coordinates"><i class="bi-compass " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Coordinates</h3>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920636f6d7061737320636f6c6f723d23343043423244203e7d7d-coordinates" class="level3">
+<h3 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920636f6d7061737320636f6c6f723d23343043423244203e7d7d-coordinates"><i class="bi-compass " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Coordinates</h3>
 <ul>
 <li><strong>Where</strong>: SSB 134</li>
 <li><strong>When</strong>: C slot - Mon (10 am), Tue (9 am), Wed (8 am), Fri (12 pm)</li>
 </ul>
 </section>
-<section id="bi-person-fill-color40cb2d-course-staff" class="level3">
-<h3 class="anchored" data-anchor-id="bi-person-fill-color40cb2d-course-staff"><i class="bi-person-fill " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Course staff</h3>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920706572736f6e2d66696c6c20636f6c6f723d23343043423244203e7d7d-course-staff" class="level3">
+<h3 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920706572736f6e2d66696c6c20636f6c6f723d23343043423244203e7d7d-course-staff"><i class="bi-person-fill " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Course staff</h3>
 <ul>
 <li><strong>Instructor</strong>: <a href="https://yaduvasudev.github.io/">Yadu Vasudev</a> (yadu@cse.iitm.ac.in)</li>
 <li><strong>TAs</strong>:
@@ -244,8 +274,8 @@ gtag('config', 'G-MN1T4J4SRB', { 'anonymize_ip': true});
 </ul>
 </section>
 </div>
-<section id="bi-link-45deg-color40cb2d-important-links" class="level3 g-col-6">
-<h3 class="anchored" data-anchor-id="bi-link-45deg-color40cb2d-important-links"><i class="bi-link-45deg " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Important links</h3>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206269206c696e6b2d343564656720636f6c6f723d23343043423244203e7d7d-important-links" class="level3 g-col-6">
+<h3 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206269206c696e6b2d343564656720636f6c6f723d23343043423244203e7d7d-important-links"><i class="bi-link-45deg " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Important links</h3>
 <ul>
 <li><a href="https://courses.iitm.ac.in/course/view.php?id=9775">Moodle</a></li>
 <li><a href="https://edstem.org/us/courses/80766">Ed Discussions</a><br>
@@ -256,8 +286,8 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/2z3GaR">t
 </div>
 <hr>
 <div class="grid">
-<section id="bi-calendar-month-color40cb2d-course-calendar" class="level3 g-col-12">
-<h3 class="anchored" data-anchor-id="bi-calendar-month-color40cb2d-course-calendar"><i class="bi-calendar-month " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Course calendar</h3>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2062692063616c656e6461722d6d6f6e746820636f6c6f723d23343043423244203e7d7d-course-calendar" class="level3 g-col-12">
+<h3 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2062692063616c656e6461722d6d6f6e746820636f6c6f723d23343043423244203e7d7d-course-calendar"><i class="bi-calendar-month " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Course calendar</h3>
 <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;ctz=Asia%2FKolkata&amp;showPrint=0&amp;mode=WEEK&amp;title=CS%201200%20(July%20-%20Nov%202025)&amp;src=Y19jZjgxZDRkM2QxODEzNTA5YTMwODg0NWVkZWQ3YzE1Y2IwNDY0YmJiNzMxZDdlYjI4YmNiNzczYzdmNzM4YzAxQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%237cb342" style="border:solid 1px #777" width="1100" height="600" frameborder="0" scrolling="no">
 </iframe>
 </section>
@@ -266,15 +296,15 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/2z3GaR">t
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <div class="grid">
 <div class="g-col-10">
-<section id="bi-body-text-color40cb2d-about-this-course" class="level4">
-<h4 class="anchored" data-anchor-id="bi-body-text-color40cb2d-about-this-course"><i class="bi-body-text " style="color: #40CB2D;" role="img" aria-hidden="true"></i> About this course</h4>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920626f64792d7465787420636f6c6f723d23343043423244203e7d7d-about-this-course" class="level4">
+<h4 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920626f64792d7465787420636f6c6f723d23343043423244203e7d7d-about-this-course"><i class="bi-body-text " style="color: #40CB2D;" role="img" aria-hidden="true"></i> About this course</h4>
 <p>Design of computer systems involve describing specifications of the systems, developing algorithms that meet the specifications, and developing the actual system/program that implements the algorithms. At each step of this process, we require a way to describe the system in a formal/mathematical way so that the solutions can then be verified. We will study the underlying mathematical abstractions that are necessary to perform these tasks, and methods to mathematically prove the correctness of our designs/constructions.</p>
 <p>This course is mathematical in nature, and will require you to state and prove theorems. You will not be actually designing computer systems in the course, but the topics are motivated by the applications that you will see in computer science.</p>
-<p><strong>Prerequisites</strong> - There are no formal prerequisites for the course, apart from high-school mathematics. This course together with CS1202 (Discrete Math for CS - II) form a prerequisite for almost all courses in the CS curriculum.</p>
-<hr>
 </section>
-<section id="bi-card-list-color40cb2d-course-contents" class="level4">
-<h4 class="anchored" data-anchor-id="bi-card-list-color40cb2d-course-contents"><i class="bi-card-list " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Course contents</h4>
+<section id="prerequisites---there-are-no-formal-prerequisites-for-the-course-apart-from-high-school-mathematics.-this-course-together-with-cs1202-discrete-math-for-cs---ii-form-a-prerequisite-for-almost-all-courses-in-the-cs-curriculum." class="level2">
+<h2 class="anchored" data-anchor-id="prerequisites---there-are-no-formal-prerequisites-for-the-course-apart-from-high-school-mathematics.-this-course-together-with-cs1202-discrete-math-for-cs---ii-form-a-prerequisite-for-almost-all-courses-in-the-cs-curriculum."><strong>Prerequisites</strong> - There are no formal prerequisites for the course, apart from high-school mathematics. This course together with CS1202 (Discrete Math for CS - II) form a prerequisite for almost all courses in the CS curriculum.</h2>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920636172642d6c69737420636f6c6f723d23343043423244203e7d7d-course-contents" class="level4">
+<h4 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920636172642d6c69737420636f6c6f723d23343043423244203e7d7d-course-contents"><i class="bi-card-list " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Course contents</h4>
 <p>The course will look at the following three broad themes. The order of the topics covered may vary.</p>
 <ul>
 <li><strong>Sets, logic and proofs</strong> - Representation of sets, propositional and predicate logic, truth tables, deduction and resolution, mathematical proofs, infinite sets - countable and uncountable sets, Cantor’s diagonalization, mathematical induction</li>
@@ -283,8 +313,8 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/2z3GaR">t
 </ul>
 <hr>
 </section>
-<section id="bi-book-fill-color40cb2d-course-resources" class="level4">
-<h4 class="anchored" data-anchor-id="bi-book-fill-color40cb2d-course-resources"><i class="bi-book-fill " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Course resources</h4>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920626f6f6b2d66696c6c20636f6c6f723d23343043423244203e7d7d-course-resources" class="level4">
+<h4 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920626f6f6b2d66696c6c20636f6c6f723d23343043423244203e7d7d-course-resources"><i class="bi-book-fill " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Course resources</h4>
 <p>Our main sources of reference will be the following textbooks.</p>
 <ol type="1">
 <li><strong>Discrete Mathematics and its Applications</strong> (Kenneth H. Rosen)</li>
@@ -292,20 +322,21 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/2z3GaR">t
 </ol>
 <p>Apart from this, there are a lot of resources available online. We may refer to them occasionally. Both the books contain a number of exercise problems for practice.</p>
 </section>
+</section>
 </div>
 </div>
 </div>
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
 <div class="grid">
 <div class="g-col-10">
-<section id="bi-clock-fill-color40cb2d-weekly-schedule" class="level4">
-<h4 class="anchored" data-anchor-id="bi-clock-fill-color40cb2d-weekly-schedule"><i class="bi-clock-fill " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Weekly schedule</h4>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920636c6f636b2d66696c6c20636f6c6f723d23343043423244203e7d7d-weekly-schedule" class="level4">
+<h4 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920636c6f636b2d66696c6c20636f6c6f723d23343043423244203e7d7d-weekly-schedule"><i class="bi-clock-fill " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Weekly schedule</h4>
 <p>There are four lecture slots per week. We will have tutorials and short exams after every 5-6 lectures. The exact schedule is given in the course calendar that is shared. The tutorials are ungraded and meant for solving practice problems associated with the concepts taught during the lectures. They are vital for gaining better understanding of the material and must not be missed.</p>
 <p>Apart from the tutorials, you are welcome to use the course discussion forum to clarify doubts with the instructor and the TAs.</p>
 <hr>
 </section>
-<section id="bi-percent-color40cb2d-grading-policy-tentative" class="level4">
-<h4 class="anchored" data-anchor-id="bi-percent-color40cb2d-grading-policy-tentative"><i class="bi-percent " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Grading policy (tentative)</h4>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2062692070657263656e7420636f6c6f723d23343043423244203e7d7d-grading-policy-tentative" class="level4">
+<h4 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2062692070657263656e7420636f6c6f723d23343043423244203e7d7d-grading-policy-tentative"><i class="bi-percent " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Grading policy (tentative)</h4>
 <ul>
 <li>Short exams: 3*10 = 30%</li>
 <li>Quizzes: 2*15 = 30%</li>
@@ -313,8 +344,8 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/2z3GaR">t
 </ul>
 <hr>
 </section>
-<section id="bi-calendar-fill-color40cb2d-important-dates-tentative" class="level4">
-<h4 class="anchored" data-anchor-id="bi-calendar-fill-color40cb2d-important-dates-tentative"><i class="bi-calendar-fill " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Important dates (tentative)</h4>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2062692063616c656e6461722d66696c6c20636f6c6f723d23343043423244203e7d7d-important-dates-tentative" class="level4">
+<h4 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2062692063616c656e6461722d66696c6c20636f6c6f723d23343043423244203e7d7d-important-dates-tentative"><i class="bi-calendar-fill " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Important dates (tentative)</h4>
 <ul>
 <li>Tutorials (ungraded): Aug 13, Aug 25, Sep 10, Sep 22, Oct 3, Oct 15, Oct 29, Nov 11</li>
 <li>Short exams: Aug 29, Oct 1, Nov 3</li>
@@ -323,8 +354,8 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/2z3GaR">t
 </ul>
 <hr>
 </section>
-<section id="bi-chat-dots-fill-color40cb2d-communication" class="level4">
-<h4 class="anchored" data-anchor-id="bi-chat-dots-fill-color40cb2d-communication"><i class="bi-chat-dots-fill " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Communication</h4>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920636861742d646f74732d66696c6c20636f6c6f723d23343043423244203e7d7d-communication" class="level4">
+<h4 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920636861742d646f74732d66696c6c20636f6c6f723d23343043423244203e7d7d-communication"><i class="bi-chat-dots-fill " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Communication</h4>
 <p>Please sign up on the course discussion forum <a href="https://edstem.org/us/join/2z3GaR">here</a>. This will be the first point of contact for any issues related to the course. For general questions related to the course (any comments/doubts), please create a thread in the correct category and add your question/comment there. You are encouraged to reply and clear the doubts of your friends. To encourage this interaction, <strong>the forum supports anonymous posts and answers</strong>. <strong>Please be courteous to others when you are posting anonymously</strong>.</p>
 </section>
 </div>
@@ -332,7 +363,6 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/2z3GaR">t
 </div>
 <div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
 <div id="listing-lectures" class="quarto-listing quarto-listing-container-custom">
-
 <table class="lectures">
   <thead>
     <tr><th style="width:12%">Date</th>
@@ -341,100 +371,206 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/2z3GaR">t
     <th style="width:18%">Misc</th>
   </tr></thead>
   <tbody class="list">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #1</b> <br>
         Fri 01/08
       </td>
       <td>
         Introduction to the course • Admin and logistic details <br>
+        
         [<a href="https://edstem.org/us/courses/80766/resources?download=59978">slides</a>]
+        
+        
       </td>
       <td>
+        
       </td>
       <td>
+        
         Sign up on <a href="https://edstem.org/us/join/2z3GaR">Ed Discussions</a>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #2</b> <br>
         Tue 05/08
       </td>
       <td>
         Propositions and truth values • Compound propositions and their truth values • Knights and Knaves <br>
+        
         [<a href="https://edstem.org/us/courses/80766/resources?download=59984">slides</a>]
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 1.1 - Rosen</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #3</b> <br>
         Wed 06/08
       </td>
       <td>
         Knights and Knaves • Implication and examples <br>
+        
         [<a href="https://edstem.org/us/courses/80766/resources?download=59990">slides</a>]
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Sections 1.1, 1.2 - Rosen</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #4</b> <br>
         Fri 08/08
       </td>
       <td>
         Tautologies and contradictions • Logical equivalence - examples <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Sections 1.3 - Rosen</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #5</b> <br>
         Mon 11/08
       </td>
       <td>
         Inference rules and argument forms • Example applications of inference rules <br>
+        
         [<a href="https://edstem.org/us/courses/80766/resources?download=60057">slides</a>]
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 1.6 - Rosen</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #6</b> <br>
         Tue 12/08
       </td>
       <td>
         Inference rules and argument forms - fallacies • Axioms, proofs and tautologies • Predicate logic <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Sections 1.4, 1.6 - Rosen</li>
         </ul>
+        
+        
       </td>
       <td>
+        
         <a class="btn btn-info btn-sm" href="https://drive.google.com/file/d/1j9oguvMQLBap854Ystw7KTSAR-j74iHK/view?usp=drive_link"><strong>PS1 released</strong></a>
+        
       </td>
     </tr>
+    
+    
+    
     <tr bgcolor="#BDF9C4">
+      
       <td>
         <b>Tutorial #1</b><br>
         Wed 13/08
@@ -443,87 +579,178 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/2z3GaR">t
         Based on Problem set 1
       </td>
       <td>
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #7</b> <br>
         Mon 18/08
       </td>
       <td>
         Predicate logic - domain of discourse, examples, quantifiers, negation <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Sections 1.4, 1.5 - Rosen</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #8</b> <br>
         Tue 19/08
       </td>
       <td>
         Predicate logic - examples • Validity and logical equivalence <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Sections 1.4, 1.5 - Rosen</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #9</b> <br>
         Wed 20/08
       </td>
       <td>
         Validity and logical equivalences - models, interpretations, examples <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Sections 1.4, 1.5 - Rosen</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #10</b> <br>
         Fri 22/08
       </td>
       <td>
         Validity, inference rules and arguments in predicate logic <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Sections 1.4, 1.5, 1.6 - Rosen</li>
         </ul>
+        
+        
       </td>
       <td>
+        
         <a class="btn btn-info btn-sm" href="https://drive.google.com/file/d/1NEZiXKtje8QP5uOMJPRD7xmXAarqOBzO/view?usp=drive_link"><strong>PS2 released</strong></a>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #11</b> <br>
         Mon 25/08
       </td>
       <td>
         Inference rules and arguments in predicate logic • Axioms and proofs <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 1.6 - Rosen</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
     <tr bgcolor="#BDF9C4">
+      
       <td>
         <b>Tutorial #2</b><br>
         Tue 26/08
@@ -532,11 +759,22 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/2z3GaR">t
         Based on Problem set 2
       </td>
       <td>
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#FCDAD0">
+      
       <td>
         <b>Test #1</b><br>
         Fri 29/08
@@ -545,47 +783,92 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/2z3GaR">t
         Based on Lectures 1 - 11 (Problem sets 1 and 2)
       </td>
       <td>
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #12</b> <br>
         Mon 01/09
       </td>
       <td>
         Direct and indirect proofs - examples <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 1.7 - Rosen</li>
         </ul>
+        
         <ul class="tight">
           <li>Section 1.9 - <a href="https://courses.csail.mit.edu/6.042/spring18/mcs.pdf">LLR</a></li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #13</b> <br>
         Tue 02/09
       </td>
       <td>
         Indirect proof and proofs by contradiction - examples <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 1.7 - Rosen</li>
         </ul>
+        
         <ul class="tight">
           <li>Sections 1.5, 1.8 - <a href="https://courses.csail.mit.edu/6.042/spring18/mcs.pdf">LLR</a></li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
     <tr bgcolor="#FADAD0">
+      
       <td>
         <b>Quiz #1</b><br>
         Wed 03/09
@@ -596,60 +879,118 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/2z3GaR">t
       <td></td>
       <td></td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #14</b> <br>
         Mon 08/09
       </td>
       <td>
         Non-constructive proofs, proof by cases, mathematical induction <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 1.7 - Rosen</li>
         </ul>
+        
         <ul class="tight">
           <li>Section 1.7, 1.8 - <a href="https://courses.csail.mit.edu/6.042/spring18/mcs.pdf">LLR</a></li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #15</b> <br>
         Tue 09/09
       </td>
       <td>
         Principle of mathematical induction - examples, strong induction <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Sections 5.1, 5.2 - Rosen</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #16</b> <br>
         Wed 10/09
       </td>
       <td>
         Induction and well-ordering - examples, equivalence <br>
+        
+        
         [<a href="https://edstem.org/us/courses/80766/resources?download=78311">notes</a>]
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Chapter 5 - Rosen</li>
         </ul>
+        
         <ul class="tight">
           <li>Chapter 5 - <a href="https://courses.csail.mit.edu/6.042/spring18/mcs.pdf">LLR</a></li>
         </ul>
+        
+        
       </td>
       <td>
+        
         <a class="btn btn-info btn-sm" href="https://drive.google.com/file/d/1HI49TimckD_d3PhnEfQNxtJc0HHn-oHe/view?usp=drive_link"><strong>PS3 released</strong></a>
+        
       </td>
     </tr>
+    
+    
+    
     <tr bgcolor="#BDF9C4">
+      
       <td>
         <b>Tutorial #3</b><br>
         Fri 12/09
@@ -658,56 +999,114 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/2z3GaR">t
         Based on Problem set 3
       </td>
       <td>
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #17</b> <br>
         Mon 15/09
       </td>
       <td>
         Sets and operations on sets, relations - examples <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Sections 2.1, 2.2 - Rosen</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #18</b> <br>
         Tue 16/09
       </td>
       <td>
         Functions on sets, cardinality and countable sets <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Sections 2.3, 2.5 - Rosen</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #19</b> <br>
         Wed 17/09
       </td>
       <td>
         More examples of countable sets and their properties <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 2.5 - Rosen</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
     <tr bgcolor="#BDF9C4">
+      
       <td>
         <b>Tutorial #4</b><br>
         Thu 18/09
@@ -716,60 +1115,120 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/2z3GaR">t
         Discussion of Problem set 3
       </td>
       <td>
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #20</b> <br>
         Fri 19/09
       </td>
       <td>
         More examples of countable sets • Uncountable sets - Cantor's diagonalization <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 2.5 - Rosen</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #21</b> <br>
         Mon 22/09
       </td>
       <td>
         More examples of uncountable sets • Diagonalization in computer science - the halting problem <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 2.5 - Rosen</li>
         </ul>
+        
         <ul class="tight">
           <li>Section 8.2 - <a href="https://courses.csail.mit.edu/6.042/spring18/mcs.pdf">LLR</a></li>
         </ul>
+        
+        
       </td>
       <td>
+        
         <a class="btn btn-info btn-sm" href="https://drive.google.com/file/d/1cMjR9wIeMzInfRoScFUhep5ucGXm42_6/view?usp=drive_link"><strong>PS4 released</strong></a>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #22</b> <br>
         Tue 23/09
       </td>
       <td>
         Basic counting - product rule, sum rule, bijections <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Sections 6.1, 6.3 - Rosen</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
     <tr bgcolor="#BDF9C4">
+      
       <td>
         <b>Tutorial #5</b><br>
         Wed 24/09
@@ -778,56 +1237,115 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/2z3GaR">t
         Based on Problem set 4
       </td>
       <td>
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #23</b> <br>
         Fri 26/09
       </td>
       <td>
         Double counting - examples • Binomial identities using double counting <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Sections 6.3, 6.4 - Rosen</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #24</b> <br>
         Mon 29/09
       </td>
       <td>
         Binomial theorem - combinatorial proof and proof by induction • Counting by bijections - examples <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Sections 6.3, 6.4 - Rosen</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #25</b> <br>
         Tue 30/09
       </td>
       <td>
         Counting by bijections - Catalan numbers <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Yuefei Zhao's <a href="https://yufeizhao.com/olympiad/bijections.pdf">notes</a></li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
     <tr bgcolor="#FCDAD0">
+      
       <td>
         <b>Test #2</b><br>
         Wed 01/10
@@ -836,26 +1354,51 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/2z3GaR">t
         Based on Lectures 12 - 21 (Problem sets 3 and 4)
       </td>
       <td>
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #26</b> <br>
         Fri 03/10
       </td>
       <td>
         Counting by bijections - Catalan numbers (contd.) <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Yuefei Zhao's <a href="https://yufeizhao.com/olympiad/bijections.pdf">notes</a></li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
     <tr bgcolor="#BDF9C4">
+      
       <td>
         <b>Tutorial #6</b><br>
         Mon 06/10
@@ -864,26 +1407,54 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/2z3GaR">t
         Based on Problem set 5
       </td>
       <td>
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #27</b> <br>
         Tue 07/10
       </td>
       <td>
         Multisets and multichoosing - examples and equivalences • Multinomial coefficients and balls into bins <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 6.5 - Rosen</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
     <tr bgcolor="#FADAD0">
+      
       <td>
         <b>Quiz #2</b><br>
         Wed 08/10
@@ -894,83 +1465,170 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/2z3GaR">t
       <td></td>
       <td></td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #28</b> <br>
         Fri 10/10
       </td>
       <td>
         Balls into bins • PIE - examples, number of onto functions <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Sections 8.5, 8.6 - Rosen</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #29</b> <br>
         Mon 13/10
       </td>
       <td>
         Principle of Inclusion-Exclusion - partitions and Stirling numbers, derangements <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Sections 6.5, 8.6 - Rosen</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #30</b> <br>
         Tue 14/10
       </td>
       <td>
         PIE - examples • Recurrence relations - examples <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 8.1 - Rosen</li>
         </ul>
+        
+        
       </td>
       <td>
+        
         <a class="btn btn-info btn-sm" href="https://drive.google.com/file/d/1eNDXMebvT6bIHnQWTBackzFabSl7uFs8/view?usp=drive_link"><strong>PS6 released</strong></a>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #31</b> <br>
         Wed 15/10
       </td>
       <td>
         Recurrence relations - examples • Guessing and verifying solutions to recurrence relations <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 8.1 - Rosen</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #32</b> <br>
         Thu 16/10
       </td>
       <td>
         Linear recurrence relations and their solutions • Generating functions <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 8.2, 8.4 - Rosen</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
     <tr bgcolor="#BDF9C4">
+      
       <td>
         <b>Tutorial #7</b><br>
         Fri 17/10
@@ -979,58 +1637,118 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/2z3GaR">t
         Based on Problem set 6
       </td>
       <td>
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #33</b> <br>
         Fri 24/10
       </td>
       <td>
         Generating functions - Catalan numbers and derangements <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 8.4 - Rosen</li>
         </ul>
+        
+        
       </td>
       <td>
+        
         <a class="btn btn-info btn-sm" href="https://drive.google.com/file/d/1TkTe-3YGTLSWDDk1Rro0FVUVvRk-UyCc/view?usp=drive_link"><strong>PS7 released</strong></a>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #34</b> <br>
         Mon 27/10
       </td>
       <td>
         Pigeonhole principle and its applications <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 6.2 - Rosen</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #35</b> <br>
         Tue 28/10
       </td>
       <td>
         Pigeonhole principle and its applications (contd.) <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 6.2 - Rosen</li>
         </ul>
+        
+        
       </td>
       <td>
+        
         <a class="btn btn-info btn-sm" href="https://drive.google.com/file/d/1WtR7doIRCS_495bwk1OSLOoxbwGmspYh/view?usp=drive_link"><strong>PS8 released</strong></a>
+        
       </td>
     </tr>
+    
+    
+    
     <tr bgcolor="#BDF9C4">
+      
       <td>
         <b>Tutorial #8</b><br>
         Wed 29/10
@@ -1039,41 +1757,84 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/2z3GaR">t
         Based on Problem set 7
       </td>
       <td>
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #36</b> <br>
         Thu 30/10
       </td>
       <td>
         Relations on sets and their properties - examples <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 9.1 - Rosen</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #37</b> <br>
         Fri 31/10
       </td>
       <td>
         Transitive relations, composition of relations, boolean matrix multiplication and application in computing transitive closure <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Sections 9.3, 9.4 - Rosen</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
     <tr bgcolor="#FCDAD0">
+      
       <td>
         <b>Test #3</b><br>
         Mon 03/11
@@ -1082,75 +1843,150 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/2z3GaR">t
         Based on Lectures 27 - 33 (Problem sets 6 and 7)
       </td>
       <td>
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #38</b> <br>
         Tue 04/11
       </td>
       <td>
         Transitive closure and boolean matrix multiplication •  Equivalence relations - examples, properties <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Sections 9.4, 9.5 - Rosen</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #39</b> <br>
         Thu 06/11
       </td>
       <td>
         Equivalence relations and partitions - examples, Bell numbers • Posets - examples and properties <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Sections 9.5, 9.6 - Rosen</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #40</b> <br>
         Fri 07/11
       </td>
       <td>
         Posets - chains, antichains, decompositions, examples <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 9.6 - Rosem</li>
         </ul>
+        
+        
       </td>
       <td>
+        
         <a class="btn btn-info btn-sm" href="https://drive.google.com/file/d/10aYjNUWZ6kL6ICdhKKbF11wYBhsuYQpM/view?usp=drive_link"><strong>PS9 released</strong></a>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #41</b> <br>
         Mon 10/11
       </td>
       <td>
         Posets - chains and antichains • Dilworth's/Mirsky's theorem and application • Wrap-up of the course <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 9.6 - Rosen</li>
         </ul>
+        
         <ul class="tight">
           <li><a href="https://edstem.org/us/courses/80766/resources?download=81842">Notes</a> on Ed</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
     <tr bgcolor="#BDF9C4">
+      
       <td>
         <b>Tutorial #9</b><br>
         Tue 11/11
@@ -1159,15 +1995,21 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/2z3GaR">t
         Based on Problem sets 8 and 9
       </td>
       <td>
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
   </tbody>
 </table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 </div>
 </div>
@@ -1179,43 +2021,58 @@ No matching items
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (event) {
-  const toggleBodyColorMode = (bsSheetEl) => {
-    const mode = bsSheetEl.getAttribute("data-mode");
-    const bodyEl = window.document.querySelector("body");
-    if (mode === "dark") {
-      bodyEl.classList.add("quarto-dark");
-      bodyEl.classList.remove("quarto-light");
-    } else {
-      bodyEl.classList.add("quarto-light");
-      bodyEl.classList.remove("quarto-dark");
-    }
-  }
-  const toggleBodyColorPrimary = () => {
-    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-    if (bsSheetEl) {
-      toggleBodyColorMode(bsSheetEl);
-    }
-  }
-  toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
       }
+      return false;
     }
-    return false;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
       for (const childEl of codeEl.children) {
         if (isCodeAnnotation(childEl)) {
           childEl.remove();
@@ -1223,195 +2080,348 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
       return codeEl.innerText;
     }
-  });
-  clipboard.on('success', function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  });
-  function tippyHover(el, contentFn) {
-    const config = {
-      allowHTML: true,
-      content: contentFn,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start'
-    };
-    window.tippy(el, config); 
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      return note.innerHTML;
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
     });
-  }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
     }
-  };
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/yaduvasudev\.github\.io\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
           }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
       });
     }
-  }
-});
-</script>
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
 </div> <!-- /content -->
+
 
 
 

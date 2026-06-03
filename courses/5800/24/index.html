@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Yadu Vasudev - CS5800 Advanced Data Structures &amp; Algorithms</title>
+<title>CS5800 Advanced Data Structures &amp; Algorithms – Yadu Vasudev</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -28,15 +31,16 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-listing/list.min.js"></script>
 <script src="../../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-346d80e5afd1e6a9ec2fb7cd91d70bcf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../../../site_libs/quarto-contrib/bootstrap-icons-1.11.1/all.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "language": {
@@ -47,6 +51,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -119,55 +124,82 @@ gtag('config', 'G-MN1T4J4SRB', { 'anonymize_ip': true});
 
 </style>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Yadu Vasudev</span>
     </a>
   </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Research</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
         <li>
-    <a class="dropdown-item" href="../../../research.html" rel="" target="">
+    <a class="dropdown-item" href="../../../research.html">
  <span class="dropdown-text">Publications</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../people.html" rel="" target="">
+    <a class="dropdown-item" href="../../../people.html">
  <span class="dropdown-text">People</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../../courses.html" rel="" target="">
- <span class="menu-text">Teaching</span></a>
+    <a class="nav-link" href="../../../courses.html"> 
+<span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../contact.html" rel="" target="">
- <span class="menu-text">Contact</span></a>
+    <a class="nav-link" href="../../../contact.html"> 
+<span class="menu-text">Contact</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
-</div>
           </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -187,7 +219,7 @@ gtag('config', 'G-MN1T4J4SRB', { 'anonymize_ip': true});
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -195,32 +227,34 @@ gtag('config', 'G-MN1T4J4SRB', { 'anonymize_ip': true});
   </div>
   
 
+
 </header>
+
 
 <div class="nav-pills">
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">about</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">contents</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">administrivia</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">lectures</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">about</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">contents</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">administrivia</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">lectures</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <div class="grid">
 <div class="g-col-6">
-<section id="bi-compass-color40cb2d-coordinates" class="level4">
-<h4 class="anchored" data-anchor-id="bi-compass-color40cb2d-coordinates"><i class="bi-compass " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Coordinates</h4>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920636f6d7061737320636f6c6f723d23343043423244203e7d7d-coordinates" class="level4">
+<h4 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920636f6d7061737320636f6c6f723d23343043423244203e7d7d-coordinates"><i class="bi-compass " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Coordinates</h4>
 <ul>
 <li>Where: CS15</li>
 <li>When: D slot - Mon (11 am), Tue (10 am), Wed (9 am), Thu (12 pm)</li>
 </ul>
 </section>
-<section id="bi-person-fill-color40cb2d-instructor" class="level4">
-<h4 class="anchored" data-anchor-id="bi-person-fill-color40cb2d-instructor"><i class="bi-person-fill " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Instructor</h4>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920706572736f6e2d66696c6c20636f6c6f723d23343043423244203e7d7d-instructor" class="level4">
+<h4 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920706572736f6e2d66696c6c20636f6c6f723d23343043423244203e7d7d-instructor"><i class="bi-person-fill " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Instructor</h4>
 <ul>
 <li><a href="https://yaduvasudev.github.io/">Yadu Vasudev</a></li>
 <li>SSB 207</li>
 <li>yadu@cse.iitm.ac.in</li>
 </ul>
 </section>
-<section id="bi-people-fill-color40cb2d-tas" class="level4">
-<h4 class="anchored" data-anchor-id="bi-people-fill-color40cb2d-tas"><i class="bi-people-fill " style="color: #40CB2D;" role="img" aria-hidden="true"></i> TAs</h4>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2062692070656f706c652d66696c6c20636f6c6f723d23343043423244203e7d7d-tas" class="level4">
+<h4 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2062692070656f706c652d66696c6c20636f6c6f723d23343043423244203e7d7d-tas"><i class="bi-people-fill " style="color: #40CB2D;" role="img" aria-hidden="true"></i> TAs</h4>
 <ul>
 <li>Aditya (cs22s005@smail)</li>
 <li>Arun (cs23m017@smail)</li>
@@ -233,8 +267,8 @@ gtag('config', 'G-MN1T4J4SRB', { 'anonymize_ip': true});
 </section>
 </div>
 <div class="g-col-6">
-<section id="bi-link-45deg-color40cb2d-important-links" class="level4">
-<h4 class="anchored" data-anchor-id="bi-link-45deg-color40cb2d-important-links"><i class="bi-link-45deg " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Important links</h4>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206269206c696e6b2d343564656720636f6c6f723d23343043423244203e7d7d-important-links" class="level4">
+<h4 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206269206c696e6b2d343564656720636f6c6f723d23343043423244203e7d7d-important-links"><i class="bi-link-45deg " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Important links</h4>
 <ul>
 <li><a href="https://courses.iitm.ac.in/course/view.php?id=4902">Moodle</a></li>
 <li><a href="https://edstem.org/us/courses/61145/discussion/">Ed Discussions</a> (for discussions, Q/A, announcements)<br>
@@ -242,8 +276,8 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/MQYjkx">t
 <li><a href="https://forms.gle/st9ZZtom2DkzviV99">Anonymous course feedback</a></li>
 </ul>
 </section>
-<section id="bi-calendar-month-color40cb2d-course-calendar" class="level4">
-<h4 class="anchored" data-anchor-id="bi-calendar-month-color40cb2d-course-calendar"><i class="bi-calendar-month " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Course calendar</h4>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2062692063616c656e6461722d6d6f6e746820636f6c6f723d23343043423244203e7d7d-course-calendar" class="level4">
+<h4 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2062692063616c656e6461722d6d6f6e746820636f6c6f723d23343043423244203e7d7d-course-calendar"><i class="bi-calendar-month " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Course calendar</h4>
 <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;ctz=Asia%2FKolkata&amp;bgcolor=%23ffffff&amp;mode=WEEK&amp;src=Y180YTYyZmU3NzBiYzkzYjZlMDk5ODQxMDkzNzRkMGQ3OGRmNDZhNDFjMDhlOWMxYmYzMjQ1NGFkZWIyNDJkYWYzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23616161" style="border:solid 1px #777" width="600" height="450" frameborder="0" scrolling="no">
 </iframe>
 </section>
@@ -253,14 +287,14 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/MQYjkx">t
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <div class="grid">
 <div class="g-col-10">
-<section id="bi-body-text-color40cb2d-about-this-course" class="level4">
-<h4 class="anchored" data-anchor-id="bi-body-text-color40cb2d-about-this-course"><i class="bi-body-text " style="color: #40CB2D;" role="img" aria-hidden="true"></i> About this course</h4>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920626f64792d7465787420636f6c6f723d23343043423244203e7d7d-about-this-course" class="level4">
+<h4 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920626f64792d7465787420636f6c6f723d23343043423244203e7d7d-about-this-course"><i class="bi-body-text " style="color: #40CB2D;" role="img" aria-hidden="true"></i> About this course</h4>
 <p>This is a basic graduate-level course that introduces some advanced data structures, algorithm design techniques. There will be a lot of emphasis on reasoning about the data structures and algorithms that you design, and formally proving the correctness of constructions.</p>
-<p><strong>Prerequisites</strong> - A basic course in design and analysis of algorithms is necessary. The course will require you to design data structures and algorithms, and then mathematically prove their correctness. There <strong>will not be any programming component</strong> for this course, though you may be required to implement a few of the data structures and algorithms in CS6150 (Advanced Programming Lab).</p>
-<hr>
 </section>
-<section id="bi-card-list-color40cb2d-course-contents" class="level4">
-<h4 class="anchored" data-anchor-id="bi-card-list-color40cb2d-course-contents"><i class="bi-card-list " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Course contents</h4>
+<section id="prerequisites---a-basic-course-in-design-and-analysis-of-algorithms-is-necessary.-the-course-will-require-you-to-design-data-structures-and-algorithms-and-then-mathematically-prove-their-correctness.-there-will-not-be-any-programming-component-for-this-course-though-you-may-be-required-to-implement-a-few-of-the-data-structures-and-algorithms-in-cs6150-advanced-programming-lab." class="level2">
+<h2 class="anchored" data-anchor-id="prerequisites---a-basic-course-in-design-and-analysis-of-algorithms-is-necessary.-the-course-will-require-you-to-design-data-structures-and-algorithms-and-then-mathematically-prove-their-correctness.-there-will-not-be-any-programming-component-for-this-course-though-you-may-be-required-to-implement-a-few-of-the-data-structures-and-algorithms-in-cs6150-advanced-programming-lab."><strong>Prerequisites</strong> - A basic course in design and analysis of algorithms is necessary. The course will require you to design data structures and algorithms, and then mathematically prove their correctness. There <strong>will not be any programming component</strong> for this course, though you may be required to implement a few of the data structures and algorithms in CS6150 (Advanced Programming Lab).</h2>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920636172642d6c69737420636f6c6f723d23343043423244203e7d7d-course-contents" class="level4">
+<h4 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920636172642d6c69737420636f6c6f723d23343043423244203e7d7d-course-contents"><i class="bi-card-list " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Course contents</h4>
 <p>The following is a brief overview of the topics that will be covered in this course. The order of the topics covered may vary.</p>
 <ul>
 <li>Basic principles from algorithm design - asymptotic analysis, amortized analysis, randomization</li>
@@ -285,8 +319,8 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/MQYjkx">t
 </ul>
 <hr>
 </section>
-<section id="bi-book-fill-color40cb2d-course-resources" class="level4">
-<h4 class="anchored" data-anchor-id="bi-book-fill-color40cb2d-course-resources"><i class="bi-book-fill " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Course resources</h4>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920626f6f6b2d66696c6c20636f6c6f723d23343043423244203e7d7d-course-resources" class="level4">
+<h4 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920626f6f6b2d66696c6c20636f6c6f723d23343043423244203e7d7d-course-resources"><i class="bi-book-fill " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Course resources</h4>
 <p>There are many textbooks and resources (both offline and online) that cover most of the material presented in the list above. We will not be following one textbook. Our main sources of reference will be the following textbooks.</p>
 <ul>
 <li><strong>[E]</strong> - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Algorithms</a> by Erickson</li>
@@ -296,29 +330,29 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/MQYjkx">t
 </ul>
 <p>All these books contain a number of exercise problems for practice.</p>
 </section>
+</section>
 </div>
 </div>
 </div>
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
 <div class="grid">
 <div class="g-col-10">
-<section id="bi-clock-fill-color40cb2d-weekly-schedule" class="level4">
-<h4 class="anchored" data-anchor-id="bi-clock-fill-color40cb2d-weekly-schedule"><i class="bi-clock-fill " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Weekly schedule</h4>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920636c6f636b2d66696c6c20636f6c6f723d23343043423244203e7d7d-weekly-schedule" class="level4">
+<h4 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920636c6f636b2d66696c6c20636f6c6f723d23343043423244203e7d7d-weekly-schedule"><i class="bi-clock-fill " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Weekly schedule</h4>
 <p>There will be four lectures every week, some of which will be converted to tutorial/problem-solving sessions. I will be releasing problem sets regularly which will be discussed in the tutorial sessions. You can also use the course discussion forum to discuss these with your peers and the course staff.</p>
 <hr>
 </section>
-<section id="bi-percent-color40cb2d-grading-policy-tentative" class="level4">
-<h4 class="anchored" data-anchor-id="bi-percent-color40cb2d-grading-policy-tentative"><i class="bi-percent " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Grading policy (tentative)</h4>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2062692070657263656e7420636f6c6f723d23343043423244203e7d7d-grading-policy-tentative" class="level4">
+<h4 class="anchored"><i class="bi-percent " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Grading policy (tentative)</h4>
 <p>The course will be graded based on a number of tests. The following is a tentative grading policy. <strong>There will be no make-up for the tutorial tests</strong>.</p>
 <ul>
 <li>Open-book tutorial tests: Best 2 out of 3 - <strong>2 * 15 = 30%</strong></li>
 <li>Quizzes - <strong>2 * 15 = 30%</strong></li>
-<li>End-semester exam - <strong>40%</strong></li>
+<li><h2 id="end-semester-exam---40" class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2062692070657263656e7420636f6c6f723d23343043423244203e7d7d-grading-policy-tentative">End-semester exam - <strong>40%</strong></h2></li>
 </ul>
-<hr>
 </section>
-<section id="bi-calendar-fill-color40cb2d-important-dates-tentative" class="level4">
-<h4 class="anchored" data-anchor-id="bi-calendar-fill-color40cb2d-important-dates-tentative"><i class="bi-calendar-fill " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Important dates (tentative)</h4>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2062692063616c656e6461722d66696c6c20636f6c6f723d23343043423244203e7d7d-important-dates-tentative" class="level4">
+<h4 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2062692063616c656e6461722d66696c6c20636f6c6f723d23343043423244203e7d7d-important-dates-tentative"><i class="bi-calendar-fill " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Important dates (tentative)</h4>
 <p>We will stick to this schedule as much as possible, unless there are some unforeseen situations.</p>
 <div class="callout callout-style-simple callout-tip">
 <div class="callout-body d-flex">
@@ -337,8 +371,8 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/MQYjkx">t
 </div>
 <hr>
 </section>
-<section id="bi-chat-dots-fill-color40cb2d-communication" class="level4">
-<h4 class="anchored" data-anchor-id="bi-chat-dots-fill-color40cb2d-communication"><i class="bi-chat-dots-fill " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Communication</h4>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920636861742d646f74732d66696c6c20636f6c6f723d23343043423244203e7d7d-communication" class="level4">
+<h4 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920636861742d646f74732d66696c6c20636f6c6f723d23343043423244203e7d7d-communication"><i class="bi-chat-dots-fill " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Communication</h4>
 <p>Please sign up on the course discussion forum <a href="https://edstem.org/us/join/MQYjkx">here</a>. This will be the first point of contact for any issues related to the course. For general questions related to the course (any comments/doubts), please create a thread in the correct category and add your question/comment there. You are encouraged to reply and clear the doubts of your friends. To encourage this interaction, <strong>the forum supports anonymous posts and answers</strong>. <strong>Please be courteous to others when you are posting anonymously</strong>.</p>
 </section>
 </div>
@@ -346,7 +380,6 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/MQYjkx">t
 </div>
 <div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
 <div id="listing-lectures" class="quarto-listing quarto-listing-container-custom">
-
 <table class="lectures">
   <thead>
     <tr><th style="width:12%">Date</th>
@@ -355,178 +388,352 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/MQYjkx">t
     <th style="width:18%">Misc</th>
   </tr></thead>
   <tbody class="list">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #1</b> <br>
         Mon 29/07
       </td>
       <td>
         Introduction to the course • Admin and logistics • ADTs and data structures - examples <br>
+        
+        
       </td>
       <td>
+        
       </td>
       <td>
+        
         <a href="https://edstem.org/us/join/MQYjkx">Sign up</a> on Ed discussions
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #2</b> <br>
         Tue 30/07
       </td>
       <td>
         Dynamic arrays - linked lists vs arrays • Amortized analysis - aggregate method <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 1.1 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a></li>
         </ul>
+        
         <ul class="tight">
           <li>Section 17.4.1 - CLRS</li>
         </ul>
+        
+        
       </td>
       <td>
+        
         <a class="btn btn-info btn-sm" href="https://drive.google.com/file/d/1dA-7q3NZvS9ZA16FGqmEg2qi5dfhkOyk/view?usp=sharing"><strong>PS0 released</strong></a>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #3</b> <br>
         Wed 31/07
       </td>
       <td>
         Dynamic arrays • Amortized analysis - accounting and potential methods <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 1.1 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a></li>
         </ul>
+        
         <ul class="tight">
           <li>Section 17.4.1 - CLRS</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #4</b> <br>
         Thu 01/08
       </td>
       <td>
         Dynamic arrays with insertions and deletions - amortized analysis using the potential method <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 1.1 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a></li>
         </ul>
+        
         <ul class="tight">
           <li>Section 17.4.2 - CLRS</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #5</b> <br>
         Mon 05/08
       </td>
       <td>
         Basic discrete probability - sample spaces, events, independence, union bound <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 2.1 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a></li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #6</b> <br>
         Tue 06/08
       </td>
       <td>
         Random variables and their properties - examples • Quicksort <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 2.2 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a></li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #7</b> <br>
         Wed 07/08
       </td>
       <td>
         Quicksort - correctness, recurrence for running time, randomization <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 2.3 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a></li>
         </ul>
+        
         <ul class="tight">
           <li>Sections 7.2, 7.3 - CLRS</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #8</b> <br>
         Thu 08/08
       </td>
       <td>
         Analysis of randomized quicksort <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 2.3 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a></li>
         </ul>
+        
         <ul class="tight">
           <li>Section 7.4 - CLRS</li>
         </ul>
+        
+        
       </td>
       <td>
+        
         <a class="btn btn-info btn-sm" href="https://drive.google.com/file/d/1E3AEZTRzcea8qbrY04eRRF3EYQcMaTkX/view?usp=drive_link"><strong>PS1 released</strong></a>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #9</b> <br>
         Mon 12/08
       </td>
       <td>
         Dictionaries and Hash tables - trade-offs between running-time and size, random hash functions and collisions <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 3.1.1 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a></li>
         </ul>
+        
         <ul class="tight">
           <li>Section 11.2 - CLRS</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #10</b> <br>
         Tue 13/08
       </td>
       <td>
         Random hash functions and collisions - the birthday problem <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 3.1.1 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a></li>
         </ul>
+        
         <ul class="tight">
           <li>Section 5.4.1 - CLRS</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
     <tr bgcolor="#BDF9C4">
+      
       <td>
         <b>Tutorial #1</b><br>
         Wed 14/08
@@ -535,63 +742,125 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/MQYjkx">t
         Based on Problem sets 0 and 1
       </td>
       <td>
+        
       </td>
       <td>
+        
         <a class="btn btn-info btn-sm" href="https://drive.google.com/file/d/1evhD1Fu1Epd7KfE8rzxZ5Nn9HiO5tfUE/view?usp=drive_link"><strong>PS2 released</strong></a>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #11</b> <br>
         Mon 19/08
       </td>
       <td>
         Universal hash families I - construction and analysis <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Sections 3.1.2, 3.1.3 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a></li>
         </ul>
+        
         <ul class="tight">
           <li>Section 11.3.3 - CLRS</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #12</b> <br>
         Tue 20/08
       </td>
       <td>
         Universal hash families II - more constructions and analysis <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 3.1.3 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a></li>
         </ul>
+        
         <ul class="tight">
           <li>Section 5.1.1 - <a href="https://opendatastructures.org/ods-python.pdf">Morin</a></li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #13</b> <br>
         Wed 21/08
       </td>
       <td>
         Perfect hashing - static dictionaries and FKS hashing <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 11.5 - CLRS</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
     <tr bgcolor="#FCDAD0">
+      
       <td>
         <b>Test #1</b><br>
         Thu 22/08
@@ -600,66 +869,127 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/MQYjkx">t
         Based on Lectures 1 - 8 (Problem sets 0, 1, 2)
       </td>
       <td>
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #14</b> <br>
         Mon 26/08
       </td>
       <td>
         Hashing using open addressing - linear probing <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 3.1.5 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a></li>
         </ul>
+        
         <ul class="tight">
           <li>Section 5.2 - <a href="https://opendatastructures.org/ods-python.pdf">Morin</a></li>
         </ul>
+        
+        
       </td>
       <td>
+        
         <a class="btn btn-info btn-sm" href="https://drive.google.com/file/d/1_NLHYrKdNWVT5Z2tV2gJtoslQHQE_taK/view?usp=drive_link"><strong>PS3 released</strong></a>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #15</b> <br>
         Tue 27/08
       </td>
       <td>
         Hashing using open addressing - linear probing (contd.) <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 3.1.5 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a></li>
         </ul>
+        
         <ul class="tight">
           <li>Section 5.2 - <a href="https://opendatastructures.org/ods-python.pdf">Morin</a></li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #16</b> <br>
         Wed 28/08
       </td>
       <td>
         Skip lists - definition, examples, implementation details <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 3.2 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a></li>
         </ul>
+        
         <ul class="tight">
           <li>Sections 4.1, 4.2 - <a href="https://opendatastructures.org/ods-python.pdf">Morin</a></li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
     <tr bgcolor="#BDF9C4">
+      
       <td>
         <b>Tutorial #2</b><br>
         Thu 29/08
@@ -668,11 +998,23 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/MQYjkx">t
         Based on Problem set 3
       </td>
       <td>
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#FADAD0">
+      
       <td>
         <b>Quiz #1</b><br>
         Mon 02/09
@@ -683,162 +1025,320 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/MQYjkx">t
       <td></td>
       <td></td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #17</b> <br>
         Tue 03/09
       </td>
       <td>
         Skip lists - analysis • Binary search trees - examples <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Sections 3.2, 3.3 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a></li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #18</b> <br>
         Wed 04/09
       </td>
       <td>
         Binary search trees - search, insert and delete operations, examples, time complexity <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 3.3 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a></li>
         </ul>
+        
         <ul class="tight">
           <li>Section 6.2 - <a href="https://opendatastructures.org/ods-python.pdf">Morin</a></li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #19</b> <br>
         Thu 05/09
       </td>
       <td>
         Balanced BSTs - definitions, examples • Self-adjusting BSTs - handling searches and deletions <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Sections 3.3.1, 3.3.2.1 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a></li>
         </ul>
+        
         <ul class="tight">
           <li>Section 8.1 - <a href="https://opendatastructures.org/ods-python.pdf">Morin</a></li>
         </ul>
+        
+        
       </td>
       <td>
+        
         <a class="btn btn-info btn-sm" href="https://drive.google.com/file/d/1HhLIKnS9sbPMjl_OKoHXvB4LDJYHJaB3/view?usp=drive_link"><strong>PS4 released</strong></a>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #20</b> <br>
         Mon 09/09
       </td>
       <td>
         Scapegoat trees - handling searches and insertions, examples, analysis <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 3.3.2.2 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a></li>
         </ul>
+        
         <ul class="tight">
           <li>Section 8.1 - <a href="https://opendatastructures.org/ods-python.pdf">Morin</a></li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #21</b> <br>
         Tue 10/09
       </td>
       <td>
         Scapegoat trees - analysis (contd.) • Priority queues - binary minheaps, properties and examples <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Sections 3.3.2, 4.1 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a></li>
         </ul>
+        
         <ul class="tight">
           <li>Section 6.1 - CLRS</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #22</b> <br>
         Wed 11/09
       </td>
       <td>
         Binary heaps - examples, properties, algorithms and complexity • Min-max heaps - examples and properties <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Sections 4.1, 4.2 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a></li>
         </ul>
+        
         <ul class="tight">
           <li>Section 6.1 - 6.3 - CLRS</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #23</b> <br>
         Thu 12/09
       </td>
       <td>
         Min-max heaps - examples, implementation details, time complexity • Binomial heaps - properties, examples <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Sections 4.2, 4.3.3 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a></li>
         </ul>
+        
+        
       </td>
       <td>
+        
         <a class="btn btn-info btn-sm" href="https://drive.google.com/file/d/1jBv-hw8ekKeLWt397-lbdV-fvViLTTBi/view?usp=drive_link"><strong>PS5 released</strong></a>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #24</b> <br>
         Mon 16/09
       </td>
       <td>
         Binomial heaps - implementing insert and extractmin using merges, bounds on running-time • Lazier binomial heaps - faster insertions at the cost of extractmin <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 4.3.3 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a></li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #25</b> <br>
         Wed 18/09
       </td>
       <td>
         Lazy binomial heaps - amortized complexity of extractmin • Fibonacci heaps - examples, decreasing keys using cascading cuts <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Sections 4.3.3.2, 4.3.4 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a></li>
         </ul>
+        
         <ul class="tight">
           <li>Sections 19.2, 19.3 - CLRS</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
     <tr bgcolor="#BDF9C4">
+      
       <td>
         <b>Tutorial #3</b><br>
         Thu 19/09
@@ -847,59 +1347,119 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/MQYjkx">t
         Based on Problem sets 4, 5
       </td>
       <td>
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #26</b> <br>
         Mon 23/09
       </td>
       <td>
         Fibonacci heaps - cascading cuts, examples and analysis <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 4.3.4 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a></li>
         </ul>
+        
         <ul class="tight">
           <li>Section 19.4 - CLRS</li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #27</b> <br>
         Tue 24/09
       </td>
       <td>
         Dijkstra's shortest path algorithm - example, correctness, implementation details using priority queues <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 4.3.4.1 - <a href="https://edstem.org/us/courses/61145/resources?download=40024">Course notes</a></li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #28</b> <br>
         Wed 25/09
       </td>
       <td>
         Greedy Algorithms I (Job scheduling) - examples, greedy choices, counter-examples, exchange arguments <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Sections 4.2, 4.3 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a></li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
     <tr bgcolor="#FCDAD0">
+      
       <td>
         <b>Test #2</b><br>
         Thu 26/09
@@ -908,57 +1468,115 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/MQYjkx">t
         Based on Lectures 14 -23 (Problem sets 4, 5)
       </td>
       <td>
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #29</b> <br>
         Mon 30/09
       </td>
       <td>
         Greedy Algorithms II (Huffman coding) - prefix-free codes and binary trees, Huffman coding algorithm, examples <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 4.4 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a></li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #30</b> <br>
         Tue 01/10
       </td>
       <td>
         Greedy Algorithm III (Huffman coding) - proof of correctness, implementation details <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 4.4 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a></li>
         </ul>
+        
+        
       </td>
       <td>
+        
         <a class="btn btn-info btn-sm" href="https://drive.google.com/file/d/1Vi5WaWu2ZJvBmGnA5mI7Lz-CRmNK3UC_/view?usp=drive_link"><strong>PS6 released</strong></a>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #31</b> <br>
         Thu 03/10
       </td>
       <td>
         Minimum spanning trees - examples, uniqueness, greedy choice <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Sections 7.1, 7.2 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a></li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
     <tr bgcolor="#BDF9C4">
+      
       <td>
         <b>Tutorial #4</b><br>
         Mon 07/10
@@ -967,41 +1585,85 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/MQYjkx">t
         Based on Problem set 6
       </td>
       <td>
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #32</b> <br>
         Tue 08/10
       </td>
       <td>
         Boruvka's and Prim's algorithms - examples, analysis, implementation details <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Sections 7.3, 7.4 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a></li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #33</b> <br>
         Wed 09/10
       </td>
       <td>
         Kruskal's algorithm - examples, analysis, implementation details • Union-Find data structure <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 7.5 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a></li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
     <tr bgcolor="#FADAD0">
+      
       <td>
         <b>Quiz #2</b><br>
         Thu 10/10
@@ -1012,147 +1674,300 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/MQYjkx">t
       <td></td>
       <td></td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #34</b> <br>
         Mon 14/10
       </td>
       <td>
         Union-Find data structure - union by rank, examples, analysis • Path compression - examples, brief outline of the analysis. <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 5.1.4 - DPV</li>
         </ul>
+        
+        
       </td>
       <td>
+        
         <a class="btn btn-info btn-sm" href="https://drive.google.com/file/d/1JCiRLMA1Oc06sWmPpYIH8-ZShdl_WPvE/view?usp=drive_link"><strong>PS7 released</strong></a>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #35</b> <br>
         Tue 15/10
       </td>
       <td>
         Dynamic programming - Fibonacci recurrence, memoization, DAGs • Longest Increasing Subsequence - examples, recurrence <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Sections 2.6, 3.1 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a></li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #36</b> <br>
         Thu 17/10
       </td>
       <td>
         Dynamic programming - Longest Increasing Subsequence and Edit distance <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Sections 3.6, 3.7 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a></li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #37</b> <br>
         Mon 21/10
       </td>
       <td>
         Dynamic programming on trees and DAGs - independent sets, and single-source-shortest-path <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Sections 3.10, 8.5 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a></li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #38</b> <br>
         Tue 22/10
       </td>
       <td>
         Dynamic programming on digraphs - shortest paths and the Bellman-Ford algorithm <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 8.7 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a></li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #39</b> <br>
         Wed 23/10
       </td>
       <td>
         All-pairs shortest-paths via dynammic programming • APSP and matrix multiplication <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Sections 9.5, 9.6, 9.7 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a></li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #40</b> <br>
         Thu 24/10
       </td>
       <td>
         Floyd-Warshall algorithm • APSP and matrix multiplication - Seidel's algorithm <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 9.8 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a></li>
         </ul>
+        
         <ul class="tight">
           <li>Section 4.4 - Anupam Gupta's <a href="https://drive.google.com/file/d/1qEJNzfoujYR3mwS9MiOz-dmZ99zvCos7/view">lecture notes</a></li>
         </ul>
+        
+        
       </td>
       <td>
+        
         <a class="btn btn-info btn-sm" href="https://drive.google.com/file/d/1gvBsWZt6E6yxYnbkhr_lYfKT-tQKzwfb/view?usp=drive_link"><strong>PS8 released</strong></a>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #41</b> <br>
         Mon 28/10
       </td>
       <td>
         Efficient algorithms vs efficient verifiability - examples • Definition of NP - examples and non-examples <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Section 12.1 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a></li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #42</b> <br>
         Tue 29/10
       </td>
       <td>
         Hardness and reductions - definition of NP-completeness, examples, statement of the Cook-Levin theorem <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Sections 12.3, 12.4 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a></li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
     <tr bgcolor="#BDF9C4">
+      
       <td>
         <b>Tutorial #5</b><br>
         Wed 30/10
@@ -1161,42 +1976,86 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/MQYjkx">t
         Based on Problem sets 7 and 8
       </td>
       <td>
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #43</b> <br>
         Mon 04/11
       </td>
       <td>
         Examples of reductions - CircuitSat to 3SAT, 3SAT to Independent-Set <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Sections 12.5, 12.6, 12.7 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a></li>
         </ul>
+        
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#EAECEE">
+      
       <td> <b>Lecture #44</b> <br>
         Tue 05/11
       </td>
       <td>
         More examples of reductions • P vs NP and its implications <br>
+        
+        
       </td>
       <td>
+        
+        
+        
         <ul class="tight">
           <li>Sections 12.2, 12.9, 12.10 - <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf">Erickson</a></li>
         </ul>
+        
+        
       </td>
       <td>
+        
         <a class="btn btn-info btn-sm" href="https://drive.google.com/file/d/1ojOqNz4IWYdfTfDWN5P2RHaSq5xW2bHT/view?usp=drive_link"><strong>PS9 released</strong></a>
+        
       </td>
     </tr>
+    
+    
+    
+    
     <tr bgcolor="#FCDAD0">
+      
       <td>
         <b>Test #3</b><br>
         Thu 07/11
@@ -1205,11 +2064,23 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/MQYjkx">t
         Based on Lectures 29 - 40 (Problem sets 7 and 8)
       </td>
       <td>
+        
       </td>
       <td>
+        
       </td>
     </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <tr bgcolor="#FACABC">
+      
       <td>
         <b>End-sem</b><br>
         Wed 20/11
@@ -1220,11 +2091,12 @@ Join using your smail/iitm ids via <a href="https://edstem.org/us/join/MQYjkx">t
       <td></td>
       <td></td>
     </tr>
+    
+    
+    
   </tbody>
 </table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 </div>
 </div>
@@ -1236,43 +2108,58 @@ No matching items
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (event) {
-  const toggleBodyColorMode = (bsSheetEl) => {
-    const mode = bsSheetEl.getAttribute("data-mode");
-    const bodyEl = window.document.querySelector("body");
-    if (mode === "dark") {
-      bodyEl.classList.add("quarto-dark");
-      bodyEl.classList.remove("quarto-light");
-    } else {
-      bodyEl.classList.add("quarto-light");
-      bodyEl.classList.remove("quarto-dark");
-    }
-  }
-  const toggleBodyColorPrimary = () => {
-    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-    if (bsSheetEl) {
-      toggleBodyColorMode(bsSheetEl);
-    }
-  }
-  toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
       }
+      return false;
     }
-    return false;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
       for (const childEl of codeEl.children) {
         if (isCodeAnnotation(childEl)) {
           childEl.remove();
@@ -1280,195 +2167,348 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
       return codeEl.innerText;
     }
-  });
-  clipboard.on('success', function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  });
-  function tippyHover(el, contentFn) {
-    const config = {
-      allowHTML: true,
-      content: contentFn,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start'
-    };
-    window.tippy(el, config); 
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      return note.innerHTML;
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
     });
-  }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
     }
-  };
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/yaduvasudev\.github\.io\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
           }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
       });
     }
-  }
-});
-</script>
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
 </div> <!-- /content -->
+
 
 
 
