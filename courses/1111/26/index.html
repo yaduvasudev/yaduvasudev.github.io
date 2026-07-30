@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>courses – Yadu Vasudev</title>
+<title>CS1111 Problem Solving using Computers – Yadu Vasudev</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,19 +26,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-346d80e5afd1e6a9ec2fb7cd91d70bcf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-aee8030f82af2684b2a0192400fce1cc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/quarto-contrib/bootstrap-icons-1.11.1/all.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -54,6 +57,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-lectures .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-day','listing-contents','listing-slides','listing-notes','listing-references','listing-misc',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-day","listing-contents","listing-slides","listing-notes","listing-references","listing-misc"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-lectures'] = new List('listing-lectures', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-MN1T4J4SRB"></script>
 
 <script type="text/javascript">
@@ -63,9 +95,66 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-MN1T4J4SRB', { 'anonymize_ip': true});
 </script>
+<style>
+.panel-tabset > .nav-tabs,
+.panel-tabset > .tab-content{
+  border:none;
+}
 
+.nav-pills .nav-item{
+  margin-left: 5px;
+  margin-right: 5px;
+}
 
-<link rel="stylesheet" href="styles.css">
+.nav-pills .nav-link {
+  background-color: #ccf7f1;
+  border-radius: 3px;
+}
+
+.nav-pills .nav-link.active{
+  background-color: #ffdd00;
+  color: #1c1c1c;
+  border-radius: 3px;
+}
+
+.nav-pills .nav-link:hover {
+  text-decoration: underline dotted;
+  color: #0F096A;
+}
+
+</style>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -75,7 +164,7 @@ gtag('config', 'G-MN1T4J4SRB', { 'anonymize_ip': true});
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Yadu Vasudev</span>
     </a>
   </div>
@@ -90,21 +179,21 @@ gtag('config', 'G-MN1T4J4SRB', { 'anonymize_ip': true});
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
         <li>
-    <a class="dropdown-item" href="./research.html">
+    <a class="dropdown-item" href="../../../research.html">
  <span class="dropdown-text">Publications</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./people.html">
+    <a class="dropdown-item" href="../../../people.html">
  <span class="dropdown-text">People</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="./courses.html" aria-current="page"> 
+    <a class="nav-link" href="../../../courses.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
+    <a class="nav-link" href="../../../contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -120,86 +209,211 @@ gtag('config', 'G-MN1T4J4SRB', { 'anonymize_ip': true});
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">CS1111 Problem Solving using Computers</h1>
+<p class="subtitle lead">July - Nov 2026</p>
+</div>
 
 
 
+<div class="quarto-title-meta column-page">
 
-<section id="currentupcoming-courses" class="level3">
-<h3 class="anchored" data-anchor-id="currentupcoming-courses">Current/Upcoming courses</h3>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="nav-pills">
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">home</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">contents</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">administrivia</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">lectures</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<div class="grid">
+<div class="g-col-2">
+
+</div>
+<div class="g-col-8">
+<p><a href="https://xkcd.com/844/"><img src="good_code.png" class="img-fluid"></a></p>
+</div>
+<div class="g-col-2">
+
+</div>
+</div>
+<div class="grid">
+<div class="g-col-6">
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920636f6d7061737320636f6c6f723d23343043423244203e7d7d-coordinates" class="level3">
+<h3 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920636f6d7061737320636f6c6f723d23343043423244203e7d7d-coordinates"><i class="bi-compass " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Coordinates</h3>
 <ul>
-<li>CS1111 Problem Solving using Computers <a href="courses/1111/26/">Jul-Nov 26</a></li>
+<li><strong>Where</strong>: SSB 134 (theory) &amp; DCF (lab)</li>
+<li><strong>When</strong>:
+<ul>
+<li>Theory - Wed (10 am), Thu (3 pm), Fri (8 am)<br>
+</li>
+<li>Lab - Thu (9 am - 12 pm)</li>
+</ul></li>
 </ul>
 </section>
-<div class="grid">
-<section id="all-courses" class="level3 g-col-12">
-<h3 class="anchored" data-anchor-id="all-courses">All courses</h3>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>CS1100 Introduction to Programming</td>
-<td>May-July 22</td>
-</tr>
-<tr class="even">
-<td>CS1111 Problem Solving using Computers</td>
-<td><a href="courses/1111/26/">July-Nov 26</a></td>
-</tr>
-<tr class="odd">
-<td>CS1200 Discrete Mathematics for CS - I</td>
-<td><a href="courses/1200/25/">Jul-Nov 25</a></td>
-</tr>
-<tr class="even">
-<td>CS2200 Languages, Machines and Computation</td>
-<td><a href="courses/2200/20/">Jan-May 20</a>, <a href="courses/2200/24/">Jan-May 24</a></td>
-</tr>
-<tr class="odd">
-<td>CS2800 Design and Analysis of Algorithms</td>
-<td><a href="courses/2800/23/">Jan-May 23</a></td>
-</tr>
-<tr class="even">
-<td>CS4700 Advanced Data Structures</td>
-<td><a href="courses/4700/26/">Jan-May 26</a></td>
-</tr>
-<tr class="odd">
-<td>CS5800 Advanced Data Structures and Algorithms</td>
-<td><a href="courses/5800/19/">Jul-Nov 19</a>, <a href="courses/5800/24/">Jul-Nov 24</a></td>
-</tr>
-<tr class="even">
-<td>CS6014 Computability and Complexity</td>
-<td><a href="courses/6014/20/">Sep-Dec 20</a></td>
-</tr>
-<tr class="odd">
-<td>CS6025 Sublinear Algorithms</td>
-<td><a href="courses/6025/19/">Jan-May 19</a>, <a href="courses/6025/22">Jan-May 22</a></td>
-</tr>
-<tr class="even">
-<td>CS6030 Logic and Combinatorics for Computer Science</td>
-<td><a href="courses/6030/18/">Jul-Nov 18</a></td>
-</tr>
-<tr class="odd">
-<td>CS6150 Advanced Programming</td>
-<td>Jul-Nov 22</td>
-</tr>
-<tr class="even">
-<td>CS6170 Randomized Algorithms</td>
-<td><a href="courses/6170/21/">Jul-Nov 21</a>, <a href="courses/6170/22/">Jul-Nov 22</a>, <a href="https://yaduvasudev.github.io/6170-23/">Jul-Nov 23</a>, <a href="courses/6170/25/">Jan-May 25</a></td>
-</tr>
-<tr class="odd">
-<td>CS6840 Modern Complexity Theory</td>
-<td><a href="courses/6840/21/">Feb-May 21</a></td>
-</tr>
-<tr class="even">
-<td>CS6845 Pseudorandomness</td>
-<td><a href="courses/6845/18/">Jan-May 18</a></td>
-</tr>
-</tbody>
-</table>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920706572736f6e2d66696c6c20636f6c6f723d23343043423244203e7d7d-course-staff" class="level3">
+<h3 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920706572736f6e2d66696c6c20636f6c6f723d23343043423244203e7d7d-course-staff"><i class="bi-person-fill " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Course staff</h3>
+<ul>
+<li><strong>Instructor</strong>: <a href="https://yaduvasudev.github.io/">Yadu Vasudev</a> (yadu@cse.iitm.ac.in)</li>
+<li><strong>TAs</strong>: TBA</li>
+</ul>
 </section>
 </div>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206269206c696e6b2d343564656720636f6c6f723d23343043423244203e7d7d-important-links" class="level3 g-col-6">
+<h3 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206269206c696e6b2d343564656720636f6c6f723d23343043423244203e7d7d-important-links"><i class="bi-link-45deg " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Important links</h3>
+<ul>
+<li><a href="https://courses.iitm.ac.in/course/view.php?id=12232">Moodle</a></li>
+<li><a href="https://edstem.org/us/courses/100619/">Ed Discussions</a><br>
+Join using your smail/iitm ids via <a href="https://edstem.org/us/join/YMQcyF">this link</a></li>
+<li><a href="https://forms.gle/fs8ZNzqKoeo2t9HF8">Anonymous course feedback</a></li>
+</ul>
+</section>
+</div>
+<hr>
+<div class="grid">
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2062692063616c656e6461722d6d6f6e746820636f6c6f723d23343043423244203e7d7d-course-calendar" class="level3 g-col-12">
+<h3 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2062692063616c656e6461722d6d6f6e746820636f6c6f723d23343043423244203e7d7d-course-calendar"><i class="bi-calendar-month " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Course calendar</h3>
+<p>&lt;<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;ctz=Asia%2FKolkata&amp;showPrint=0&amp;mode=WEEK&amp;src=Y18yNmI5ZjM4MWJlOThlNDA1ZjdjOGVkNGM1YTYzMTlmZDZhNGYwMWE2OTY3MTE3Y2M3MTk3ZDJkODVmMjkwODgwQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23ad1457" style="border:solid 1px #777" width="1100" height="600" frameborder="0" scrolling="no"></iframe>&gt;</p>
+</section>
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<div class="grid">
+<div class="g-col-10">
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920626f64792d7465787420636f6c6f723d23343043423244203e7d7d-about-this-course" class="level4">
+<h4 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920626f64792d7465787420636f6c6f723d23343043423244203e7d7d-about-this-course"><i class="bi-body-text " style="color: #40CB2D;" role="img" aria-hidden="true"></i> About this course</h4>
+<p>This course introduces computational thinking and programming using C language. As the title suggests, the objective is to enable the student to understand abstractions, break complex computational tasks to smaller ones and use programming to solve the smaller tasks and combine them together into a final solution. At the end of the course, the student will be able to apply computational thinking to solve complex problems and implement the solutions using the C programming language.</p>
+<p>The laboratory component of the course will involve implementing the theoretical concepts covered in the lectures.</p>
+<p><strong>Prerequisites</strong> - There are no formal prerequisites for the course, apart from high-school mathematics. This course, together with CS1200, is a prerequisite for almost all courses in the CS curriculum.</p>
+<hr>
+</section>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920636172642d6c69737420636f6c6f723d23343043423244203e7d7d-course-contents" class="level4">
+<h4 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920636172642d6c69737420636f6c6f723d23343043423244203e7d7d-course-contents"><i class="bi-card-list " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Course contents</h4>
+<p>The following is a brief overview of the course</p>
+<ul>
+<li>Computational thinking and abstractions using examples, simple programs</li>
+<li>C programming: basic syntax, variables, conditional statements, loops</li>
+<li>Arrays and their uses in data manipulation</li>
+<li>Modular programming, functions, and scopes of variables</li>
+<li>Recursion and their applications</li>
+<li>Dynamic memory allocation and pointers</li>
+<li>Aggregate data types - structures and unions</li>
+<li>Self-referential structures and simple data structures</li>
+<li>File handling</li>
+</ul>
+<hr>
+</section>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920626f6f6b2d66696c6c20636f6c6f723d23343043423244203e7d7d-course-resources" class="level4">
+<h4 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920626f6f6b2d66696c6c20636f6c6f723d23343043423244203e7d7d-course-resources"><i class="bi-book-fill " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Course resources</h4>
+<p>The main reference for the course will be the slides and the following references.</p>
+<ul>
+<li>C: How to Program - Dietel and Dietel</li>
+<li>The C Programming Language - Kernighan and Ritchie</li>
+<li>How to Solve it by Computer - Dromey</li>
+</ul>
+</section>
+</div>
+</div>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<div class="grid">
+<div class="g-col-10">
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920636c6f636b2d66696c6c20636f6c6f723d23343043423244203e7d7d-weekly-schedule" class="level4">
+<h4 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920636c6f636b2d66696c6c20636f6c6f723d23343043423244203e7d7d-weekly-schedule"><i class="bi-clock-fill " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Weekly schedule</h4>
+<p>There are three lecture slots per week, and one lab session. Some of the lab sessions will be graded and we will let you know in advance so that you can prepare accordingly. We will have short pop quizzes within the lectures as a means to reinforce the concepts taught in class.</p>
+<p>You are welcome to use the course discussion forum to clarify doubts with the instructor and the TAs. All the TAs and the instructor will also be present during the lab sessions to help you with the lab work, including the graded sessions.</p>
+<hr>
+</section>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2062692070657263656e7420636f6c6f723d23343043423244203e7d7d-grading-policy-tentative" class="level4">
+<h4 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2062692070657263656e7420636f6c6f723d23343043423244203e7d7d-grading-policy-tentative"><i class="bi-percent " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Grading policy (tentative)</h4>
+<ul>
+<li>Lab: 30%</li>
+<li>Pop-quizzes/class participation: 5%</li>
+<li>Quiz 1: 10%</li>
+<li>Quiz 2: 15%</li>
+<li>End-semester exam = 40%</li>
+</ul>
+<hr>
+</section>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2062692063616c656e6461722d66696c6c20636f6c6f723d23343043423244203e7d7d-important-dates-tentative" class="level4">
+<h4 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2062692063616c656e6461722d66696c6c20636f6c6f723d23343043423244203e7d7d-important-dates-tentative"><i class="bi-calendar-fill " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Important dates (tentative)</h4>
+<ul>
+<li>Graded labs: Aug 13, Aug 20, Sep 3, Sep 10, Sep 17, Oct 1, Oct 8, Oct 15, Oct 29, Nov 5</li>
+<li>Ungraded labs: Aug 6, Aug 27, Sep 24, Oct 22</li>
+<li>Quiz 1: Aug 28 (Friday)</li>
+<li>Quiz 2: Oct 13 (Tuesday)</li>
+<li>End-semester examination: November 18 (Wednesday)</li>
+</ul>
+<hr>
+</section>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920636861742d646f74732d66696c6c20636f6c6f723d23343043423244203e7d7d-communication" class="level4">
+<h4 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20626920636861742d646f74732d66696c6c20636f6c6f723d23343043423244203e7d7d-communication"><i class="bi-chat-dots-fill " style="color: #40CB2D;" role="img" aria-hidden="true"></i> Communication</h4>
+<p>Please sign up on the course discussion forum <a href="https://edstem.org/us/join/YMQcyF">here</a>. This will be the first point of contact for any issues related to the course. For general questions related to the course (any comments/doubts), please create a thread in the correct category and add your question/comment there. You are encouraged to reply and clear the doubts of your friends. To encourage this interaction, <strong>the forum supports anonymous posts and answers</strong>. <strong>Please be courteous to others when you are posting anonymously</strong>.</p>
+</section>
+</div>
+</div>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<div id="listing-lectures" class="quarto-listing quarto-listing-container-custom">
+<table class="lectures">
+  <thead>
+    <tr><th style="width:12%">Date</th>
+    <th style="width:40%">Lecture</th>
+    <th style="width:30%">References</th>
+    <th style="width:18%">Misc</th>
+  </tr></thead>
+  <tbody class="list">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <tr bgcolor="#EAECEE">
+      
+      <td> <b>Lecture #1</b> <br>
+        Fri 01/08
+      </td>
+      <td>
+        Introduction to the course • Admin and logistic details <br>
+        
+        
+      </td>
+      <td>
+        
+      </td>
+      <td>
+        
+        Sign up on <a href="https://edstem.org/us/join/YMQcyF">Ed Discussions</a>
+        
+      </td>
+    </tr>
+    
+    
+  </tbody>
+</table>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
 
 
 
