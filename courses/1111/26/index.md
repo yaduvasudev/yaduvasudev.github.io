@@ -97,6 +97,8 @@ include-in-header:
   - Nithin (cs26m046@smail)
   - Aditya (cs25m007@smail)
   - Yukash (cs23b069@smail)
+  - Meghana (cs23b053@smail)
+  
 :::
 
 ::: {.g-col-6}
