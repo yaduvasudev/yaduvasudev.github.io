@@ -82,7 +82,21 @@ include-in-header:
 ### {{< bi person-fill color=#40CB2D >}} Course staff
 
 - **Instructor**: [Yadu Vasudev](https://yaduvasudev.github.io/) (yadu@cse.iitm.ac.in)
-- **TAs**: TBA
+- **TAs**: 
+  - Durwasa (cs24d011@smail)
+  - Aryan (cs26m006@smail)
+  - Harshavardhan (cs26m010@smail)
+  - Faheem (cs26m014@smail)
+  - Sathvik (cs26m015@smail)
+  - Nimish (cs26m020@smail)
+  - Prakash (cs26m021@smail)
+  - Katherine (cs26m023@smail)
+  - Sai Teja (cs26m030@smail)
+  - Gaurav (cs26m044@smail)
+  - Tanuj (cs26m045@smail)
+  - Nithin (cs26m046@smail)
+  - Aditya (cs25m007@smail)
+  - Yukash (cs23b069@smail)
 :::
 
 ::: {.g-col-6}

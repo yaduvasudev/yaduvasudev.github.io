@@ -131,6 +131,7 @@ Design of computer systems involve describing specifications of the systems, dev
 This course is mathematical in nature, and will require you to state and prove theorems. You will not be actually designing computer systems in the course, but the topics are motivated by the applications that you will see in computer science.
 
 **Prerequisites** - There are no formal prerequisites for the course, apart from high-school mathematics. This course together with CS1202 (Discrete Math for CS - II) form a prerequisite for almost all courses in the CS curriculum.
+
 ---
 
 #### {{< bi card-list color=#40CB2D >}} Course contents
