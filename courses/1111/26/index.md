@@ -75,7 +75,7 @@ include-in-header:
 
 - **Where**: SSB 134 (theory) & DCF (lab)
 - **When**: 
-  - Theory - Wed (10 am), Thu (3 pm), Fri (8 am)\
+  - Theory - Wed (11 am), Thu (3 pm), Fri (8 am)\
   - Lab - Thu (9 am - 12 pm)
 
 
