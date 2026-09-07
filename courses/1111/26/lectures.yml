@@ -55,3 +55,7 @@
 - day: Wed 02/09
   contents: Arrays in C - declaration, initialization and examples
   slides: https://edstem.org/us/courses/100619/resources?download=123174
+
+- day: Thu 03/09
+  contents: Arrays in C - searching, palindromes, and other examples
+  slides: https://edstem.org/us/courses/100619/resources?download=123287  
