@@ -58,4 +58,8 @@
 
 - day: Thu 03/09
   contents: Arrays in C - searching, palindromes, and other examples
-  slides: https://edstem.org/us/courses/100619/resources?download=123287  
+  slides: https://edstem.org/us/courses/100619/resources?download=123287 
+
+- day: Wed 09/09
+  contents: Character arrays and strings in C - declaration, initialization and examples • Using fgets() and puts() functions
+  slides: https://edstem.org/us/courses/100619/resources?download=123426 
