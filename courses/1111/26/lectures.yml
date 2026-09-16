@@ -62,4 +62,16 @@
 
 - day: Wed 09/09
   contents: Character arrays and strings in C - declaration, initialization and examples • Using fgets() and puts() functions
-  slides: https://edstem.org/us/courses/100619/resources?download=123426 
+  slides: https://edstem.org/us/courses/100619/resources?download=123426
+
+- day: Thu 10/09
+  contents: Character arrays and strings in C - more examples
+  slides: https://edstem.org/us/courses/100619/resources?download=124078
+
+- day: Fri 11/09
+  contents: 2D arrays and matrices in C - declaration, initialization and examples • Operations on matrices
+  slides: https://edstem.org/us/courses/100619/resources?download=124079
+
+- day: Wed 16/09
+  contents: Operations on matrices •  Character grids and array of strings
+  slides: https://edstem.org/us/courses/100619/resources?download=124080
