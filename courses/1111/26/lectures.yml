@@ -75,3 +75,11 @@
 - day: Wed 16/09
   contents: Operations on matrices •  Character grids and array of strings
   slides: https://edstem.org/us/courses/100619/resources?download=124080
+
+- day: Thu 17/09
+  contents: Transpose of matrices, 3D arrays and examples • Functions in C
+  slides: https://edstem.org/us/courses/100619/resources?download=124148
+
+- day: Fri 18/09
+  contents: Functions in C - examples • Passing arrays to functions
+  slides: https://edstem.org/us/courses/100619/resources?download=124149
