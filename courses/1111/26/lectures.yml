@@ -83,3 +83,15 @@
 - day: Fri 18/09
   contents: Functions in C - examples • Passing arrays to functions
   slides: https://edstem.org/us/courses/100619/resources?download=124149
+
+- day: Wed 23/09
+  contents: Functions in C - implementing selection sort
+  slides: https://edstem.org/us/courses/100619/resources?download=124439
+
+- day: Thu 24/09
+  contents: Selection sort (contd.) and insertion sort
+  slides: https://edstem.org/us/courses/100619/resources?download=124439
+
+- day: Fri 25/09
+  contents: Insertion sort (contd.) • Scope of variables
+  slides: https://edstem.org/us/courses/100619/resources?download=124439
