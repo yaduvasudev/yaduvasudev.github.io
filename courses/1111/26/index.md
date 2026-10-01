@@ -198,7 +198,7 @@ You are welcome to use the course discussion forum to clarify doubts with the in
 
 #### {{< bi calendar-fill color=#40CB2D >}} Important dates (tentative)
 
-- Graded labs: Aug 20, Sep 10, Sep 17, Sep 24, Oct 1, Oct 8, Oct 15, Oct 29, Nov 5
+- Graded labs: Aug 20, Sep 10, Sep 17, Sep 24, Oct 1, Oct 8, Oct 15, Oct 22, Oct 29, Nov 5
 - Ungraded labs: Aug 6, Aug 13, Aug 27, Sep 3
 - Quiz 1: Aug 28 (Friday)
 - Quiz 2: Oct 13 (Tuesday)
