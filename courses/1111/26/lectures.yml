@@ -103,3 +103,11 @@
 - day: Thu 01/10
   contents: 2D arrays and functions • Recursion - factorial and GCD
   slides: https://edstem.org/us/courses/100619/resources?download=125114
+
+- day: Wed 07/10
+  contents: Recursion - Virahanka numbers, Pascal's identity • Memoization 
+  slides: https://edstem.org/us/courses/100619/resources?download=125770
+
+- day: Thu 08/10
+  contents: More examples of recursion - Tower of Hanoi and binary search
+  slides: https://edstem.org/us/courses/100619/resources?download=125771
