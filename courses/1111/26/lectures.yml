@@ -111,3 +111,18 @@
 - day: Thu 08/10
   contents: More examples of recursion - Tower of Hanoi and binary search
   slides: https://edstem.org/us/courses/100619/resources?download=125771
+
+- day: Fri 09/10
+  contents: Recursive and iterative binary search • Merge sort - basic idea and implementation
+  slides: https://edstem.org/us/courses/100619/resources?download=126300
+
+- day: Tue 13/10
+  quiz: Quiz 2 based on Lectures 12 - 27
+
+- day: Wed 14/10
+  contents: Pointers in C - declaration, initialization, dereferencing and examples • Pointer arithmetic
+  slides: https://edstem.org/us/courses/100619/resources?download=126301
+
+- day: Thu 15/10
+  contents: Pointers and arrays • Passing arrays to functions using pointers • Dynamic memory allocation using malloc()
+  slides: https://edstem.org/us/courses/100619/resources?download=126301
