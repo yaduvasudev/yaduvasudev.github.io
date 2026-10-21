@@ -126,3 +126,7 @@
 - day: Thu 15/10
   contents: Pointers and arrays • Passing arrays to functions using pointers • Dynamic memory allocation using malloc()
   slides: https://edstem.org/us/courses/100619/resources?download=126301
+
+- day: Wed 21/10
+  contents: Dynamic memory allocation - examples • Returning pointers from functions • Command-line arguments
+  slides: https://edstem.org/us/courses/100619/resources?download=126377
