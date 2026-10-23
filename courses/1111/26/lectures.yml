@@ -130,3 +130,11 @@
 - day: Wed 21/10
   contents: Dynamic memory allocation - examples • Returning pointers from functions • Command-line arguments
   slides: https://edstem.org/us/courses/100619/resources?download=126377
+
+- day: Thu 22/10
+  contents: Command-line arguments and pointers - examples • Structures in C - declaration, initialization
+  slides: https://edstem.org/us/courses/100619/resources?download=126422
+
+- day: Fri 23/10
+  contents: Structures in C - examples • Passing structures to functions • Structures and pointers
+  slides: https://edstem.org/us/courses/100619/resources?download=126422
