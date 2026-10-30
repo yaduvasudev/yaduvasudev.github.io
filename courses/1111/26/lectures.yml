@@ -138,3 +138,11 @@
 - day: Fri 23/10
   contents: Structures in C - examples • Passing structures to functions • Structures and pointers
   slides: https://edstem.org/us/courses/100619/resources?download=126422
+
+- day: Thu 29/10
+  contents: Self-referential structures - linked lists, maintaining a waiting list of passengers
+  slides: https://edstem.org/us/courses/100619/resources?download=126610
+
+- day: Fri 30/10
+  contents: Self-referential structures - linked lists, maintaining a waiting list of passengers (contd)
+  slides: https://edstem.org/us/courses/100619/resources?download=126610
