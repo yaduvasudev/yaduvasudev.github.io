@@ -146,3 +146,7 @@
 - day: Fri 30/10
   contents: Self-referential structures - linked lists, maintaining a waiting list of passengers (contd)
   slides: https://edstem.org/us/courses/100619/resources?download=126610
+
+- day: Wed 04/11
+  contents: Extending the waiting list example • Doubly linked lists - declaration, initialization and  simple examples
+  slides: https://edstem.org/us/courses/100619/resources?download=126799
