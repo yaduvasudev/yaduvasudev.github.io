@@ -150,3 +150,7 @@
 - day: Wed 04/11
   contents: Extending the waiting list example • Doubly linked lists - declaration, initialization and  simple examples
   slides: https://edstem.org/us/courses/100619/resources?download=126799
+
+- day: Thu 05/11
+  contents: Basic file handling in C and simple examples
+  slides: https://edstem.org/us/courses/100619/resources?download=126854
